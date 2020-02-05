@@ -1,0 +1,25 @@
+CavityLength =             7.494811      ; CLENGTH, normalization length
+NumberOfHalfStems =               2      ; NHSTEM, number of half stems on symmetry plane
+OuterBoundarySegment =            7      ; IOBSEG, starting segment number of outer boundary
+FirstCornerArcSegment =          10      ; ICORNER1
+LastCornerArcSegment =           12      ; ICORNER2
+StemRadius =              0.5500000      ; RSTEM
+CellData    ; Zstart,Zcenter,Zstop,Phase
+; Phase is optional; default is PLCELL
+    0.0000000    0.0000000    2.9979246  180.0
+    2.9979246    5.9958492    7.4948115  270.0
+EndData
+StemData   ; Location, Length, Radius
+; Length = 0 means drift tube to tank wall
+; Negative radius mean half stem or post coupler
+    2.9979246  0     0.5500000
+    2.9979246  0     0.5500000
+EndData
+FieldSegments
+; Negative numbers indicate drift-tube stem segments
+    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21
+   22   23
+   34   35   36   37   38   39   40   41   42   43   44   45   46   47   48
+   49   50   51   52   53
+EndData
+End

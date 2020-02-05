@@ -1,0 +1,74 @@
+; CDTfish control file 2DTHC00.CDT
+; Created 02-05-2020  17:34:25
+; Originating file 2DTHC.CDT
+
+Title
+Example 2-drift-tube CCDTL cavity
+700-MHz half cell with 2-cm-long bore tube
+Tuned by adjusting cavity diameter
+Unequal face angles on drift tubes
+ENDTitle
+
+PARTICLE              H+
+TEMPerature           25
+ 
+HALF_cavity
+FILEname_prefix       2DTHC
+SEQuence_number       1
+FREQuency             700
+BETA                  0.14
+LENGTH                14.9896229
+DIAMeter              28.85150169767
+G_OVER_Beta_lambda    0.15
+GAP_Length            0.899377374
+E0_Normalization      2.748067802349
+E0T_Normalization     2
+NUMBER_of_gaps        3
+GAP_Shift             -0.00762216928987   0.00000000000000   0.00762216928987
+ORIGINAL_Shift        -7.52266662174E-03   0.00000000000E+00   7.52266662174E-03
+EQUATOR_flat          4
+INNER_CORNer_radius   0.25
+OUTER_NOSE_radius     0.4
+INNER_NOSE_radius     0.2
+FLAT_length           0.0
+CONE_angle            30
+SEPTUM_thickness      1
+BORE_radius           1
+LEFT_BEAM_tube        0.0
+RIGHT_BEAM_tube       2
+DT_DIAMeter           5
+DT_CORNer_radius      0.25
+DT_OUTER_NOSE_radius  0.4
+DT_INNER_NOSE_radius  0.2
+DT_FLAT_length        0.0
+DT_STEM_Diameter      1.1
+DT_STEM_Count         2
+DT_FACE_angle         0.0
+DT_OUTER_FACE_angle   60
+DT_INNER_FACE_angle   20
+RING_TYPE             0.0
+RING_DY               0.0
+RING_Width            0.0
+RING_Angle            0.0
+RING_Effect           0.0
+RING_THickness        0.0
+DELTA_frequency       0.05
+MESH_size             0.056
+INCrement             2
+START                 -2
+
+; Start codes for CDTfish:
+; 1 No tuning
+; 2 Adjust diameter and move gaps for S = 0
+; 3 Adjust gap(s) and move gaps for S = 0
+; 4 Adjust diameter, gap centers fixed
+; 5 Adjust gap(s), gap centers fixed 
+;  (When S = 0, geometric and electrical centers coincide.)
+; Ring_Type codes for CDTfish:
+; 0 No tuning ring
+; 1 Equator ring of a given thickness.
+; 2 Equator ring of a given frequency effect.
+; 3 Wall rings of a given thickness.
+; 4 Wall rings of a given frequency effect.
+
+EndFile

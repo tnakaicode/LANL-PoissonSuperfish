@@ -1,0 +1,88 @@
+Example 1-drift-tube CCDTL cavity
+700-MHz full cell with 3-cm-long bore tube on right side
+Tuning ring removed to find frequency effect.
+
+&REG KPROB=1                     ; Superfish problem
+MAT=1                            ; Material air or empty space
+FREQ=699.9938053182              ; Mode frequency, starting frequency in Fish solver
+FREQD=700                        ; Design frequency, used with cell phases to K if KMETHOD = 0
+BETA=0.29                        ; Particle velocity, used to compute wave number K if KMETHOD = 1
+KMETHOD=1                        ; SFO will use BETA to compute wave number
+NBSUP=1,NBSLO=0,NBSRT=0,NBSLF=0  ; Boundary conditions
+LINES=1                          ; Fix internal points on line regions
+ICYLIN=1                         ; X=>Z,Y=>R, cylindrical coordinates
+NORM=1                           ; Normalize to EZEROT
+EZEROT=1500000                   ; Accelerating field times T
+CCDTL= 2                         ; Number of CCDTL gaps
+ISLOT=1                          ; Compute coupling slot power effect
+IOBSEG= 4                        ; First outer boundary segment
+RMASS=-2                         ; Rest mass value or indicator
+EPSO=1.0E-6                      ; Mesh optimization convergence parameter
+IRTYPE=0                         ; Rs method: Normal conductor formula
+TEMPC=25                         ; Operating Temperature, degrees C
+XDRI=-0.1296714421145            ; Drive point X coordinate
+YDRI=4.012813832074              ; Drive point Y coordinate
+DSLOPE=-1                        ; Allow convergence in 1 iteration
+; X line-region physical locations:
+XREG=-8.944979945,-7.667040291817,-7.277040291817,-5.466246709417,
+-5.076246709417,-2.748378743773,-2.5,2.270890859743,
+2.5,4.988758825387,5.378758825387,7.189552407787,
+7.579552407787,8.944979945,9.334979945,
+; X line-region logical locations:
+KREG=1,4,22,25,31,34,70,73,91,94,130,133,139,142,163,166,
+KMAX=178                         ; Column number for X = XMAX
+; Y line-region physical locations:
+YREG=0.0919238815543,1.362114177669,2.120728534806,3.975771644663,
+4.895010460205,
+; Y line-region logical locations:
+LREG=1,3,18,38,58,63,
+LMAX=88 &                        ; Row number for Y = YMAX
+
+; Start of boundary points for region 1
+&PO X=-9.314979945,Y=0.0 &                       ; 1
+&PO X=-9.314979945,Y=1.5 &                       ; 2
+&PO X=-8.062040291817,Y=1.5 &                    ; 3
+&PO NT=2,X0=-8.062040291817,Y0=1.7,              ; 4
+    X=0.2,Y=0.0 &
+&PO NT=2,X0=-8.262040291817,Y0=1.7,              ; 5
+    X=0.2,Y=0.3464101615138 &
+&PO X=-8.689979945,Y=2.408951289314 &            ; 6
+&PO NT=2,X0=-8.564979945,Y0=2.62545764026,       ; 7
+    X=-0.25,Y=0.0 &
+&PO X=-8.814979945,Y=7.362381714288 &            ; 8
+&PO NT=2,X0=-2.5,Y0=7.362381714288,              ; 9
+    X=0.0,Y=6.314979945 &
+&PO X=2.5,Y=13.67736165929 &                     ; 10
+&PO NT=2,X0=2.5,Y0=7.362381714288,               ; 11
+    X=6.314979945,Y=0.0 &
+&PO X=8.814979945,Y=2.675968793655 &             ; 12
+&PO NT=2,X0=8.564979945,Y0=2.675968793655,       ; 13
+    X=0.125,Y=-0.2165063509461 &
+&PO X=7.974552407787,Y=2.046410161514 &          ; 14
+&PO NT=2,X0=8.174552407787,Y0=1.7,               ; 15
+    X=-0.4,Y=0.0 &
+&PO NT=2,X0=7.974552407787,Y0=1.7,               ; 16
+    X=0.0,Y=-0.2 &
+&PO X=12.314979945,Y=1.5 &                       ; 17
+&PO X=12.314979945,Y=0.0 &                       ; 18
+&PO X=-9.314979945,Y=0.0 &                       ; 19
+
+&REG MAT=0 &                  ; Closed drift-tube region  2
+&PO X=0.0,Y=3.7 &                                ; 1
+&PO X=-2.943378743773,Y=3.7 &                    ; 2
+&PO NT=2,X0=-2.943378743773,Y0=3.45,             ; 3
+    X=-0.1767766952966,Y=0.1767766952966 &
+&PO X=-4.764089421892,Y=1.982842712475 &         ; 4
+&PO NT=2,X0=-4.481246709417,Y0=1.7,              ; 5
+    X=-0.4,Y=0.0 &
+&PO NT=2,X0=-4.681246709417,Y0=1.7,              ; 6
+    X=0.0,Y=-0.2 &
+&PO X=4.593758825387,Y=1.5 &                     ; 7
+&PO NT=2,X0=4.593758825387,Y0=1.7,               ; 8
+    X=0.2,Y=0.0 &
+&PO NT=2,X0=4.393758825387,Y0=1.7,               ; 9
+    X=0.2828427124746,Y=0.2828427124746 &
+&PO X=3.03266755504,Y=3.626776695297 &           ; 10
+&PO NT=2,X0=2.855890859743,Y0=3.45,              ; 11
+    X=0.0,Y=0.25 &
+&PO X=0.0,Y=3.7 &                                ; 12
