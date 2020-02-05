@@ -1,4 +1,3 @@
-cd "%SFDIR%Examples\Electrostatic\Dielectrics"
 START /W  " "  "%SFDIR%automesh"  1epsilon
 START /W  " "  "%SFDIR%poisson"   1epsilon
 copy outaut.txt outaut1.txt
