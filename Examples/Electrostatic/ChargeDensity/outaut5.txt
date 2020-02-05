@@ -19,7 +19,7 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 Program Automesh  7.17  released 1-13-2006 
 Program file: C:\LANL\AUTOMESH.EXE
 Problem file: C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C4QTRI.AM 10-13-2004   9:02:24
-SF.INI file: C:\LANL\SF.INI  9-30-2019  11:41:14
+SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
 
 Problem description:
 Electrostatic problem with charge density in one triangle centered on 0,0

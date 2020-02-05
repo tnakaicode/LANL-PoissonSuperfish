@@ -21,7 +21,7 @@ Program Poisson  7.17  released 1-13-2006
 
 Starting from file C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C1QMM.T35.
 Program file: C:\LANL\POISSON.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019  11:41:14
+SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
 Memory used for C1QMM.T35 arrays:     826.480 K
 Memory used for other Poisson arrays:  291.792 K
 
@@ -164,30 +164,30 @@ Material 1 corresponds to air regions.
                       maximum =   1.0954E+04
       Residual:                   9.7487E-03 in open space
       Over-relaxation factor:     1.9672E+00 in open space
-      Elapsed time  =    0.09 sec                    End of cycle 100
+      Elapsed time  =    0.08 sec                    End of cycle 100
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9679E+00     Lambda =   9.9988E-01
       Solution matrix minimum =   2.9690E+01
                       maximum =   1.3996E+04
       Residual:                   1.7303E-03 in open space
       Over-relaxation factor:     1.9679E+00 in open space
-      Elapsed time  =    0.17 sec                    End of cycle 200
+      Elapsed time  =    0.16 sec                    End of cycle 200
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9670E+00     Lambda =   9.9987E-01
       Solution matrix minimum =   3.0815E+01
                       maximum =   1.4555E+04
       Residual:                   5.8301E-06 in open space
       Over-relaxation factor:     1.9670E+00 in open space
-      Elapsed time  =    0.32 sec                    End of cycle 400
+      Elapsed time  =    0.30 sec                    End of cycle 400
       ----------------------------------------------------------------
       Solution matrix minimum =   3.0818E+01
                       maximum =   1.4557E+04
       Residual:                   4.0281E-07 in open space
       Over-relaxation factor:     1.9670E+00 in open space
-      Elapsed time  =    0.39 sec                    End of cycle 490
+      Elapsed time  =    0.37 sec                    End of cycle 490
       ----------------------------------------------------------------
       Solution converged in 490 iterations.
-      Elapsed time  =    0.39 sec
+      Elapsed time  =    0.37 sec
 
 XJFACT = 0.0
 

@@ -21,7 +21,7 @@ Program Poisson  7.17  released 1-13-2006
 
 Starting from file C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C4QTRI.T35.
 Program file: C:\LANL\POISSON.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019  11:41:14
+SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
 Memory used for C4QTRI.T35 arrays:       3.230 M
 Memory used for other Poisson arrays:    1.140 M
 
@@ -157,37 +157,37 @@ Material 1 corresponds to air regions.
                       maximum =   2.3154E+04
       Residual:                   1.3874E-02 in open space
       Over-relaxation factor:     1.9467E+00 in open space
-      Elapsed time  =    0.08 sec                    End of cycle 50
+      Elapsed time  =    0.07 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9695E+00     Lambda =   9.9989E-01
       Solution matrix minimum =   0.0000E+00
                       maximum =   2.6143E+04
       Residual:                   9.3693E-03 in open space
       Over-relaxation factor:     1.9695E+00 in open space
-      Elapsed time  =    0.16 sec                    End of cycle 100
+      Elapsed time  =    0.14 sec                    End of cycle 100
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9702E+00     Lambda =   9.9989E-01
       Solution matrix minimum =   2.1945E+01
                       maximum =   2.9158E+04
       Residual:                   2.1036E-03 in open space
       Over-relaxation factor:     1.9702E+00 in open space
-      Elapsed time  =    0.30 sec                    End of cycle 200
+      Elapsed time  =    0.27 sec                    End of cycle 200
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9779E+00     Lambda =   9.9994E-01
       Solution matrix minimum =   3.0063E+01
                       maximum =   2.9472E+04
       Residual:                   1.4050E-06 in open space
       Over-relaxation factor:     1.9779E+00 in open space
-      Elapsed time  =    0.61 sec                    End of cycle 400
+      Elapsed time  =    0.52 sec                    End of cycle 400
       ----------------------------------------------------------------
       Solution matrix minimum =   3.0062E+01
                       maximum =   2.9472E+04
       Residual:                   4.0888E-07 in open space
       Over-relaxation factor:     1.9779E+00 in open space
-      Elapsed time  =    0.70 sec                    End of cycle 460
+      Elapsed time  =    0.59 sec                    End of cycle 460
       ----------------------------------------------------------------
       Solution converged in 460 iterations.
-      Elapsed time  =    0.70 sec
+      Elapsed time  =    0.60 sec
 
 XJFACT = 0.0
 

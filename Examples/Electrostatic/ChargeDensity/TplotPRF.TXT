@@ -31,7 +31,7 @@ YLabelXPosition=   -1
 YLabelYPosition=   -1
 MarkerSizeXPosition=   -1
 MarkerSizeYPosition=   -1
-HardcopyFileExtension=    
+HardcopyFileExtension=.PNG
 CurveLineWidth=1
 AxisLineWidth=1
 TitleStatus=1
@@ -40,7 +40,7 @@ ConnectStatus=1
 MarkersStatus=1
 XlinLogStatus=LIN
 YLinLogStatus=LIN
-LastPlotFile=C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\c4qpnt1.tbl
-ZoomLimits  1     1.0000000       3.0000000       586.28070       6790.2148    
+LastPlotFile=C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C4QTRI1.TBL
+ZoomLimits  1     1.0000000       3.0000000       586.28113       6790.2021    
 ZoomLevel=1
 MaxZoomLevel=1
