@@ -1,0 +1,13 @@
+# LF90.FIG: user default options for Lahey Fortran 90.
+# If the linker cannot find the libraries, check to be sure 
+# the path information on -mod and -lib lines is correct. 
+ -tpp -nfix -ng -o1 -nf90 -swm 680
+ -mod c:\wint\lib.lah  
+ -maxfatals 10
+ -stack 40000h
+ -inln -npca -nstchk -wo  -win -nsav -nhed
+ -lib c:\wint\lib.lah\winter.lib
+ -lib c:\wint\lib.lah\winspool.lib
+ -lib c:\wint\lib.lah\winmm
+ -lib c:\wint\lib.lah\advapi32 
+ -lib c:\wint\lib.lah\shell32 

@@ -1,0 +1,14 @@
+# LF95.FIG: 
+# If the linker cannot find the libraries, add path information
+# in this file or add the path to the LF95 library directory to 
+# the LIB environment variable (e.g. LIB=C:\LF9557\Lib).
+ -tpp  -f95   -swm 3125,3205,2315,3100,1561
+ -nap -nchk -ncover -ng -o1 -npca -nsav -nstchk -ntrace -nzero
+ -mod c:\wint\lib.l9m  
+ -maxfatals 5
+ -wo  -win
+ -lib c:\wint\lib.l9m\winter.lib
+ -lib comdlg32 
+ -lib winmm    
+ -lib winspool
+ -lib shell32 

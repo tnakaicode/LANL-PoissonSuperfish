@@ -41,3 +41,40 @@
 | SFPHYS3.pdf  | Boundary conditions and symmetries                                  |
 | SFPHYS4.pdf  | Numerical methods in Poisson and Pandira                            |
 | SFPHYS5.pdf  | RF cavity theory                                                    |
+
+SF.INI
+| Keyword              | Desc                                                                                                                   |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| AlwaysBrowse         | Always browse for a binary solution file.                                                                              |
+| ArcAndLineSteps      | Default number of steps in SF7 for interpolation on lines and arcs.                                                    |
+| ArcRadius            | Default arc radius in SF7 for interpolation on arcs.                                                                   |
+| ArrowKeyStepSize     | ]Cursor step size in WSFplot as a percentage of the screen width.                                                      |
+| ArrowLineWidth       | Width in pixels of field arrows on WSFplot display screen.                                                             |
+| AssumedBeta          | Use this Beta in SFO if calculated value is unphysical.                                                                |
+| AxisLineWidth        | Width in pixels of boundary axes on plotting code display screens.                                                     |
+| BetaDigits           | Utility code Beta, maximum significant digits (3 to 15) for beta.                                                      |
+| BetaTolerance        | Amountover 1.0 before SFO warns of unphysical Beta.                                                                    |
+| BoundaryAxes         | Include numbered axes at all four edges of the WSFplot display.                                                        |
+| BoundaryColor        | Color of boundary segments in WSFplot.BoundaryLineWidthWidth in pixels of region boundaries on WSFplot display screen. |
+| BrowsingForFiles     | Force use of the standard open dialog if no filename specified.                                                        |
+| CFishCirclePlot      | Create Quikplot file CircleFit.QKP showing fitted resonance circles.                                                   |
+| CircleLineWidth      | Width in pixels of field circles on WSFplot display screen.                                                            |
+| CombineTitleLines    | Sets whether to use one line or two lines on the WSFplot title.                                                        |
+| ComplexFields        | SF7 to write real and imaginary CFish fields.                                                                          |
+| ComputeStoredEnergy  | Sets whether Poisson and Pandira calculate stored energy.                                                              |
+| ContourLineWidth     | Width in pixels of field contour lines in WSFplot display screen.                                                      |
+| ContourMinimum       | Lowest contour value as percent of range in WSFplot.                                                                   |
+| ContourMaximum       | Highest contour value as percent of range in WSFplot.                                                                  |
+| CreateOutputTextFile | Sets whether WSFplot writes output file OUTWSF.TXT.                                                                    |
+| CurveLineWidth       | Width in pixels of curves on plotting code display screens.                                                            |
+| CutoffTerm           | Limiting the number of terms in the field interpolator.                                                                |
+| DecimalPlaces        | Sets precision of field data in SF7 output file OUTSF7.TXT..                                                           |
+| DeleteNoRingFiles    | If true, CCLfish and CDTfish delete no-ring Superfish files.                                                           |
+
+
+## WSFplot
+
+Output from WSFplot
+
+The HardCopy, Driver menu lists several software drivers for producing hardcopy graphics files or printing directly to a printer using the Windows Print Manager. Select HardCopy, Start (or the “C” key) to create the hardcopy output. WSFplot re-plots the present screen using the active driver. You can set a preference for the hardcopy driver in file SF.INI.
+HardCopyの[ドライバー]メニューには、ハードコピーグラフィックファイルを作成したり、Windowsプリントマネージャーを使用してプリンターに直接印刷したりするためのソフトウェアドライバーがいくつかリストされています。 HardCopy、Start（または「C」キー）を選択して、ハードコピー出力を作成します。 WSFplotは、アクティブなドライバーを使用して現在の画面を再プロットします。ファイルSF.INIでハードコピードライバーのプリファレンスを設定できます。
