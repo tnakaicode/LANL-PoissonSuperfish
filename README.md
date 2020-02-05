@@ -24,3 +24,20 @@
 - Tablplot
   - Plot row / column data
   - *.tbl
+
+| doc                 | Des                                                                 |
+| ------------------- | ------------------------------------------------------------------- |
+| ./Docs/SFCODES.DOC  | Autofish, Automesh, Fish, CFish, Poisson, Pandira                   |
+| ./Docs/SFCODES2.DOC | Cavity tuning programs XXXfish (CCLfish, DTLfish, etc.)             |
+| ./Docs/SFCODES3.DOC | Plotting programs Quikplot, Tablplot, and utility programs          |
+| ./Docs/SFEXMPL1.DOC | Example files for Fish, CFish, and Autofish                         |
+| ./Docs/SFEXMPL2.DOC | Example files for Poisson and Pandira                               |
+| ./Docs/SFEXMPL3.DOC | Example files for tuning programs                                   |
+| ./Docs/SFFILES.DOC  | Descriptions of input and output files                              |
+| ./Docs/SFINTRO.DOC  | Introduction, problem variables, SF.INI settings, technical support |
+| ./Docs/SFPHYS1.DOC  | Theory of electrostatics and magnetostatics                         |
+| ./Docs/SFPHYS2.DOC  | Properties of static magnetic and electric fields                   |
+| ./Docs/SFPHYS3.DOC  | Boundary conditions and symmetries                                  |
+| ./Docs/SFPHYS4.DOC  | Numerical methods in Poisson and Pandira                            |
+| ./Docs/SFPHYS5.DOC  | RF cavity theory                                                    |
+| ./Docs/SFPOSTP.DOC  | WSFplot, SFO, SF7, Force                                            |

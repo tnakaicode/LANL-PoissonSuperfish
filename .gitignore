@@ -1,0 +1,10 @@
+# VSCode
+.vscode/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# doc/docx
+*.doc
+*~*.doc
