@@ -17,12 +17,12 @@ WidthWindowXPosition=   -1
 WidthWindowYPosition=   -1
 SelectDataWindowXPosition=   -1
 SelectDataWindowYPosition=   -1
-SortDataWindowXPosition=   -1
-SortDataWindowYPosition=   -1
+SortDataWindowXPosition=  799
+SortDataWindowYPosition=  447
 PointLabelWindowXPosition=   -1
 PointLabelWindowYPosition=   -1
-EditDataWindowXPosition=   -1
-EditDataWindowYPosition=   -1
+EditDataWindowXPosition=  775
+EditDataWindowYPosition=  302
 SelectFitXPosition=   -1
 SelectFitYPosition=   -1
 BuildColumnXPosition=   -1
@@ -40,7 +40,7 @@ ConnectStatus=1
 MarkersStatus=1
 XlinLogStatus=LIN
 YLinLogStatus=LIN
-LastPlotFile=C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\82BE1.TBL
-ZoomLimits  1    0.64999998      0.76999998     -0.24373000E-01  0.55536300    
+LastPlotFile=C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\8CFIELD.TBL
+ZoomLimits  1     0.0000000       116.03042      -51.170120       51.159321    
 ZoomLevel=1
 MaxZoomLevel=1
