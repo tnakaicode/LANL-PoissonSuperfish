@@ -1,0 +1,29 @@
+; This file contains start-up settings for WSFplot
+MainWindowXPosition=  184
+MainWindowYPosition=   67
+MainWindowWidth= 1536
+MainWindowHeight=  864
+EditWindowXPosition= 1620
+EditWindowYPosition=  150
+HardcopyFileExtension=    
+NumberOfContours=   30
+ContourLineWidth=1
+AxisLineWidth=1
+ArrowLineWidth=1
+CircleLineWidth=1
+BoundaryLineWidth=1
+MeshLineWidth=1
+GridSpacing=  0.30000000    
+TitleStatus=1
+AxisStatus=1
+TriangleStatus=1
+ContourStatus=1
+ArrowStatus=0
+CircleStatus=0
+FooterStatus=1
+XYSwapStatus=0
+OriginStatus=0
+LastProblemFile=C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C4QPNT.AM
+ZoomLimits  1    -4.0040002       6.3579047      -4.0034633       4.0034631       0.0000000    
+ZoomLevel=1
+MaxZoomLevel=1
