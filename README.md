@@ -25,19 +25,19 @@
   - Plot row / column data
   - *.tbl
 
-| doc                 | Des                                                                 |
-| ------------------- | ------------------------------------------------------------------- |
-| ./Docs/SFCODES.DOC  | Autofish, Automesh, Fish, CFish, Poisson, Pandira                   |
-| ./Docs/SFCODES2.DOC | Cavity tuning programs XXXfish (CCLfish, DTLfish, etc.)             |
-| ./Docs/SFCODES3.DOC | Plotting programs Quikplot, Tablplot, and utility programs          |
-| ./Docs/SFEXMPL1.DOC | Example files for Fish, CFish, and Autofish                         |
-| ./Docs/SFEXMPL2.DOC | Example files for Poisson and Pandira                               |
-| ./Docs/SFEXMPL3.DOC | Example files for tuning programs                                   |
-| ./Docs/SFFILES.DOC  | Descriptions of input and output files                              |
-| ./Docs/SFINTRO.DOC  | Introduction, problem variables, SF.INI settings, technical support |
-| ./Docs/SFPHYS1.DOC  | Theory of electrostatics and magnetostatics                         |
-| ./Docs/SFPHYS2.DOC  | Properties of static magnetic and electric fields                   |
-| ./Docs/SFPHYS3.DOC  | Boundary conditions and symmetries                                  |
-| ./Docs/SFPHYS4.DOC  | Numerical methods in Poisson and Pandira                            |
-| ./Docs/SFPHYS5.DOC  | RF cavity theory                                                    |
-| ./Docs/SFPOSTP.DOC  | WSFplot, SFO, SF7, Force                                            |
+| doc          | Des                                                                 |
+| :----------- | ------------------------------------------------------------------- |
+| SFINTRO.pdf  | Introduction, problem variables, SF.INI settings, technical support |
+| SFCODES1.pdf | Autofish, Automesh, Fish, CFish, Poisson, Pandira                   |
+| SFCODES2.pdf | Cavity tuning programs XXXfish (CCLfish, DTLfish, etc.)             |
+| SFCODES3.pdf | Plotting programs Quikplot, Tablplot, and utility programs          |
+| SFPOSTP.pdf  | WSFplot, SFO, SF7, Force                                            |
+| SFFILES.pdf  | Descriptions of input and output files                              |
+| SFEXMPL1.pdf | Example files for Fish, CFish, and Autofish                         |
+| SFEXMPL2.pdf | Example files for Poisson and Pandira                               |
+| SFEXMPL3.pdf | Example files for tuning programs                                   |
+| SFPHYS1.pdf  | Theory of electrostatics and magnetostatics                         |
+| SFPHYS2.pdf  | Properties of static magnetic and electric fields                   |
+| SFPHYS3.pdf  | Boundary conditions and symmetries                                  |
+| SFPHYS4.pdf  | Numerical methods in Poisson and Pandira                            |
+| SFPHYS5.pdf  | RF cavity theory                                                    |
