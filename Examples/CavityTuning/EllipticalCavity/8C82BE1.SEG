@@ -1,0 +1,45 @@
+; ELLCAV produced SEG file for input to SFO
+; Variables in capital letters (after semicolons) are the equivalent
+; REG namelist variables in the Automesh input file.
+
+CavityLength = 70.23709                    ; CLENGTH, cavity length for defining E0 normalization
+MulticellPhaseLength = 180                 ; PLCELL, default cell phase length
+ParticleVelocity = 0.82                    ; BETA, design particle velocity
+
+; Settings for IBETA (ELLCAV default is either 3 or 4):
+; 0  no tables of T vs beta
+; 1  create T vs beta table using geometric center
+; 2  create T vs beta table using electrical center
+; 3  same as 1, and also makes family of PMI files
+; 4  same as 2, and also makes family of PMI files
+TransitTimeTable = 4                       ; IBETA (see above table)
+StartingBeta = 0.65                        ; BETA1, starting velocity for table
+EndingBeta = 0.77                          ; BETA2, ending velocity for table
+BetaIncrement = 0.01                       ; DBETA, Velocity increment for table
+
+; The next few commented lines come are default values or settings in the Automesh input file.
+; Uncomment and modify as needed for single-cavity runs and omit the CellData table (see below).
+;NormalizationCode = 0                     ; NORM, 0 = use EZERO, 1 = use EZEROT
+;E0 = 1.6854796E+07                        ; EZERO in Volts/meter
+;E0T = 1000000                             ; EZEROT in Volts/meter
+;WaveNumberCode = 1                        ; KMETHOD, 0 use DPHI, 1 = use BETA to compute K
+;ZCenterLocation = 0                       ; ZCTR, electrical center in cm
+;GeometryPhaseLength = 1027.5298           ; DPHI, phase length of problem in degrees
+
+; On multicell problems, to get the full-cavity T and S integrals,
+; insert a comment indicator (;) on lines from CellData to EndData.
+
+CellData
+;    Zstart       Zcenter      Zstop       Phase  (Phase is optional; default is PLCELL)
+    0.0000000    8.7796363   17.5592725  180.0000000
+   17.5592725   26.3389088   35.1185451  180.0000000
+   35.1185451   43.8981814   52.6778176  180.0000000
+   52.6778176   61.4574539   70.2370902  180.0000000
+EndData
+
+FieldSegments
+   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+  17  18  19  20  21  22  23  24  25  26
+EndData
+
+End
