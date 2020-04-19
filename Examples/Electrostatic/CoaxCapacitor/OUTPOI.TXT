@@ -19,16 +19,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Poisson  7.17  released 1-13-2006 
 
-Starting from file C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\CoaxCapacitor\CAPXY.T35.
+Starting from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCapacitor\CAPXY.T35.
 Program file: C:\LANL\POISSON.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019  11:41:14
+SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
 Memory used for CAPXY.T35 arrays:     219.852 K
 Memory used for other Poisson arrays:   77.688 K
 
 Problem description:
 Coaxial Capacitor Using X,Y Coordinates
 Calculated field may be compared to the analytic result.
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\CoaxCapacitor\CAPXY.AM  2-13-2006  10:53:16
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCapacitor\CAPXY.AM  4-19-2020  10:38:20
 Problem file length:         701 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
@@ -157,23 +157,23 @@ Material 1 corresponds to air regions.
                       maximum =   9.7362E+02
       Residual:                   1.2135E-03 in open space
       Over-relaxation factor:     1.9003E+00 in open space
-      Elapsed time  =    0.04 sec                    End of cycle 50
+      Elapsed time  =    0.09 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9006E+00     Lambda =   9.9866E-01
       Solution matrix minimum =   1.2320E+01
                       maximum =   9.7367E+02
       Residual:                   9.8843E-06 in open space
       Over-relaxation factor:     1.9006E+00 in open space
-      Elapsed time  =    0.07 sec                    End of cycle 100
+      Elapsed time  =    0.16 sec                    End of cycle 100
       ----------------------------------------------------------------
       Solution matrix minimum =   1.2321E+01
                       maximum =   9.7367E+02
       Residual:                   2.4213E-07 in open space
       Over-relaxation factor:     1.9006E+00 in open space
-      Elapsed time  =    0.10 sec                    End of cycle 140
+      Elapsed time  =    0.22 sec                    End of cycle 140
       ----------------------------------------------------------------
       Solution converged in 140 iterations.
-      Elapsed time  =    0.11 sec
+      Elapsed time  =    0.23 sec
 
 XJFACT = 0.0
 

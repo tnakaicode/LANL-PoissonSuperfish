@@ -25,6 +25,7 @@
   - Plot row / column data
   - *.tbl
 
+Document  
 | doc          | Des                                                                 |
 | :----------- | ------------------------------------------------------------------- |
 | SFINTRO.pdf  | Introduction, problem variables, SF.INI settings, technical support |
@@ -42,7 +43,7 @@
 | SFPHYS4.pdf  | Numerical methods in Poisson and Pandira                            |
 | SFPHYS5.pdf  | RF cavity theory                                                    |
 
-SF.INI
+SF.INI  
 | Keyword              | Desc                                                                                                                   |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | AlwaysBrowse         | Always browse for a binary solution file.                                                                              |
@@ -90,3 +91,39 @@ SaveSettingsTo = directory
 
 where filename is the name of an actual file (including path) to be created and directory is the name of an existing directory. The default setting is “Local Directory,” which means that the code will save file WSFPRF.TXT, QplotPRF.TXT, or TplotPRF.TXT in the current directory (usually where the input file resides). Another SF.INI variable, UseSavedSettings, determines whether the code attempts to use the settings in the preference file.
 filenameは作成される実際のファイル（パスを含む）の名前で、directoryは既存のディレクトリの名前です。デフォルト設定は「ローカルディレクトリ」です。これは、コードがファイルWSFPRF.TXT、QplotPRF.TXT、またはTplotPRF.TXTを現在のディレクトリ（通常は入力ファイルが存在する場所）に保存することを意味します。別のSF.INI変数UseSavedSettingsは、コードが設定ファイルの設定を使用しようとするかどうかを決定します。
+
+## TablPlot
+
+- User-defined heading lines including justification
+- Optional scaling of the data upon start up
+- Control over both X and Y scales
+- Curve labels
+- Log or linear scales
+- Polynomial fits for interpolation
+- Plots of the fit residuals
+- Integration of the data or the fitted curve
+- Comment lines in the input file
+- Control of the marker size and connecting lines
+- Option to include every Nth line of a table (Tablplot)
+- Algebraic, trigonometric, or log operations on data sets or columns
+- Creation of new data columns by algebraic combination of existing data columns
+- Creation of new Tablplot input files containing the currently selected arrays
+- Several type of hardcopy graphics outpu
+
+```bash
+Quikplot filename time
+Tablplot filename time
+```
+
+Quikplot and Tablplotpreference files
+
+Quikplot and Tablplot each write a preference file containing saved screen settings to be used the next time the program starts.  
+The name and location of the file depends upon the SF.INI variable SaveSettingsTo.  
+The choices are:
+
+```bash
+SaveSettingsTo = Local Directory
+SaveSettingsTo = Individual File
+SaveSettingsTo = filename
+SaveSettingsTo = directory
+```

@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCapacitor\CAPXY.AM
-ZoomLimits  1   -0.99999998E-02   6.4829006     -0.86206896E-02   5.0086206       0.0000000    
+LastProblemFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM
+ZoomLimits  1   -0.49999999E-02   459.03145     -0.49999999E-02   354.70498       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
