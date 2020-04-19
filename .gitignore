@@ -9,6 +9,7 @@ __pycache__/
 # doc/docx
 *.doc
 *~*.doc
+*.pdf
 
 # Visual Studio
 .vs/*

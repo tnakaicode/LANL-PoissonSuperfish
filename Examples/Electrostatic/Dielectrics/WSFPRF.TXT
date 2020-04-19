@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\2EPSILON.AM
-ZoomLimits  1   -0.20000000E-01   6.4952135     -0.17241379E-01   5.0172416       0.0000000    
+LastProblemFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM
+ZoomLimits  1   -0.20000000E-01   8.8910347     -0.17241379E-01   5.0172416       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
