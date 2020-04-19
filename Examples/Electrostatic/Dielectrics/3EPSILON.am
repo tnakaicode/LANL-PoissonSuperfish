@@ -19,34 +19,35 @@ nbslf=1 &        ! Neumann boundary condition at left edge
 
 &po x=0.0,y=0.0 &
 &po x=0.0,y=7.5 &
-&po x=7.5,y=7.5 &
-&po x=7.5,y=0.0 &
+&po x=10.0,y=7.5 &
+&po x=10.0,y=0.0 &
 &po x=0.0,y=0.0 &
 
 &reg mat=3,mtid=3 &           
-&po x=2.0,y=1.0 &
-&po x=2.0,y=2.0 &
-&po x=3.0,y=2.0 &
-&po x=3.0,y=1.0 &
-&po x=2.0,y=1.0 &
+&po x=2.5,y=1.0 &
+&po x=2.5,y=2.0 &
+&po x=3.5,y=2.0 &
+&po x=3.5,y=1.0 &
+&po x=2.5,y=1.0 &
 
 &reg mat=4,mtid=4 &
-&po x=1.0,y=3.0 &
-&po x=1.0,y=4.0 &
-&po x=2.0,y=4.0 &
-&po x=2.0,y=3.0 &
-&po x=1.0,y=3.0 &
+&po x=1.5,y=3.0 &
+&po x=1.5,y=4.0 &
+&po x=3.5,y=4.0 &
+&po x=3.5,y=3.0 &
+&po x=1.5,y=3.0 &
 
-&reg mat=1,voltage=1000,ibound=-1 &
+&reg mat=1,voltage=100000,ibound=-1 &
 &po x=0.0,y=5.0 &
 &po x=6.0,y=6.0 &
 
-&reg mat=1,voltage=0.0,ibound=-1 &
-&po x=0.0,y=0.0 &
-&po x=5.0,y=0.0 &
+&reg mat=1,voltage=30000,ibound=-1 &
+&po x=0.0,y=1.0 &
+&po x=2.0,y=1.0 &
+&po x=3.0,y=0.0 &
 
 &mt mtid=3      
-epsilon=1.0  &
+epsilon=0.5  &
 
 &mt mtid=4
 epsilon=9.0  &
