@@ -18,8 +18,8 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Automesh  7.17  released 1-13-2006 
 Program file: C:\LANL\AUTOFISH.EXE
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\8C82BE1.AF  2-05-2020  17:42:06
-SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\8C82BE1.AF  4-19-2020  10:40:08
+SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
 
 Problem description:
 Sample problem for tuning elliptical cavity (end cell)
@@ -2220,7 +2220,7 @@ Design beta = 0.82
 Resonant frequency = 700 MHz, Bore radius = 8 cm
 Left side from 82B cavity
 Right side tuned by adjusting dome size
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\8C82BE1.AF  2-05-2020  17:42:06
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\8C82BE1.AF  4-19-2020  10:40:08
 Problem file length:        4779 bytes
 Originating program: Autofish    Problem type: 8-cell SC cavity
 

@@ -18,10 +18,10 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\82B1.T35.
-More input from file C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\82B1.SEG.
+Solution file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\82B1.T35.
+More input from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\82B1.SEG.
 Program file: C:\LANL\ELLFISH.EXE
-SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
+SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
 Memory used for 82B1.T35 arrays:     187.812 K
 
 This problem originated with the program ELLfish,
@@ -71,7 +71,7 @@ Sample problem for tuning elliptical cavity
 Design beta = 0.82
 Resonant frequency = 700 MHz, Bore radius = 8 cm
 Adjusting cavity diameter, currently =  40.6739763
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\82B1.AM  2-05-2020  17:41:56
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\82B1.AM  4-19-2020  10:39:52
 Problem file length:        2577 bytes
 Originating program: ELLfish    Problem type: SC cavity
 
@@ -674,7 +674,7 @@ Sample problem for tuning elliptical cavity
 Design beta = 0.82
 Resonant frequency = 700 MHz, Bore radius = 8 cm
 Adjusting cavity diameter, currently =  40.6739763
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\82B1.AM  2-05-2020  17:41:56
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\82B1.AM  4-19-2020  10:39:52
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 1):    EZEROT =     10.00000 MV/m

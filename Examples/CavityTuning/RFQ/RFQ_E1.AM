@@ -1,0 +1,54 @@
+Sample Tuning of Radio-Frequency Quadrupole Cavities
+Target frequency = 350 MHz
+r0,Vg,rho,Ws,Ls,Wb,H,W=0.300 .060 .240 1.00 0.00 1.50  9.39  0.00    Vary H
+
+&REG KPROB=1                     ; Superfish problem
+MAT=1                            ; Material air or empty space
+FREQ=350.001811945               ; Mode frequency
+NBSUP=1,NBSLO=0,NBSRT=1,NBSLF=0  ; Boundary conditions
+LINES=1                          ; Fix internal points on line regions
+ICYLIN=0                         ; XY geometry, Cartesian coordinates
+RFQ=1                            ; Cavity is radio-frequency quadrupole
+NORM=0                           ; Normalize fields for Vg = 0.0600 kV
+EZERO=1.E+07                     ; Average field from beam axis to vane tip
+EPSO=1.0E-6                      ; Mesh optimization convergence parameter
+IRTYPE=0                         ; Rs method: Normal conductor formula
+XDRI=3.89128405                  ; Drive point X coordinate
+YDRI=9.39439074                  ; Drive point Y coordinate
+DSLOPE=-1                        ; Allow convergence in 1 iteration
+; X line-region physical locations:
+XREG=0.5619640476667,1,2,
+; X line-region logical locations:
+KREG=1,19,23,30,
+KMAX=65                          ; Column number for X = XMAX
+; Y line-region physical locations:
+YREG=0.5619640476667,0.8429460715001,1.685892143,
+; Y line-region logical locations:
+LREG=1,27,33,43,
+LMAX=93 &                        ; Row number for Y = YMAX
+
+; Start of boundary points
+&PO X=0.0,Y=0.0 &                                ; 1
+&PO X=0.0,Y=0.3 &                                ; 2
+&PO NT=2,X0=0.0,Y0=0.54,                         ; 3
+    X=0.2363538607229,Y=-0.0416755626401 &
+&PO X=0.4,Y=1.426407811893 &                     ; 4
+&PO X=0.4,Y=2 &                                  ; 5
+&PO X=1,Y=3.648486451673 &                       ; 6
+&PO X=1.5,Y=6.484127361482 &                     ; 7
+&PO X=1.5,Y=8.394390737557 &                     ; 8
+&PO NT=2,X0=2.5,Y0=8.394390737557,               ; 9
+    X=0.0,Y=1 &
+&PO X=3.891284053728,Y=9.394390737557 &          ; 10
+&PO X=9.394390737557,Y=3.891284053728 &          ; 11
+&PO X=9.394390737557,Y=2.5 &                     ; 12
+&PO NT=2,X0=8.394390737557,Y0=2.5,               ; 13
+    X=0.0,Y=-1 &
+&PO X=6.484127361482,Y=1.5 &                     ; 14
+&PO X=3.648486451673,Y=1 &                       ; 15
+&PO X=2,Y=0.4 &                                  ; 16
+&PO X=1.426407811893,Y=0.4 &                     ; 17
+&PO X=0.4983244373599,Y=0.2363538607229 &        ; 18
+&PO NT=2,X0=0.54,Y0=0.0,                         ; 19
+    X=-0.24,Y=0.0 &
+&PO X=0.0,Y=0.0 &                                ; 20

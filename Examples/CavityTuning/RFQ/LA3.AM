@@ -1,0 +1,52 @@
+RFQ conceptual design at 201.25 MHz
+Los Alamos Neutron Science Center (LANSCE) accelerator
+r0,Vg,rho,Ws,Ls,Wb,H,W=0.422 .080 .359 5.60 0.00 5.60 17.03  0.00    Vary H
+
+&REG KPROB=1                     ; Superfish problem
+MAT=1                            ; Material air or empty space
+FREQ=201.2526450183              ; Mode frequency
+NBSUP=1,NBSLO=0,NBSRT=1,NBSLF=0  ; Boundary conditions
+LINES=1                          ; Fix internal points on line regions
+ICYLIN=0                         ; XY geometry, Cartesian coordinates
+RFQ=1                            ; Cavity is radio-frequency quadrupole
+NORM=0                           ; Normalize fields for Vg = 0.0800 kV
+EZERO=9480919.649206             ; Average field from beam axis to vane tip
+EPSO=1.0E-6                      ; Mesh optimization convergence parameter
+IRTYPE=0                         ; Rs method: Normal conductor formula
+XDRI=7.05389211                  ; Drive point X coordinate
+YDRI=17.029602                   ; Drive point Y coordinate
+DSLOPE=-1                        ; Allow convergence in 1 iteration
+; X line-region physical locations:
+XREG=0.9,1.190646937978,2.753778766033,
+; X line-region logical locations:
+KREG=1,16,19,24,
+KMAX=63                          ; Column number for X = XMAX
+; Y line-region physical locations:
+YREG=0.9,1.190646937978,2.753778766033,
+; Y line-region logical locations:
+LREG=1,23,28,36,
+LMAX=91 &                        ; Row number for Y = YMAX
+
+; Start of boundary points
+&PO X=0.0,Y=0.0 &                                ; 1
+&PO X=0.0,Y=0.4219 &                             ; 2
+&PO NT=2,X0=0.0,Y0=0.780515,                     ; 3
+    X=0.3463954901947,Y=-0.0928163918594 &
+&PO X=0.9,Y=2.753778766033 &                     ; 4
+&PO X=0.9,Y=3.5 &                                ; 5
+&PO X=5.6,Y=15.43164510962 &                     ; 6
+&PO X=5.6,Y=16.26260199893 &                     ; 7
+&PO NT=2,X0=6.367,Y0=16.26260199893,             ; 8
+    X=0.0,Y=0.767 &
+&PO X=7.053892109771,Y=17.02960199893 &          ; 9
+&PO X=17.02960199893,Y=7.053892109771 &          ; 10
+&PO X=17.02960199893,Y=6.367 &                   ; 11
+&PO NT=2,X0=16.26260199893,Y0=6.367,             ; 12
+    X=0.0,Y=-0.767 &
+&PO X=15.43164510962,Y=5.6 &                     ; 13
+&PO X=3.5,Y=0.9 &                                ; 14
+&PO X=2.753778766033,Y=0.9 &                     ; 15
+&PO X=0.6876986081406,Y=0.3463954901947 &        ; 16
+&PO NT=2,X0=0.780515,Y0=0.0,                     ; 17
+    X=-0.358615,Y=0.0 &
+&PO X=0.0,Y=0.0 &                                ; 18
