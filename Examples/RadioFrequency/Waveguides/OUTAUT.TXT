@@ -18,8 +18,8 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Automesh  7.17  released 1-13-2006 
 Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\RadioFrequency\Waveguides\WGHEX.AM  2-13-2006  10:53:52
-SF.INI file: C:\LANL\SF.INI  9-30-2019  11:41:14
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\WGHEX.AM  4-19-2020  10:38:20
+SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
 
 Problem description:
 Waveguide problem for a full hexagonal guide
@@ -450,7 +450,7 @@ Generation completed.
 
 Problem description:
 Waveguide problem for a full hexagonal guide
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\RadioFrequency\Waveguides\WGHEX.AM  2-13-2006  10:53:52
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\WGHEX.AM  4-19-2020  10:38:20
 Problem file length:        1356 bytes
 Originating program: Automesh    Problem type: Unknown RF Cavity
 

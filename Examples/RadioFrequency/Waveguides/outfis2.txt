@@ -18,15 +18,15 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program CFish  7.17  released 1-13-2006 
 
-Starting from file C:\Users\Nakai\LANL-tmp\Examples\RadioFrequency\Waveguides\WGHEX.T35.
+Starting from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\WGHEX.T35.
 Program file: C:\LANL\CFISH.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019  11:41:14
+SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
 Memory used for WGHEX.T35 arrays:     215.600 K
 Memory used for other CFish arrays:     703.636 K
 
 Problem description:
 Waveguide problem for a full hexagonal guide
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\RadioFrequency\Waveguides\WGHEX.AM  2-13-2006  10:53:52
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\WGHEX.AM  4-19-2020  10:38:20
 Problem file length:        1356 bytes
 Originating program: Automesh    Problem type: Unknown RF Cavity
 
@@ -157,7 +157,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 4900                    freq = 377
                                                    D(k^2) = 5.2971E-06
-      Solution time =    0.146 sec.                       End cycle  0
+      Solution time =    0.310 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -169,7 +169,7 @@ No materials other than air or empty space.
                                                        freq = 377.1599
       Etotal = 2906.8      1/2q =   0.0000      omega/2q =   0.000    
                                                  D(k^2) = -4.63599E-08
-      Solution time =    0.131 sec.                       End cycle  1
+      Solution time =    0.243 sec.                       End cycle  1
       ----------------------------------------------------------------
                                                         Start cycle  2
 
@@ -192,7 +192,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 2.
       Initial frequency = 377               Final frequency = 377.1585
-      Elapsed time  =    0.33 sec
+      Elapsed time  =    0.65 sec
 
 Problem variables computed by this code.
 
