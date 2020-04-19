@@ -22,17 +22,15 @@ Program Poisson  7.17  released 1-13-2006
 Starting from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.T35.
 Program file: C:\LANL\POISSON.EXE
 SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
-Memory used for 3EPSILON.T35 arrays:      61.544 K
-Memory used for other Poisson arrays:   28.896 K
+Memory used for 3EPSILON.T35 arrays:     128.864 K
+Memory used for other Poisson arrays:   52.656 K
 
 Problem description:
 Parallel Plate Capacitor with two dielectric regions
 Voltage on lower plate = 0.0 V
-Voltage on upper plate = 1000.0 V
-Lower dielectric region: material 3, � = 2
-Upper dielectric region: material 4, � = 9
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  11:57:08
-Problem file length:        1354 bytes
+Voltage on upper plate = 1000000 V
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  12:09:12
+Problem file length:        1357 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
 Coordinates and lengths have dimensions of centimeters.
@@ -47,9 +45,9 @@ ANGLZ                   0.0     Initial point on arc for interpolation
 CLIGHT          2.997924580E+10 Exact speed of light in cm/sec
 CONV             1.00000000     Length conversion (number of units per cm)
 DIAGDLL                   0     If 1, DLL writes diagnostics to DiagDLL.txt
-DX1             0.200000000     First X mesh interval (at XMIN)
-DXMIN           0.200000000     Minimum X mesh interval (found by Automesh)
-DYMIN           0.172413793     Minimum Y mesh interval (found by Automesh)
+DX1             0.197368421     First X mesh interval (at XMIN)
+DXMIN           0.197368421     Minimum X mesh interval (found by Automesh)
+DYMIN           0.174418605     Minimum Y mesh interval (found by Automesh)
 EPS0            8.854187818E-12 Permittivity of free space
 EPSILA          5.000000000E-07 Convergence PARAMETER: air, interface points
 EPSILI          5.000000000E-07 Convergence parameter for iron points
@@ -63,33 +61,33 @@ ICYLIN     A              0     0 for X,Y problems, 1 for Z,R problems
 ICYSEN                    0     If zero, do not print boundary integrals
 IENERGY                   0     If 1, calculate stored energy
 IHDL                 100000     Cycles between H*dl integrals
-IMAX                     28     KMAX+2
+IMAX                     41     KMAX+2
 IPERM                     0     0 = real currents, 1 = no real currents
 IPIVOT                    1     Pivoting in matrix inversion routines
 IPRFQ                     0     Print frequency during Poisson iterations
 IRMAX                    25     Used in optimization of RHOXY
 ISKIP                     1     Cycles between calculation of reluctance
-ITOT                    896     (KMAX+2)*(LMAX+2)
+ITOT                   1886     (KMAX+2)*(LMAX+2)
 IVERG                    10     Number of cycles between convergence tests
 KBZERO                    1     Logical K coordinate where B = BDES
-KMAX                     26     Number of horizontal logical mesh points
+KMAX                     39     Number of horizontal logical mesh points
 KMIN                      1     Lower K bound for computing field
 KPROB      A              0     Problem type indicator (Poisson)
-KTOP                     26     Upper K bound for computing field
+KTOP                     39     Upper K bound for computing field
 KTYPE                     2     Symmetry indicator for harmonic analysis
 LAST35                    1     Code for last program to update T35 file
 LBZERO                    1     Logical L coordinate where B = BDES
-LCYCLE                   33     Iteration number
-LMAX                     30     Number of vertical logical mesh points
+LCYCLE                   38     Iteration number
+LMAX                     44     Number of vertical logical mesh points
 LMIN                      1     Lower L bound for computing field
 LTOP                      1     Upper L bound for computing field
 MAP                       1     Conformal mapping parameter
 MAXCY                100000     Maximum number of cycles (-1: use default)
-MAXPPR                  110     Maximum points per region
+MAXPPR                  164     Maximum points per region
 MODE       A             -1     Material property indicator
-NAIR                    644     Number of air points
+NAIR                   1520     Number of air points
 NAMAX                     0     Number of points for recalculating couplings
-NBND                      0     Number of Dirichlet boundary points
+NBND                     52     Number of Dirichlet boundary points
 NBSLF      A              1     Left-side boundary condition
 NBSLO      A              0     Lower boundary condition
 NBSRT      A              1     Right-side boundary condition
@@ -101,13 +99,13 @@ NGSAM                    50     Number of points for reluctivity when NM6=NM1
 NINTER                   44     Number of interface points
 NMATR                     1     Number of material records in T35 file
 NOTE                      1     Determines relaxation order
-NPBOUND                 207     Total number of boundary points in the mesh
-NPINP                   780     Total points in problem
-NPONTS                  628     Number of unknown relaxation points
+NPBOUND                 269     Total number of boundary points in the mesh
+NPINP                  1716     Total points in problem
+NPONTS                 1477     Number of unknown relaxation points
 NPTC                      0     Number of arc points for interpolation
 NREG                      5     Number of regions
-NSEG                     14     Number of boundary segments
-NSPL                     52     Number of special-potential points
+NSEG                     16     Number of boundary segments
+NSPL                     60     Number of special-potential points
 NTERM                     0     Number of coefficients in harmonic analysis
 NWMAX                    77     Number of points for recalculating couplings
 OMEGAM          1.000000000E-03 Used in optimization of RHOXY
@@ -128,22 +126,22 @@ STACK            1.00000000     Stacking factor
 STOTG                   0.0     Total current in problem at generation
 TNEGC                   0.0     Negative current after conformal transformation
 TPOSC                   0.0     Positive current after conformal transformation
-TRIAVG          1.724137931E-02 Average area of all triangles
-TRIMAX          2.272518502E-02 Area of the largest positive-area triangle
-TRIMIN          1.016575896E-02 Area of the smallest positive-area triangle
+TRIAVG          1.721236230E-02 Average area of all triangles
+TRIMAX          2.334450375E-02 Area of the largest positive-area triangle
+TRIMIN          1.005060263E-02 Area of the smallest positive-area triangle
 VOLUME                  0.0     Cavity volume (cylindrical symmetry only)
 XJFACT     A            0.0     Factor multiplying currents
 XJFEND           1.00000000     Ending XJFACT for a range of multipliers
 XJSTEPS                   0     Number of steps from XJFACT to XJFEND
 XJTOL           5.000000000E-07 Tolerance on XJFACT
 XMAXF                   0.0     Upper X bound for computing field
-XMAXG            5.00000000     Upper X bound of the problem geometry
+XMAXG            7.50000000     Upper X bound of the problem geometry
 XMINF                   0.0     Lower X bound for computing field
 XMING                   0.0     Lower X bound of the problem geometry
 XORG                    0.0     X coordinate center of harmonic analysis circle
-XYAREA           25.0000000     Total cross sectional area
+XYAREA           56.2500000     Total cross sectional area
 YMAXF                   0.0     Upper Y bound for computing field
-YMAXG            5.00000000     Upper Y bound of the problem geometry
+YMAXG            7.50000000     Upper Y bound of the problem geometry
 YMINF                   0.0     Lower Y bound for computing field
 YMING                   0.0     Lower Y bound of the problem geometry
 YORG                    0.0     Y coordinate center of harmonic analysis circle
@@ -155,73 +153,86 @@ MT namelist ID 3.
 Material 4 uses the fixed permittivity Epsilon = 9 from
 MT namelist ID 4.
 
-      Kmax =   26,  Lmax =   30,  Total number of mesh points =    896
+      Kmax =   39,  Lmax =   44,  Total number of mesh points =   1886
       ----------------------------------------------------------------
       Over-relaxation factor:     1.9000E+00 in open space
       ----------------------------------------------------------------
-      Optimized O-R factor:       1.8994E+00     Lambda =   9.9863E-01
-      Solution matrix minimum =   3.4848E+01
-                      maximum =   9.6823E+02
-      Residual:                   8.9179E-03 in open space
-      Over-relaxation factor:     1.8994E+00 in open space
-      Elapsed time  =    0.08 sec                    End of cycle 50
+      Optimized O-R factor:       1.9011E+00     Lambda =   9.9867E-01
+      Solution matrix minimum =   2.4050E+01
+                      maximum =   9.7785E+02
+      Residual:                   8.7868E-03 in open space
+      Over-relaxation factor:     1.9011E+00 in open space
+      Elapsed time  =    0.10 sec                    End of cycle 50
       ----------------------------------------------------------------
-      Optimized O-R factor:       1.8987E+00     Lambda =   9.9861E-01
-      Solution matrix minimum =   3.5502E+01
-                      maximum =   9.6653E+02
-      Residual:                   4.7703E-05 in open space
-      Over-relaxation factor:     1.8987E+00 in open space
-      Elapsed time  =    0.13 sec                    End of cycle 100
+      Optimized O-R factor:       1.9001E+00     Lambda =   9.9865E-01
+      Solution matrix minimum =   2.6454E+01
+                      maximum =   9.7772E+02
+      Residual:                   6.5838E-05 in open space
+      Over-relaxation factor:     1.9001E+00 in open space
+      Elapsed time  =    0.17 sec                    End of cycle 100
       ----------------------------------------------------------------
-      Solution matrix minimum =   3.5498E+01
-                      maximum =   9.6653E+02
-      Residual:                   3.3920E-07 in open space
-      Over-relaxation factor:     1.8987E+00 in open space
-      Elapsed time  =    0.17 sec                    End of cycle 150
+      Solution matrix minimum =   2.6458E+01
+                      maximum =   9.7772E+02
+      Residual:                   2.4808E-07 in open space
+      Over-relaxation factor:     1.9001E+00 in open space
+      Elapsed time  =    0.23 sec                    End of cycle 160
       ----------------------------------------------------------------
-      Solution converged in 150 iterations.
-      Elapsed time  =    0.17 sec
+      Solution converged in 160 iterations.
+      Elapsed time  =    0.23 sec
 
 XJFACT = 0.0
 
-Field interpolation at cycle 150.
+Field interpolation at cycle 160.
 
    K    L     X             Y               Ex            Ey            |E|            V      Chi^2/d.f. Fn
             (cm)          (cm)            (V/cm)        (V/cm)        (V/cm)          (V)  
-   1    1   0.00000       0.00000      0.000000E+00 -2.199910E+02  2.199910E+02  0.000000E+00  2.50E-10  24
-   2    1  0.200000       0.00000      0.000000E+00 -2.199835E+02  2.199835E+02  0.000000E+00  1.89E-09  24
-   3    1  0.400000       0.00000      0.000000E+00 -2.199558E+02  2.199558E+02  0.000000E+00  3.00E-09  24
-   4    1  0.600000       0.00000      0.000000E+00 -2.199661E+02  2.199661E+02  0.000000E+00  2.00E-08  23
-   5    1  0.800000       0.00000      0.000000E+00 -2.198986E+02  2.198986E+02  0.000000E+00  3.14E-08  23
-   6    1   1.00000       0.00000      0.000000E+00 -2.197618E+02  2.197618E+02  0.000000E+00  4.29E-08  23
-   7    1   1.20000       0.00000      0.000000E+00 -2.195298E+02  2.195298E+02  0.000000E+00  5.17E-08  23
-   8    1   1.40000       0.00000      0.000000E+00 -2.191811E+02  2.191811E+02  0.000000E+00  5.68E-08  23
-   9    1   1.60000       0.00000      0.000000E+00 -2.187023E+02  2.187023E+02  0.000000E+00  5.75E-08  23
-  10    1   1.80000       0.00000      0.000000E+00 -2.180905E+02  2.180905E+02  0.000000E+00  5.34E-08  23
-  11    1   2.00000       0.00000      0.000000E+00 -2.173534E+02  2.173534E+02  0.000000E+00  4.61E-08  23
-  12    1   2.20000       0.00000      0.000000E+00 -2.165086E+02  2.165086E+02  0.000000E+00  3.66E-08  23
-  13    1   2.40000       0.00000      0.000000E+00 -2.155820E+02  2.155820E+02  0.000000E+00  2.74E-08  23
-  14    1   2.60000       0.00000      0.000000E+00 -2.146036E+02  2.146036E+02  0.000000E+00  2.05E-08  23
-  15    1   2.80000       0.00000      0.000000E+00 -2.136053E+02  2.136053E+02  0.000000E+00  1.76E-08  23
-  16    1   3.00000       0.00000      0.000000E+00 -2.126177E+02  2.126177E+02  0.000000E+00  1.85E-08  23
-  17    1   3.20000       0.00000      0.000000E+00 -2.116688E+02  2.116688E+02  0.000000E+00  2.31E-08  23
-  18    1   3.40000       0.00000      0.000000E+00 -2.107818E+02  2.107818E+02  0.000000E+00  2.99E-08  23
-  19    1   3.60000       0.00000      0.000000E+00 -2.099746E+02  2.099746E+02  0.000000E+00  3.76E-08  23
-  20    1   3.80000       0.00000      0.000000E+00 -2.092601E+02  2.092601E+02  0.000000E+00  4.47E-08  23
-  21    1   4.00000       0.00000      0.000000E+00 -2.086474E+02  2.086474E+02  0.000000E+00  5.05E-08  23
-  22    1   4.20000       0.00000      0.000000E+00 -2.081422E+02  2.081422E+02  0.000000E+00  5.46E-08  23
-  23    1   4.40000       0.00000      0.000000E+00 -2.078052E+02  2.078052E+02  0.000000E+00  2.83E-08  24
-  24    1   4.60000       0.00000      0.000000E+00 -2.075108E+02  2.075108E+02  0.000000E+00  7.21E-08  24
-  25    1   4.80000       0.00000      0.000000E+00 -2.072786E+02  2.072786E+02  0.000000E+00  1.02E-07  24
-  26    1   5.00000       0.00000      0.000000E+00 -2.072600E+02  2.072600E+02  0.000000E+00  6.53E-07  24
+   1    1   0.00000       0.00000      0.000000E+00 -2.021805E+02  2.021805E+02  0.000000E+00  5.83E-08  24
+   2    1  0.200000       0.00000      0.000000E+00 -2.020937E+02  2.020937E+02  0.000000E+00  4.90E-08  24
+   3    1  0.400000       0.00000      0.000000E+00 -2.019137E+02  2.019137E+02  0.000000E+00  2.10E-08  24
+   4    1  0.600000       0.00000      0.000000E+00 -2.017524E+02  2.017524E+02  0.000000E+00  9.51E-08  23
+   5    1  0.800000       0.00000      0.000000E+00 -2.013997E+02  2.013997E+02  0.000000E+00  1.26E-07  23
+   6    1   1.00000       0.00000      0.000000E+00 -2.008971E+02  2.008971E+02  0.000000E+00  1.55E-07  23
+   7    1   1.20000       0.00000      0.000000E+00 -2.002185E+02  2.002185E+02  0.000000E+00  1.80E-07  23
+   8    1   1.40000       0.00000      0.000000E+00 -1.993423E+02  1.993423E+02  0.000000E+00  1.95E-07  23
+   9    1   1.60000       0.00000      0.000000E+00 -1.982545E+02  1.982545E+02  0.000000E+00  1.99E-07  23
+  10    1   1.80000       0.00000      0.000000E+00 -1.969509E+02  1.969509E+02  0.000000E+00  1.90E-07  23
+  11    1   2.00000       0.00000      0.000000E+00 -1.954377E+02  1.954377E+02  0.000000E+00  1.70E-07  23
+  12    1   2.20000       0.00000      0.000000E+00 -1.937317E+02  1.937317E+02  0.000000E+00  1.44E-07  23
+  13    1   2.40000       0.00000      0.000000E+00 -1.918583E+02  1.918583E+02  0.000000E+00  1.12E-07  23
+  14    1   2.60000       0.00000      0.000000E+00 -1.898475E+02  1.898475E+02  0.000000E+00  8.09E-08  23
+  15    1   2.80000       0.00000      0.000000E+00 -1.877316E+02  1.877316E+02  0.000000E+00  5.40E-08  23
+  16    1   3.00000       0.00000      0.000000E+00 -1.855433E+02  1.855433E+02  0.000000E+00  3.29E-08  23
+  17    1   3.20000       0.00000      0.000000E+00 -1.833128E+02  1.833128E+02  0.000000E+00  1.87E-08  23
+  18    1   3.40000       0.00000      0.000000E+00 -1.810661E+02  1.810661E+02  0.000000E+00  1.16E-08  23
+  19    1   3.60000       0.00000      0.000000E+00 -1.788247E+02  1.788247E+02  0.000000E+00  1.00E-08  23
+  20    1   3.80000       0.00000      0.000000E+00 -1.766055E+02  1.766055E+02  0.000000E+00  1.22E-08  23
+  21    1   4.00000       0.00000      0.000000E+00 -1.744225E+02  1.744225E+02  0.000000E+00  1.68E-08  23
+  22    1   4.20000       0.00000      0.000000E+00 -1.722866E+02  1.722866E+02  0.000000E+00  2.30E-08  23
+  23    1   4.40000       0.00000      0.000000E+00 -1.702067E+02  1.702067E+02  0.000000E+00  3.06E-08  23
+  24    1   4.60000       0.00000      0.000000E+00 -1.681906E+02  1.681906E+02  0.000000E+00  3.93E-08  23
+  25    1   4.80000       0.00000      0.000000E+00 -1.662461E+02  1.662461E+02  0.000000E+00  4.98E-08  23
+  26    1   5.00000       0.00000      0.000000E+00 -1.643807E+02  1.643807E+02  0.000000E+00  6.23E-08  23
+  27    1   5.19231       0.00000      0.000000E+00 -1.626687E+02  1.626687E+02  0.000000E+00  7.74E-08  23
+  28    1   5.38462       0.00000      0.000000E+00 -1.610451E+02  1.610451E+02  0.000000E+00  9.50E-08  23
+  29    1   5.57692       0.00000      0.000000E+00 -1.595183E+02  1.595183E+02  0.000000E+00  1.16E-07  23
+  30    1   5.76923       0.00000      0.000000E+00 -1.580974E+02  1.580974E+02  0.000000E+00  1.39E-07  23
+  31    1   5.96154       0.00000      0.000000E+00 -1.567916E+02  1.567916E+02  0.000000E+00  1.65E-07  23
+  32    1   6.15385       0.00000      0.000000E+00 -1.556108E+02  1.556108E+02  0.000000E+00  1.92E-07  23
+  33    1   6.34615       0.00000      0.000000E+00 -1.545641E+02  1.545641E+02  0.000000E+00  2.21E-07  23
+  34    1   6.53846       0.00000      0.000000E+00 -1.536607E+02  1.536607E+02  0.000000E+00  2.48E-07  23
+  35    1   6.73077       0.00000      0.000000E+00 -1.529089E+02  1.529089E+02  0.000000E+00  2.72E-07  23
+  36    1   6.92308       0.00000      0.000000E+00 -1.524049E+02  1.524049E+02  0.000000E+00  1.53E-07  24
+  37    1   7.11538       0.00000      0.000000E+00 -1.519615E+02  1.519615E+02  0.000000E+00  3.92E-07  24
+  38    1   7.30769       0.00000      0.000000E+00 -1.515988E+02  1.515988E+02  0.000000E+00  6.19E-07  24
+  39    1   7.50000       0.00000      0.000000E+00 -1.515653E+02  1.515653E+02  0.000000E+00  2.89E-06  24
 
 Problem variables computed by this code.
 
 Variable Code         Value     Description
-ETAAIR          0.911225028     Rate of convergence in air, cycle N
-ICYCLE                  150     Present iteration number
-RESIDA          3.392013497E-07 Residual for air
-RHOAIR           1.89874960     Over-relaxation factor: air, interface points
+ETAAIR          0.912010440     Rate of convergence in air, cycle N
+ICYCLE                  160     Present iteration number
+RESIDA          2.480834055E-07 Residual for air
+RHOAIR           1.90012601     Over-relaxation factor: air, interface points
 SNEGA                   0.0     Total negative current, this solution
 SPOSA                   0.0     total positive current, this solution
 STOTA                   0.0     Total current in problem, this solution

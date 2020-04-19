@@ -18,15 +18,13 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Automesh  7.17  released 1-13-2006 
 Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  11:57:08
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  12:09:12
 SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
 
 Problem description:
 Parallel Plate Capacitor with two dielectric regions
 Voltage on lower plate = 0.0 V
-Voltage on upper plate = 1000.0 V
-Lower dielectric region: material 3, � = 2
-Upper dielectric region: material 4, � = 9
+Voltage on upper plate = 1000000 V
 
 Coordinates and lengths have dimensions of centimeters.
 
@@ -40,24 +38,24 @@ IBOUND    =  0            [Dirichlet boundary]
 IPDIAG    =  0            [no extra Automesh diagnostics]
 DX        =  0.2
 XMIN      =  0.0
-XMAX      =  5
+XMAX      =  7.5
 DY        =  0.1732051    [=DX*sin(60)]
 YMIN      =  0.0
-YMAX      =  5
-DX1       =  0.2
-KMAX      =  26
-DY1       =  0.1724138
-LMAX      =  30
-ITOT      =  896
-Memory used for the solution file:      32.256 K
-Memory used for Automesh setup data:    78.320 K
+YMAX      =  7.5
+DX1       =  0.1973684
+KMAX      =  39
+DY1       =  0.1744186
+LMAX      =  44
+ITOT      =  1886
+Memory used for the solution file:      67.896 K
+Memory used for Automesh setup data:   107.620 K
 
 Region 1 boundary points from the PO namelist:
   Point  NT    X0          Y0          X           Y           R          THETA        A           B
      1   1                            0.000       0.000
-     2   1                            0.000       5.000
-     3   1                            5.000       5.000
-     4   1                            5.000       0.000
+     2   1                            0.000       7.500
+     3   1                            7.500       7.500
+     4   1                            7.500       0.000
      5   1                            0.000       0.000
  
 
@@ -109,7 +107,7 @@ IPDIAG    =  0            [no extra Automesh diagnostics]
 Region 4 boundary points from the PO namelist:
   Point  NT    X0          Y0          X           Y           R          THETA        A           B
      1   1                            0.000       5.000
-     2   1                            5.000       5.000
+     2   1                            6.000       6.000
  
 
 Region data:
@@ -128,17 +126,19 @@ Region 5 boundary points from the PO namelist:
  
 Number of user-supplied fixed points      =    19
 Fixed points added at line regions        =     0
-Fixed points added on overlapping regions =     0
-Total number of fixed points              =    19
+Fixed points added on overlapping regions =     2
+Total number of fixed points              =    21
 
 Logical path finding for region 1
 (includes extra boundary points at intersections of line
 regions plus points from other user-supplied segments)
   Point NT    X           Y           R           A           B         Fwd   Bkw
      2   1    0.000       5.000                                          30    30
-     3   1    5.000       5.000                                          26    26
-     4   1    5.000       0.000                                          30    30
-     5   1    0.000       0.000                                          26    26
+     3   1    0.000       7.500                                          15    15
+     4   1    7.500       7.500                                          39    39
+     5   1    7.500       0.000                                          44    44
+     6   1    5.000       0.000                                          14    14
+     7   1    0.000       0.000                                          26    26
  
 
 Region 1 mesh points
@@ -173,59 +173,113 @@ Region 1 mesh points
       1    28    0.00000000        4.65517241    
       1    29    0.00000000        4.82758621    
       1    30    0.00000000        5.00000000    
-      2    30   0.200000000        5.00000000    
-      3    30   0.400000000        5.00000000    
-      4    30   0.600000000        5.00000000    
-      5    30   0.800000000        5.00000000    
-      6    30    1.00000000        5.00000000    
-      7    30    1.20000000        5.00000000    
-      8    30    1.40000000        5.00000000    
-      9    30    1.60000000        5.00000000    
-     10    30    1.80000000        5.00000000    
-     11    30    2.00000000        5.00000000    
-     12    30    2.20000000        5.00000000    
-     13    30    2.40000000        5.00000000    
-     14    30    2.60000000        5.00000000    
-     15    30    2.80000000        5.00000000    
-     16    30    3.00000000        5.00000000    
-     17    30    3.20000000        5.00000000    
-     18    30    3.40000000        5.00000000    
-     19    30    3.60000000        5.00000000    
-     20    30    3.80000000        5.00000000    
-     21    30    4.00000000        5.00000000    
-     22    30    4.20000000        5.00000000    
-     23    30    4.40000000        5.00000000    
-     24    30    4.60000000        5.00000000    
-     25    30    4.80000000        5.00000000    
-     26    30    5.00000000        5.00000000    
-     26    29    5.00000000        4.82758621    
-     26    28    5.00000000        4.65517241    
-     26    27    5.00000000        4.48275862    
-     26    26    5.00000000        4.31034483    
-     26    25    5.00000000        4.13793103    
-     26    24    5.00000000        3.96551724    
-     26    23    5.00000000        3.79310345    
-     26    22    5.00000000        3.62068966    
-     26    21    5.00000000        3.44827586    
-     26    20    5.00000000        3.27586207    
-     26    19    5.00000000        3.10344828    
-     26    18    5.00000000        2.93103448    
-     26    17    5.00000000        2.75862069    
-     26    16    5.00000000        2.58620690    
-     26    15    5.00000000        2.41379310    
-     26    14    5.00000000        2.24137931    
-     26    13    5.00000000        2.06896552    
-     26    12    5.00000000        1.89655172    
-     26    11    5.00000000        1.72413793    
-     26    10    5.00000000        1.55172414    
-     26     9    5.00000000        1.37931034    
-     26     8    5.00000000        1.20689655    
-     26     7    5.00000000        1.03448276    
-     26     6    5.00000000       0.862068966    
-     26     5    5.00000000       0.689655172    
-     26     4    5.00000000       0.517241379    
-     26     3    5.00000000       0.344827586    
-     26     2    5.00000000       0.172413793    
+      1    31    0.00000000        5.17857143    
+      1    32    0.00000000        5.35714286    
+      1    33    0.00000000        5.53571429    
+      1    34    0.00000000        5.71428571    
+      1    35    0.00000000        5.89285714    
+      1    36    0.00000000        6.07142857    
+      1    37    0.00000000        6.25000000    
+      1    38    0.00000000        6.42857143    
+      1    39    0.00000000        6.60714286    
+      1    40    0.00000000        6.78571429    
+      1    41    0.00000000        6.96428571    
+      1    42    0.00000000        7.14285714    
+      1    43    0.00000000        7.32142857    
+      1    44    0.00000000        7.50000000    
+      2    44   0.197368421        7.50000000    
+      3    44   0.394736842        7.50000000    
+      4    44   0.592105263        7.50000000    
+      5    44   0.789473684        7.50000000    
+      6    44   0.986842105        7.50000000    
+      7    44    1.18421053        7.50000000    
+      8    44    1.38157895        7.50000000    
+      9    44    1.57894737        7.50000000    
+     10    44    1.77631579        7.50000000    
+     11    44    1.97368421        7.50000000    
+     12    44    2.17105263        7.50000000    
+     13    44    2.36842105        7.50000000    
+     14    44    2.56578947        7.50000000    
+     15    44    2.76315789        7.50000000    
+     16    44    2.96052632        7.50000000    
+     17    44    3.15789474        7.50000000    
+     18    44    3.35526316        7.50000000    
+     19    44    3.55263158        7.50000000    
+     20    44    3.75000000        7.50000000    
+     21    44    3.94736842        7.50000000    
+     22    44    4.14473684        7.50000000    
+     23    44    4.34210526        7.50000000    
+     24    44    4.53947368        7.50000000    
+     25    44    4.73684211        7.50000000    
+     26    44    4.93421053        7.50000000    
+     27    44    5.13157895        7.50000000    
+     28    44    5.32894737        7.50000000    
+     29    44    5.52631579        7.50000000    
+     30    44    5.72368421        7.50000000    
+     31    44    5.92105263        7.50000000    
+     32    44    6.11842105        7.50000000    
+     33    44    6.31578947        7.50000000    
+     34    44    6.51315789        7.50000000    
+     35    44    6.71052632        7.50000000    
+     36    44    6.90789474        7.50000000    
+     37    44    7.10526316        7.50000000    
+     38    44    7.30263158        7.50000000    
+     39    44    7.50000000        7.50000000    
+     39    43    7.50000000        7.32558140    
+     39    42    7.50000000        7.15116279    
+     39    41    7.50000000        6.97674419    
+     39    40    7.50000000        6.80232558    
+     39    39    7.50000000        6.62790698    
+     39    38    7.50000000        6.45348837    
+     39    37    7.50000000        6.27906977    
+     39    36    7.50000000        6.10465116    
+     39    35    7.50000000        5.93023256    
+     39    34    7.50000000        5.75581395    
+     39    33    7.50000000        5.58139535    
+     39    32    7.50000000        5.40697674    
+     39    31    7.50000000        5.23255814    
+     39    30    7.50000000        5.05813953    
+     39    29    7.50000000        4.88372093    
+     39    28    7.50000000        4.70930233    
+     39    27    7.50000000        4.53488372    
+     39    26    7.50000000        4.36046512    
+     39    25    7.50000000        4.18604651    
+     39    24    7.50000000        4.01162791    
+     39    23    7.50000000        3.83720930    
+     39    22    7.50000000        3.66279070    
+     39    21    7.50000000        3.48837209    
+     39    20    7.50000000        3.31395349    
+     39    19    7.50000000        3.13953488    
+     39    18    7.50000000        2.96511628    
+     39    17    7.50000000        2.79069767    
+     39    16    7.50000000        2.61627907    
+     39    15    7.50000000        2.44186047    
+     39    14    7.50000000        2.26744186    
+     39    13    7.50000000        2.09302326    
+     39    12    7.50000000        1.91860465    
+     39    11    7.50000000        1.74418605    
+     39    10    7.50000000        1.56976744    
+     39     9    7.50000000        1.39534884    
+     39     8    7.50000000        1.22093023    
+     39     7    7.50000000        1.04651163    
+     39     6    7.50000000       0.872093023    
+     39     5    7.50000000       0.697674419    
+     39     4    7.50000000       0.523255814    
+     39     3    7.50000000       0.348837209    
+     39     2    7.50000000       0.174418605    
+     39     1    7.50000000        0.00000000    
+     38     1    7.30769231        0.00000000    
+     37     1    7.11538462        0.00000000    
+     36     1    6.92307692        0.00000000    
+     35     1    6.73076923        0.00000000    
+     34     1    6.53846154        0.00000000    
+     33     1    6.34615385        0.00000000    
+     32     1    6.15384615        0.00000000    
+     31     1    5.96153846        0.00000000    
+     30     1    5.76923077        0.00000000    
+     29     1    5.57692308        0.00000000    
+     28     1    5.38461538        0.00000000    
+     27     1    5.19230769        0.00000000    
      26     1    5.00000000        0.00000000    
      25     1    4.80000000        0.00000000    
      24     1    4.60000000        0.00000000    
@@ -252,14 +306,16 @@ Region 1 mesh points
       3     1   0.400000000        0.00000000    
       2     1   0.200000000        0.00000000    
       1     1    0.00000000        0.00000000    
-Region 1 done, 5 fixed points, 109 total boundary points.
+Region 1 done, 7 fixed points, 163 total boundary points.
 Logical boundary segment end points for region 1:
 Segment   Starting Point    Ending Point
               K     L         K     L
     1         1     1         1    30
-    2         1    30        26    30
-    3        26    30        26     1
-    4        26     1         1     1
+    2         1    30         1    44
+    3         1    44        39    44
+    4        39    44        39     1
+    5        39     1        26     1
+    6        26     1         1     1
 
 Logical path finding for region 2
 (includes extra boundary points at intersections of line
@@ -300,10 +356,10 @@ Region 2 done, 5 fixed points, 23 total boundary points.
 Logical boundary segment end points for region 2:
 Segment   Starting Point    Ending Point
               K     L         K     L
-    5        11     7        11    13
-    6        11    13        16    13
-    7        16    13        16     7
-    8        16     7        11     7
+    7        11     7        11    13
+    8        11    13        16    13
+    9        16    13        16     7
+   10        16     7        11     7
 
 Logical path finding for region 3
 (includes extra boundary points at intersections of line
@@ -344,51 +400,59 @@ Region 3 done, 5 fixed points, 23 total boundary points.
 Logical boundary segment end points for region 3:
 Segment   Starting Point    Ending Point
               K     L         K     L
-    9         6    18         6    24
-   10         6    24        11    24
-   11        11    24        11    18
-   12        11    18         6    18
+   11         6    18         6    24
+   12         6    24        11    24
+   13        11    24        11    18
+   14        11    18         6    18
 
 Logical path finding for region 4
 (includes extra boundary points at intersections of line
 regions plus points from other user-supplied segments)
   Point NT    X           Y           R           A           B         Fwd   Bkw
-     2   1    5.000       5.000
+     2   1    6.000       6.000                                          34    34
  
 
 Region 4 mesh points
       K     L        X                 Y
       1    30    0.00000000        5.00000000    
-      2    30   0.200000000        5.00000000    
-      3    30   0.400000000        5.00000000    
-      4    30   0.600000000        5.00000000    
-      5    30   0.800000000        5.00000000    
-      6    30    1.00000000        5.00000000    
-      7    30    1.20000000        5.00000000    
-      8    30    1.40000000        5.00000000    
-      9    30    1.60000000        5.00000000    
-     10    30    1.80000000        5.00000000    
-     11    30    2.00000000        5.00000000    
-     12    30    2.20000000        5.00000000    
-     13    30    2.40000000        5.00000000    
-     14    30    2.60000000        5.00000000    
-     15    30    2.80000000        5.00000000    
-     16    30    3.00000000        5.00000000    
-     17    30    3.20000000        5.00000000    
-     18    30    3.40000000        5.00000000    
-     19    30    3.60000000        5.00000000    
-     20    30    3.80000000        5.00000000    
-     21    30    4.00000000        5.00000000    
-     22    30    4.20000000        5.00000000    
-     23    30    4.40000000        5.00000000    
-     24    30    4.60000000        5.00000000    
-     25    30    4.80000000        5.00000000    
-     26    30    5.00000000        5.00000000    
-Region 4 done, 2 fixed points, 26 total boundary points.
+      2    30   0.181818182        5.03030303    
+      3    30   0.363636364        5.06060606    
+      4    30   0.545454545        5.09090909    
+      4    31   0.727272727        5.12121212    
+      5    31   0.909090909        5.15151515    
+      6    31    1.09090909        5.18181818    
+      7    31    1.27272727        5.21212121    
+      8    31    1.45454545        5.24242424    
+      9    31    1.63636364        5.27272727    
+     10    32    1.81818182        5.30303030    
+     11    32    2.00000000        5.33333333    
+     12    32    2.18181818        5.36363636    
+     13    32    2.36363636        5.39393939    
+     14    32    2.54545455        5.42424242    
+     15    32    2.72727273        5.45454545    
+     16    32    2.90909091        5.48484848    
+     16    33    3.09090909        5.51515152    
+     17    33    3.27272727        5.54545455    
+     18    33    3.45454545        5.57575758    
+     19    33    3.63636364        5.60606061    
+     20    33    3.81818182        5.63636364    
+     21    33    4.00000000        5.66666667    
+     22    33    4.18181818        5.69696970    
+     23    34    4.36363636        5.72727273    
+     24    34    4.54545455        5.75757576    
+     25    34    4.72727273        5.78787879    
+     26    34    4.90909091        5.81818182    
+     27    34    5.09090909        5.84848485    
+     28    34    5.27272727        5.87878788    
+     28    35    5.45454545        5.90909091    
+     29    35    5.63636364        5.93939394    
+     30    35    5.81818182        5.96969697    
+     31    35    6.00000000        6.00000000    
+Region 4 done, 2 fixed points, 34 total boundary points.
 Logical boundary segment end points for region 4:
 Segment   Starting Point    Ending Point
               K     L         K     L
-   13         1    30        26    30
+   15         1    30        31    35
 
 Logical path finding for region 5
 (includes extra boundary points at intersections of line
@@ -429,7 +493,7 @@ Region 5 done, 2 fixed points, 26 total boundary points.
 Logical boundary segment end points for region 5:
 Segment   Starting Point    Ending Point
               K     L         K     L
-   14         1     1        26     1
+   16         1     1        26     1
 
 Poisson and Pandira material data:
   MTID  LEN MTYPE AEASY  GAMPER        X0A          Y0A          PHIA    AMULT  HCEPT        BCEPT        GAMMA
@@ -439,7 +503,7 @@ Poisson and Pandira material data:
     4    0    0    0.0   1             0.0          0.0                   2                               9
 
 Processing boundary data...
-Memory used for additional setup arrays:   36.872 K
+Memory used for additional setup arrays:   72.440 K
 
 
 Region 1    Material = 1
@@ -483,64 +547,71 @@ Logical boundary segment end points for all regions:
 Segment    Starting Point        Ending Point
           Index    K     L     Index    K     L
     1        1     1     1       30     1    30
-    2       30     1    30       55    26    30
-    3       55    26    30       84    26     1
-    4       84    26     1      109     1     1
-    5      110    11     7      116    11    13
-    6      116    11    13      121    16    13
-    7      121    16    13      127    16     7
-    8      127    16     7      132    11     7
-    9      133     6    18      139     6    24
-   10      139     6    24      144    11    24
-   11      144    11    24      150    11    18
-   12      150    11    18      155     6    18
-   13      156     1    30      181    26    30
-   14      182     1     1      207    26     1
+    2       30     1    30       44     1    44
+    3       44     1    44       82    39    44
+    4       82    39    44      125    39     1
+    5      125    39     1      138    26     1
+    6      138    26     1      163     1     1
+    7      164    11     7      170    11    13
+    8      170    11    13      175    16    13
+    9      175    16    13      181    16     7
+   10      181    16     7      186    11     7
+   11      187     6    18      193     6    24
+   12      193     6    24      198    11    24
+   13      198    11    24      204    11    18
+   14      204    11    18      209     6    18
+   15      210     1    30      243    31    35
+   16      244     1     1      269    26     1
 
-Relaxation parameters, 628 unknown points.
+Relaxation parameters, 1477 unknown points.
 Optimizing mesh by successive over relaxation...
           -------X coordinate--------     -------Y coordinate--------
 Cycle      Residual     ETA      RHO       Residual     ETA      RHO
 
-     1    3.094E-02   1.0000   1.6000     3.973E-03   1.0000   1.6000
-     2    4.137E-02   0.6551   1.6000     5.139E-03   0.6402   1.6000
-     3    2.779E-02   0.6712   1.6000     3.541E-03   0.6894   1.6000
-     4    1.815E-02   0.6536   1.6000     2.344E-03   0.6620   1.6000
-     5    1.229E-02   0.6771   1.6000     1.669E-03   0.7120   1.6000
-     6    7.876E-03   0.6409   1.6000     1.132E-03   0.6786   1.6000
-     7    5.319E-03   0.6755   1.6000     7.638E-04   0.6745   1.6000
-     8    3.588E-03   0.6747   1.6000     5.479E-04   0.7172   1.6000
-     9    2.441E-03   0.6804   1.6000     3.955E-04   0.7219   1.6000
-    10    1.674E-03   0.6859   1.6000     2.901E-04   0.7335   1.6000
-    11    1.158E-03   0.6916   1.6000     2.143E-04   0.7386   1.6000
-    12    8.120E-04   0.7015   1.6000     1.578E-04   0.7363   1.6000
-    13    5.792E-04   0.7133   1.6000     1.136E-04   0.7198   1.6000
-    14    4.249E-04   0.7337   1.6000     8.395E-05   0.7391   1.6000
-    15    3.201E-04   0.7533   1.6000     6.404E-05   0.7629   1.6000
-    16    2.507E-04   0.7833   1.6000     4.964E-05   0.7752   1.6000
-    17    2.002E-04   0.7986   1.6000     3.847E-05   0.7749   1.6000
-    18    1.620E-04   0.8094   1.6000     2.962E-05   0.7700   1.6000
-    19    1.326E-04   0.8187   1.6000     2.304E-05   0.7777   1.6000
-    20    1.094E-04   0.8245   1.6000     1.835E-05   0.7965   1.6000
-    21    9.015E-05   0.8243   1.6000     1.455E-05   0.7930   1.6000
-    22    7.460E-05   0.8276   1.6000     1.164E-05   0.8004   1.6000
-    23    6.133E-05   0.8222   1.6000     9.364E-06   0.8041   1.6000
-    24    5.075E-05   0.8275   1.6000     7.518E-06   0.8029   1.6000
-    25    4.212E-05   0.8300   1.6000     6.077E-06   0.8083   1.6000
-    26    4.290E-05   1.0184   1.6761     5.809E-06   0.9559   1.6624
-    27    3.491E-05   0.8139   1.6761     4.644E-06   0.7995   1.6624
-    28    2.831E-05   0.8107   1.6761     3.712E-06   0.7991   1.6624
-    29    2.281E-05   0.8060   1.6761     2.972E-06   0.8008   1.6624
-    30    1.817E-05   0.7966   1.6761     2.373E-06   0.7983   1.6624
-    31    1.443E-05   0.7941   1.6761     1.890E-06   0.7964   1.6624
-    32    1.133E-05   0.7851   1.6761     1.496E-06   0.7914   1.6624
-    33    8.818E-06   0.7783   1.6761     1.182E-06   0.7906   1.6624
+     1    1.977E-02   1.0000   1.6000     4.412E-03   1.0000   1.6000
+     2    2.705E-02   0.6621   1.6000     5.550E-03   0.6247   1.6000
+     3    1.816E-02   0.6715   1.6000     3.677E-03   0.6626   1.6000
+     4    1.203E-02   0.6625   1.6000     2.449E-03   0.6661   1.6000
+     5    8.066E-03   0.6706   1.6000     1.685E-03   0.6880   1.6000
+     6    5.312E-03   0.6586   1.6000     1.152E-03   0.6837   1.6000
+     7    3.565E-03   0.6711   1.6000     7.994E-04   0.6940   1.6000
+     8    2.399E-03   0.6730   1.6000     5.650E-04   0.7068   1.6000
+     9    1.622E-03   0.6761   1.6000     4.035E-04   0.7141   1.6000
+    10    1.096E-03   0.6759   1.6000     2.935E-04   0.7273   1.6000
+    11    7.535E-04   0.6875   1.6000     2.152E-04   0.7334   1.6000
+    12    5.147E-04   0.6831   1.6000     1.627E-04   0.7560   1.6000
+    13    3.643E-04   0.7078   1.6000     1.120E-04   0.6881   1.6000
+    14    2.579E-04   0.7079   1.6000     8.519E-05   0.7609   1.6000
+    15    1.905E-04   0.7388   1.6000     6.501E-05   0.7632   1.6000
+    16    1.418E-04   0.7443   1.6000     5.143E-05   0.7910   1.6000
+    17    1.103E-04   0.7777   1.6000     4.029E-05   0.7835   1.6000
+    18    8.682E-05   0.7873   1.6000     3.310E-05   0.8215   1.6000
+    19    7.103E-05   0.8181   1.6000     2.782E-05   0.8403   1.6000
+    20    5.885E-05   0.8286   1.6000     2.398E-05   0.8620   1.6000
+    21    5.002E-05   0.8500   1.6000     2.096E-05   0.8744   1.6000
+    22    4.271E-05   0.8539   1.6000     1.844E-05   0.8797   1.6000
+    23    3.701E-05   0.8665   1.6000     1.624E-05   0.8803   1.6000
+    24    3.215E-05   0.8688   1.6000     1.426E-05   0.8785   1.6000
+    25    2.821E-05   0.8775   1.6000     1.262E-05   0.8850   1.6000
+    26    3.314E-05   1.1745   1.7134     1.543E-05   1.2227   1.7203
+    27    2.875E-05   0.8676   1.7134     1.339E-05   0.8673   1.7203
+    28    2.502E-05   0.8704   1.7134     1.142E-05   0.8529   1.7203
+    29    2.196E-05   0.8775   1.7134     9.644E-06   0.8446   1.7203
+    30    1.939E-05   0.8831   1.7134     8.102E-06   0.8402   1.7203
+    31    1.728E-05   0.8912   1.7134     6.770E-06   0.8355   1.7203
+    32    1.555E-05   0.8997   1.7134     5.627E-06   0.8312   1.7203
+    33    1.412E-05   0.9081   1.7134     4.629E-06   0.8227   1.7203
+    34    1.293E-05   0.9158   1.7134     3.815E-06   0.8242   1.7203
+    35    1.193E-05   0.9226   1.7134     3.140E-06   0.8229   1.7203
+    36    1.108E-05   0.9283   1.7134     2.593E-06   0.8259   1.7203
+    37    1.033E-05   0.9324   1.7134     2.147E-06   0.8281   1.7203
+    38    9.656E-06   0.9350   1.7134     1.773E-06   0.8257   1.7203
 Iteration converged.
 Generation completed.
 Calculated charge densities and areas:
 Region   Charge density      Area
         (Coulombs/cm^3)     (cm^2)
-   1        0.0000          23.000    
+   1        0.0000          54.250    
    2        0.0000          1.0000    
    3        0.0000          1.0000    
    4        0.0000          0.0000    
@@ -549,11 +620,9 @@ Region   Charge density      Area
 Problem description:
 Parallel Plate Capacitor with two dielectric regions
 Voltage on lower plate = 0.0 V
-Voltage on upper plate = 1000.0 V
-Lower dielectric region: material 3, � = 2
-Upper dielectric region: material 4, � = 9
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  11:57:08
-Problem file length:        1354 bytes
+Voltage on upper plate = 1000000 V
+Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  12:09:12
+Problem file length:        1357 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
 Problem constants and variables.
@@ -566,9 +635,9 @@ ANGLZ                   0.0     Initial point on arc for interpolation
 CLIGHT          2.997924580E+10 Exact speed of light in cm/sec
 CONV             1.00000000     Length conversion (number of units per cm)
 DIAGDLL                   0     If 1, DLL writes diagnostics to DiagDLL.txt
-DX1             0.200000000     First X mesh interval (at XMIN)
-DXMIN           0.200000000     Minimum X mesh interval (found by Automesh)
-DYMIN           0.172413793     Minimum Y mesh interval (found by Automesh)
+DX1             0.197368421     First X mesh interval (at XMIN)
+DXMIN           0.197368421     Minimum X mesh interval (found by Automesh)
+DYMIN           0.174418605     Minimum Y mesh interval (found by Automesh)
 EPS0            8.854187818E-12 Permittivity of free space
 EPSILA          5.000000000E-07 Convergence PARAMETER: air, interface points
 EPSILI          5.000000000E-07 Convergence parameter for iron points
@@ -582,33 +651,33 @@ ICYLIN     A              0     0 for X,Y problems, 1 for Z,R problems
 ICYSEN                    0     If zero, do not print boundary integrals
 IENERGY                  -1     If 1, calculate stored energy
 IHDL                 100000     Cycles between H*dl integrals
-IMAX                     28     KMAX+2
+IMAX                     41     KMAX+2
 IPERM                     0     0 = real currents, 1 = no real currents
 IPIVOT                    1     Pivoting in matrix inversion routines
 IPRFQ                     0     Print frequency during Poisson iterations
 IRMAX                    25     Used in optimization of RHOXY
 ISKIP                     1     Cycles between calculation of reluctance
-ITOT                    896     (KMAX+2)*(LMAX+2)
+ITOT                   1886     (KMAX+2)*(LMAX+2)
 IVERG                    10     Number of cycles between convergence tests
 KBZERO                    1     Logical K coordinate where B = BDES
-KMAX                     26     Number of horizontal logical mesh points
+KMAX                     39     Number of horizontal logical mesh points
 KMIN                      1     Lower K bound for computing field
 KPROB      A              0     Problem type indicator (Poisson)
-KTOP                     26     Upper K bound for computing field
+KTOP                     39     Upper K bound for computing field
 KTYPE                     2     Symmetry indicator for harmonic analysis
 LAST35                    0     Code for last program to update T35 file
 LBZERO                    1     Logical L coordinate where B = BDES
-LCYCLE                   33     Iteration number
-LMAX                     30     Number of vertical logical mesh points
+LCYCLE                   38     Iteration number
+LMAX                     44     Number of vertical logical mesh points
 LMIN                      1     Lower L bound for computing field
 LTOP                      1     Upper L bound for computing field
 MAP                       1     Conformal mapping parameter
 MAXCY                    -1     Maximum number of cycles (-1: use default)
-MAXPPR                  110     Maximum points per region
+MAXPPR                  164     Maximum points per region
 MODE       A             -1     Material property indicator
-NAIR                    644     Number of air points
+NAIR                   1520     Number of air points
 NAMAX                     0     Number of points for recalculating couplings
-NBND                      0     Number of Dirichlet boundary points
+NBND                     52     Number of Dirichlet boundary points
 NBSLF      A              1     Left-side boundary condition
 NBSLO      A              0     Lower boundary condition
 NBSRT      A              1     Right-side boundary condition
@@ -620,13 +689,13 @@ NGSAM                    50     Number of points for reluctivity when NM6=NM1
 NINTER                   44     Number of interface points
 NMATR                     1     Number of material records in T35 file
 NOTE                      1     Determines relaxation order
-NPBOUND                 207     Total number of boundary points in the mesh
-NPINP                   780     Total points in problem
-NPONTS                  628     Number of unknown relaxation points
+NPBOUND                 269     Total number of boundary points in the mesh
+NPINP                  1716     Total points in problem
+NPONTS                 1477     Number of unknown relaxation points
 NPTC                      0     Number of arc points for interpolation
 NREG                      5     Number of regions
-NSEG                     14     Number of boundary segments
-NSPL                     52     Number of special-potential points
+NSEG                     16     Number of boundary segments
+NSPL                     60     Number of special-potential points
 NTERM                     0     Number of coefficients in harmonic analysis
 NWMAX                    77     Number of points for recalculating couplings
 OMEGAM          1.000000000E-03 Used in optimization of RHOXY
@@ -647,22 +716,22 @@ STACK            1.00000000     Stacking factor
 STOTG                   0.0     Total current in problem at generation
 TNEGC                   0.0     Negative current after conformal transformation
 TPOSC                   0.0     Positive current after conformal transformation
-TRIAVG          1.724137931E-02 Average area of all triangles
-TRIMAX          2.272518502E-02 Area of the largest positive-area triangle
-TRIMIN          1.016575896E-02 Area of the smallest positive-area triangle
+TRIAVG          1.721236230E-02 Average area of all triangles
+TRIMAX          2.334450375E-02 Area of the largest positive-area triangle
+TRIMIN          1.005060263E-02 Area of the smallest positive-area triangle
 VOLUME                  0.0     Cavity volume (cylindrical symmetry only)
 XJFACT     A            0.0     Factor multiplying currents
 XJFEND           1.00000000     Ending XJFACT for a range of multipliers
 XJSTEPS                   0     Number of steps from XJFACT to XJFEND
 XJTOL           5.000000000E-07 Tolerance on XJFACT
 XMAXF                   0.0     Upper X bound for computing field
-XMAXG            5.00000000     Upper X bound of the problem geometry
+XMAXG            7.50000000     Upper X bound of the problem geometry
 XMINF                   0.0     Lower X bound for computing field
 XMING                   0.0     Lower X bound of the problem geometry
 XORG                    0.0     X coordinate center of harmonic analysis circle
-XYAREA           25.0000000     Total cross sectional area
+XYAREA           56.2500000     Total cross sectional area
 YMAXF                   0.0     Upper Y bound for computing field
-YMAXG            5.00000000     Upper Y bound of the problem geometry
+YMAXG            7.50000000     Upper Y bound of the problem geometry
 YMINF                   0.0     Lower Y bound for computing field
 YMING                   0.0     Lower Y bound of the problem geometry
 YORG                    0.0     Y coordinate center of harmonic analysis circle
