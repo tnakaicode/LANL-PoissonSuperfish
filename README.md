@@ -127,3 +127,42 @@ SaveSettingsTo = Individual File
 SaveSettingsTo = filename
 SaveSettingsTo = directory
 ```
+
+## LANL
+
+| exe                        |
+| -------------------------- |
+| AUTOFISH.EXE               |
+| AUTOMESH.EXE               |
+| beta.exe                   |
+| CCLCELLS.EXE               |
+| CCLFISH.EXE                |
+| CDTFISH.EXE                |
+| CFISH.EXE                  |
+| CONVERTF.EXE               |
+| DTLCELLS.EXE               |
+| DTLFISH.EXE                |
+| ELLCAV.EXE                 |
+| ELLFISH.EXE                |
+| FISH.EXE                   |
+| FORCE.EXE                  |
+| FSCALE.EXE                 |
+| KILPAT.EXE                 |
+| LIST35.EXE                 |
+| MDTCELLS.EXE               |
+| MDTFISH.EXE                |
+| MK_SFINI.EXE               |
+| PANDIRA.EXE                |
+| POISSON.EXE                |
+| Quikplot.exe               |
+| RFQFISH.EXE                |
+| SCCFISH.EXE                |
+| SEGFIELD.EXE               |
+| SF.INI                     |
+| SF7.EXE                    |
+| SF8.EXE                    |
+| SFO.EXE                    |
+| SFOTABLE.EXE               |
+| Tablplot.exe               |
+| wsfcolor.exe               |
+| WSFPLOT.EXE                |

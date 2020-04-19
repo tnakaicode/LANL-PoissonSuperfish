@@ -1,11 +1,11 @@
 ; This file contains start-up settings for WSFplot
-MainWindowXPosition=  184
-MainWindowYPosition=   67
+MainWindowXPosition=  239
+MainWindowYPosition=   49
 MainWindowWidth= 1536
 MainWindowHeight=  864
 EditWindowXPosition= 1620
 EditWindowYPosition=  150
-HardcopyFileExtension=    
+HardcopyFileExtension=.PNG
 NumberOfContours=   30
 ContourLineWidth=1
 AxisLineWidth=1
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCapacitor\CAPXY.AM
-ZoomLimits  1   -0.99999998E-02   6.4829006     -0.86206896E-02   5.0086206       0.0000000    
+LastProblemFile=C:\USERS\NAKAI\LANL-POISSONSUPERFISH\EXAMPLES\ELECTROSTATIC\COAXCAPACITOR\CAPRZ.AM
+ZoomLimits  1     1.9900000       10.875400     -0.99999998E-02   5.0100004       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
