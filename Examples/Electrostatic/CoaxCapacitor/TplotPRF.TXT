@@ -40,7 +40,7 @@ ConnectStatus=1
 MarkersStatus=1
 XlinLogStatus=LIN
 YLinLogStatus=LIN
-LastPlotFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCapacitor\outpoi2.tbl
+LastPlotFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCapacitor\OUTPOI.TBL
 ZoomLimits  1     2.0000000       5.0000000       0.0000000       547.95599    
 ZoomLevel=1
 MaxZoomLevel=1

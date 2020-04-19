@@ -24,6 +24,6 @@ FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
 LastProblemFile=C:\USERS\NAKAI\LANL-POISSONSUPERFISH\EXAMPLES\ELECTROSTATIC\COAXCAPACITOR\CAPRZ.AM
-ZoomLimits  1     1.9900000       10.875400     -0.99999998E-02   5.0100004       0.0000000    
+ZoomLimits  1     1.9900000       8.4864712     -0.99999998E-02   5.0100004       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
