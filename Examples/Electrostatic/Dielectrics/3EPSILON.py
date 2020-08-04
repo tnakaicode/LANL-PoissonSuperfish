@@ -23,6 +23,11 @@ if __name__ == '__main__':
     sfdir = "e:/LANL/"
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "AUTOMESH", name + ".am"))
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "POISSON", name + ".t35"))
-    subprocess.Popen("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35 2"))
-    pgui.press("c")
+    subprocess.call("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35 2"))
+    # pgui.press("c")
+    
+    data = np.loadtxt("./3EPSILON.txt", skiprows=2)    
+    plt.figure()
+    plt.plot(data[2,:], data[4,:])
+    plt.savefig("./3EPSILON.png")
     

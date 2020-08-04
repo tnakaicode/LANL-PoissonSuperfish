@@ -162,7 +162,7 @@ MT namelist ID 4.
                       maximum =   9.7604E+04
       Residual:                   5.3601E-03 in open space
       Over-relaxation factor:     1.8991E+00 in open space
-      Elapsed time  =    0.05 sec                    End of cycle 50
+      Elapsed time  =    0.04 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.8985E+00     Lambda =   9.9860E-01
       Solution matrix minimum =   1.3389E+03
@@ -175,10 +175,10 @@ MT namelist ID 4.
                       maximum =   9.7602E+04
       Residual:                   3.5040E-07 in open space
       Over-relaxation factor:     1.8985E+00 in open space
-      Elapsed time  =    0.16 sec                    End of cycle 150
+      Elapsed time  =    0.14 sec                    End of cycle 150
       ----------------------------------------------------------------
       Solution converged in 150 iterations.
-      Elapsed time  =    0.16 sec
+      Elapsed time  =    0.14 sec
 
 XJFACT = 0.0
 
