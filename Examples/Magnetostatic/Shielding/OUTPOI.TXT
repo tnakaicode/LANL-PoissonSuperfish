@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Poisson  7.17  released 1-13-2006 
 
-Starting from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.T35.
-Program file: C:\LANL\POISSON.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.T35.
+Program file: E:\LANL\POISSON.EXE
+SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\SF.INI  8-04-2020  11:53:34
 Memory used for VECP.T35 arrays:     469.232 K
 Memory used for other Poisson arrays:  194.496 K
 
@@ -30,7 +30,7 @@ Vector potential problem
 Magnetic shielding produced by thin, highly permeable sheet
 Geometry has very large changes in triangle size near the metal.
 [Originally appeared in 1987 User's Manual 10.7]
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM  4-19-2020  10:38:20
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM  8-04-2020  10:17:56
 Problem file length:        1668 bytes
 Originating program: Automesh    Problem type: Magnetostatic
 
@@ -160,65 +160,65 @@ Material 2 uses the fixed reluctivity Gamma = 5.0E-05 from FIXGAM.
                       maximum =   1.8328E+02
       Residual:                   1.3941E-02 in open space
       Over-relaxation factor:     1.9176E+00 in open space
-      Elapsed time  =    0.10 sec                    End of cycle 50
+      Elapsed time  =    0.07 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9670E+00     Lambda =   9.9987E-01
       Solution matrix minimum =   4.0903E+00
                       maximum =   1.8370E+02
       Residual:                   4.3075E-03 in open space
       Over-relaxation factor:     1.9670E+00 in open space
-      Elapsed time  =    0.19 sec                    End of cycle 100
+      Elapsed time  =    0.15 sec                    End of cycle 100
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9766E+00     Lambda =   9.9994E-01
       Solution matrix minimum =   1.0091E+01
                       maximum =   1.8561E+02
       Residual:                   4.4428E-03 in open space
       Over-relaxation factor:     1.9766E+00 in open space
-      Elapsed time  =    0.37 sec                    End of cycle 200
+      Elapsed time  =    0.29 sec                    End of cycle 200
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9763E+00     Lambda =   9.9993E-01
       Solution matrix minimum =   1.0183E+01
                       maximum =   1.8681E+02
       Residual:                   6.0761E-04 in open space
       Over-relaxation factor:     1.9763E+00 in open space
-      Elapsed time  =    0.69 sec                    End of cycle 400
+      Elapsed time  =    0.52 sec                    End of cycle 400
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9853E+00     Lambda =   9.9998E-01
       Solution matrix minimum =   1.0185E+01
                       maximum =   1.8683E+02
       Residual:                   4.2460E-05 in open space
       Over-relaxation factor:     1.9853E+00 in open space
-      Elapsed time  =    1.11 sec                    End of cycle 800
+      Elapsed time  =    0.90 sec                    End of cycle 800
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9753E+00     Lambda =   1.0000E+00
       Solution matrix minimum =   1.0185E+01
                       maximum =   1.8683E+02
       Residual:                   2.2594E-05 in open space
       Over-relaxation factor:     1.9753E+00 in open space
-      Elapsed time  =    1.53 sec                    End of cycle 1200
+      Elapsed time  =    1.28 sec                    End of cycle 1200
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9846E+00     Lambda =   9.9997E-01
       Solution matrix minimum =   1.0185E+01
                       maximum =   1.8683E+02
       Residual:                   1.0685E-05 in open space
       Over-relaxation factor:     1.9846E+00 in open space
-      Elapsed time  =    1.95 sec                    End of cycle 1600
+      Elapsed time  =    1.64 sec                    End of cycle 1600
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9746E+00     Lambda =   1.0001E+00
       Solution matrix minimum =   1.0185E+01
                       maximum =   1.8683E+02
       Residual:                   4.4123E-06 in open space
       Over-relaxation factor:     1.9746E+00 in open space
-      Elapsed time  =    2.48 sec                    End of cycle 2000
+      Elapsed time  =    2.00 sec                    End of cycle 2000
       ----------------------------------------------------------------
       Solution matrix minimum =   1.0185E+01
                       maximum =   1.8683E+02
       Residual:                   4.0482E-07 in open space
       Over-relaxation factor:     1.9746E+00 in open space
-      Elapsed time  =    2.90 sec                    End of cycle 2370
+      Elapsed time  =    2.35 sec                    End of cycle 2370
       ----------------------------------------------------------------
       Solution converged in 2370 iterations.
-      Elapsed time  =    2.91 sec
+      Elapsed time  =    2.35 sec
 Currents associated with fixed vector potential points:
   K     L    Current(Amp)
    1    1 -0.7102352E-01

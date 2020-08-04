@@ -5,7 +5,7 @@ MainWindowWidth= 1536
 MainWindowHeight=  864
 EditWindowXPosition= 1620
 EditWindowYPosition=  150
-HardcopyFileExtension=    
+HardcopyFileExtension=.PNG
 NumberOfContours=   30
 ContourLineWidth=1
 AxisLineWidth=1
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM
-ZoomLimits  1   -0.49999999E-02   459.03145     -0.49999999E-02   354.70498       0.0000000    
+LastProblemFile=E:\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM
+ZoomLimits  1   -0.49999999E-02   627.83165     -0.49999999E-02   354.70498       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

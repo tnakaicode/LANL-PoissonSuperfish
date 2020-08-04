@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM  4-19-2020  10:38:20
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Program file: E:\LANL\AUTOMESH.EXE
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM  8-04-2020  10:17:56
+SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\SF.INI  8-04-2020  11:53:34
 
 Problem description:
 Vector potential problem
@@ -1558,7 +1558,7 @@ Vector potential problem
 Magnetic shielding produced by thin, highly permeable sheet
 Geometry has very large changes in triangle size near the metal.
 [Originally appeared in 1987 User's Manual 10.7]
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM  4-19-2020  10:38:20
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Magnetostatic\Shielding\VECP.AM  8-04-2020  10:17:56
 Problem file length:        1668 bytes
 Originating program: Automesh    Problem type: Magnetostatic
 
