@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: c:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  12:54:14
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Program file: E:\LANL\AUTOMESH.EXE
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  8-04-2020  10:17:56
+SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\SF.INI  8-04-2020  11:07:56
 
 Problem description:
 Parallel Plate Capacitor with two dielectric regions
@@ -667,7 +667,7 @@ Problem description:
 Parallel Plate Capacitor with two dielectric regions
 Voltage on lower plate = 0.0 V
 Voltage on upper plate = 1000000 V
-Problem file: c:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  12:54:14
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  8-04-2020  10:17:56
 Problem file length:        1382 bytes
 Originating program: Automesh    Problem type: Electrostatic
 

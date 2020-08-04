@@ -166,3 +166,34 @@ SaveSettingsTo = directory
 | Tablplot.exe               |
 | wsfcolor.exe               |
 | WSFPLOT.EXE                |
+
+## SFFILES
+
+For static field problems solved by Poisson or Pandira, postprocessor SF7 creates file rootnamennn.EGN in response to the EGUN command, where rootnameis the name of the Automesh input file and nnn is a sequence number of one or more digits. The default length of the rootnameis 6 characters, but you can instruct SF7 to use more characters (up to the full length of the name) by increasing variable RootNameLengthin the SF7 section of SF.INI.
+PoissonまたはPandiraによって解決された静的フィールドの問題の場合、ポストプロセッサーSF7は、EGUNコマンドに応答してファイルrootnamennn.EGNを作成します。ここで、rootnameはAutomesh入力ファイルの名前であり、nnnは1桁以上のシーケンス番号です。ルート名のデフォルトの長さは6文字ですが、SF.INIのSF7セクションの変数RootNameLengthを増やすことで、SF7に（名前の完全な長さまで）より多くの文字を使用するように指示できます。
+
+For example, if you start Automesh with input file PROB.AM, then SF7 will create files PROB1.EGN, PROB2.EGN, etc. Each line of the EGUN data file contains four entries. The first two numbers are integer node numbers on a square-mesh rectangular grid in the X and Y (or R and Z) directions. The last two numbers are the field components Bxand By, (or Brand Bz) for magnetostatic problems, or the components Exand Ey, (or Erand Ez) for electrostatic problems.
+たとえば、入力ファイルPROB.AMでAutomeshを起動すると、SF7はファイルPROB1.EGN、PROB2.EGNなどを作成します。EGUNデータファイルの各行には4つのエントリが含まれています。最初の2つの数値は、XとY（またはRとZ）方向の正方形メッシュの長方形グリッド上の整数ノード番号です。最後の2つの数値は、静磁場問題の場合はフィールドコンポーネントBxand By（またはブランドBz）、または静電問題の場合はコンポーネントExand Ey（またはErand Ez）です。
+
+Program EGUN computes trajectories of charged particles in electrostatic and magnetostatic focusing systems including the effects of space charge and self magnetic fields. Starting options include Child’s Law conditions on cathodes of various shapes. Either rectangular orcylindrically symmetric geometry may be used. Magnetic fields may be specified using arbitrary configurations of coils, the output of a magnet program such as Poisson, or an externally calculated array of the axial fields.
+プログラムEGUNは、空間電荷および自己磁場の影響を含む、静電および静磁集束システムにおける荷電粒子の軌跡を計算します。開始オプションには、さまざまな形状の陰極の子の法則の条件が含まれます。長方形または円筒対称のジオメトリを使用できます。磁場は、コイルの任意の構成、ポアソンなどの磁石プログラムの出力、または軸方向磁場の外部で計算された配列を使用して指定できます。
+
+The code has approximately 5000 lines of C source code. It is used at more than 100 sites. A 125-page user’s guide, examples, and an on-line help facility are available. This code is maintained by Glen Herrmannsfeldt and W.B. Herrmannsfeldt. It is being distributed, for a fee, by:
+コードには、約5000行のCソースコードが含まれています。 100以上のサイトで使用されています。 125ページのユーザーガイド、例、オンラインヘルプ機能を利用できます。このコードはGlen HerrmannsfeldtとW.Bによって管理されています。ヘルマンスフェルト。次の方法で有料で配布されています。
+
+## SFPOSTP
+
+The HardCopy, Driver menu lists several software drivers for producing hardcopy graphics files or printing directly to a printer using the Windows Print Manager. Select HardCopy, Start (or the “C” key) to create the hardcopy output. WSFplot re-plots the present screen using the active driver. You can set a preference for the hardcopy driver in file SF.INI. A check mark (✓) appears next to the currently selected driver. The software drivers have configurable options that you can edit from the HardCopy, Options menu.
+HardCopy、Driverメニューには、ハードコピーのグラフィックファイルを作成したり、Windowsプリントマネージャーを使用してプリンターに直接印刷したりするためのソフトウェアドライバーがいくつかリストされています。 HardCopy、Start（または「C」キー）を選択して、ハードコピー出力を作成します。 WSFplotは、アクティブなドライバーを使用して現在の画面を再プロットします。 SF.INIファイルでハードコピードライバーのプリファレンスを設定できます。現在選択されているドライバーの横にチェックマーク（✓）が表示されます。ソフトウェアドライバーには、HardCopyの[オプション]メニューから編集できる構成可能なオプションがあります。
+
+The HardCopy, Options menu also includes the full path and name of the graphics output file (if any). You can choose a different name, if desired, but we recommend that you retain the suggested filename extension. In the case of BMP/PCX/PNG bit-image driver, the filename extension will correspond to one of these three graphic types. If you select a different graphic type in the Options menu, and if you do notalter the default filename in any way, then the code will generate the a new default filename with the proper extension. However, the new name will not immediately appear in the File field. If you close the Options dialog and reopen it, the new filename will appear. If you modify the filename, be sure that the extension corresponds to the correct graphic type. The code does not check the extension if you override the default filename.
+HardCopyの[オプション]メニューには、グラフィックス出力ファイル（存在する場合）の完全パスと名前も含まれています。必要に応じて別の名前を選択できますが、提案されたファイル名拡張子を保持することをお勧めします。 BMP / PCX / PNGビットイメージドライバーの場合、ファイル名拡張子はこれら3つのグラフィックタイプのいずれかに対応します。 [オプション]メニューで別のグラフィックタイプを選択し、デフォルトのファイル名を変更しない場合、コードは適切な拡張子を持つ新しいデフォルトのファイル名を生成します。ただし、新しい名前は[ファイル]フィールドにすぐには表示されません。 [オプション]ダイアログを閉じて再度開くと、新しいファイル名が表示されます。ファイル名を変更する場合は、拡張子が正しいグラフィックタイプに対応していることを確認してください。デフォルトのファイル名を上書きした場合、コードは拡張子をチェックしません。
+
+if the active driver is the BMP/PCX/PNG bit-image driver, then WSFplot sets the default image size to match the current screen size. If you resize the window, the image size also changes. If you want a different size image, you can override the settings HardCopy, Options menu and start a hardcopy before re-sizing the image.
+アクティブなドライバーがBMP / PCX / PNGビットイメージドライバーの場合、WSFplotはデフォルトのイメージサイズを現在の画面サイズと一致するように設定します。ウィンドウのサイズを変更すると、画像サイズも変更されます。別のサイズの画像が必要な場合は、ハードコピー、オプションメニューの設定を上書きして、画像のサイズを変更する前にハードコピーを開始できます。
+
+Each hardcopy driver’s Options menu includes a setting for the line thickness in tenths of a point. Both this setting and the screen line widths that you select for the variousdisplay items (field contours, field arrows, field circles, segment boundaries, mesh triangles, and axis boundaries) affect the hardcopy line thickness as discussed in section B.1.j.
+各ハードコピードライバーの[オプション]メニューには、1/10ポイントでの線の太さの設定が含まれています。この設定と、さまざまな表示項目（フィールドの輪郭線、フィールドの矢印、フィールドの円、セグメントの境界、メッシュの三角形、軸の境界）に対して選択する画面の線幅は、セクションB.1.jで説明するように、ハードコピーの線の太さに影響します。
+
+The following sections describe the graphics export formats supported by WSFplot. Much of the information has been supplied with Winteracterdevelopment package of Interactive Software Services Ltd
+次のセクションでは、WSFplotでサポートされているグラフィックエクスポート形式について説明します。情報の多くはInteractive Software Services LtdのWinteracter開発パッケージで提供されています

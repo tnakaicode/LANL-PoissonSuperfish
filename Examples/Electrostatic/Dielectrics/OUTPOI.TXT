@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Poisson  7.17  released 1-13-2006 
 
-Starting from file c:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.T35.
-Program file: C:\LANL\POISSON.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.T35.
+Program file: E:\LANL\POISSON.EXE
+SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\SF.INI  8-04-2020  11:07:56
 Memory used for 3EPSILON.T35 arrays:     166.688 K
 Memory used for other Poisson arrays:   69.360 K
 
@@ -29,7 +29,7 @@ Problem description:
 Parallel Plate Capacitor with two dielectric regions
 Voltage on lower plate = 0.0 V
 Voltage on upper plate = 1000000 V
-Problem file: c:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  4-19-2020  12:54:14
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\3EPSILON.AM  8-04-2020  10:17:56
 Problem file length:        1382 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
@@ -162,23 +162,23 @@ MT namelist ID 4.
                       maximum =   9.7604E+04
       Residual:                   5.3601E-03 in open space
       Over-relaxation factor:     1.8991E+00 in open space
-      Elapsed time  =    0.10 sec                    End of cycle 50
+      Elapsed time  =    0.05 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.8985E+00     Lambda =   9.9860E-01
       Solution matrix minimum =   1.3389E+03
                       maximum =   9.7602E+04
       Residual:                   3.7941E-05 in open space
       Over-relaxation factor:     1.8985E+00 in open space
-      Elapsed time  =    0.18 sec                    End of cycle 100
+      Elapsed time  =    0.10 sec                    End of cycle 100
       ----------------------------------------------------------------
       Solution matrix minimum =   1.3390E+03
                       maximum =   9.7602E+04
       Residual:                   3.5040E-07 in open space
       Over-relaxation factor:     1.8985E+00 in open space
-      Elapsed time  =    0.26 sec                    End of cycle 150
+      Elapsed time  =    0.16 sec                    End of cycle 150
       ----------------------------------------------------------------
       Solution converged in 150 iterations.
-      Elapsed time  =    0.26 sec
+      Elapsed time  =    0.16 sec
 
 XJFACT = 0.0
 
