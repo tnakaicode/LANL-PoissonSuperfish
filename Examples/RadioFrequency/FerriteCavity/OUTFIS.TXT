@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.T35.
-Program file: C:\LANL\FISH.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.T35.
+Program file: E:\LANL\FISH.EXE
+SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\SF.INI  8-04-2020  11:53:34
 Memory used for FTEST.T35 arrays:     424.440 K
 Memory used for other Fish arrays:     692.103 K
 
@@ -32,7 +32,7 @@ Five ceramic-spacers:  Material 4, Epsilon = 10.0, Mu = 1.0
 Ceramic vacuum window: Material 3, Epsilon =  9.0, Mu = 1.0
 Initialize one large ferrite block, then superimpose ceramic spacers
 [Originally appeared in 1987 Reference Manual C.12.2]
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.AM  4-19-2020  10:38:20
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.AM  8-04-2020  10:17:56
 Problem file length:        2702 bytes
 Originating program: Automesh    Problem type: Unknown RF Cavity
 
@@ -171,7 +171,7 @@ Region Material    eps          mu
       ----------------------------------------------------------------
       Total number of mesh points = 11790              freq = 57.76775
                                                   D(k^2) = 4.82247E-09
-      Solution time =    0.657 sec.                       End cycle  0
+      Solution time =    0.493 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -184,7 +184,7 @@ Region Material    eps          mu
       ----------------------------------------------------------------
       Solution converged at the start of cycle 1.
       Initial frequency = 57.76775           Final frequency = 57.7687
-      Elapsed time  =    0.77 sec
+      Elapsed time  =    0.57 sec
 
 Problem variables computed by this code.
 

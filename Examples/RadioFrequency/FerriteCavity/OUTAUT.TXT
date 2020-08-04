@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.AM  4-19-2020  10:38:20
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Program file: E:\LANL\AUTOMESH.EXE
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.AM  8-04-2020  10:17:56
+SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\SF.INI  8-04-2020  11:53:34
 
 Problem description:
 Ferrite tuner example
@@ -3010,7 +3010,7 @@ Five ceramic-spacers:  Material 4, Epsilon = 10.0, Mu = 1.0
 Ceramic vacuum window: Material 3, Epsilon =  9.0, Mu = 1.0
 Initialize one large ferrite block, then superimpose ceramic spacers
 [Originally appeared in 1987 Reference Manual C.12.2]
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.AM  4-19-2020  10:38:20
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.AM  8-04-2020  10:17:56
 Problem file length:        2702 bytes
 Originating program: Automesh    Problem type: Unknown RF Cavity
 
