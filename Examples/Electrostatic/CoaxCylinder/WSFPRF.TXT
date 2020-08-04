@@ -5,7 +5,7 @@ MainWindowWidth= 1536
 MainWindowHeight=  864
 EditWindowXPosition= 1620
 EditWindowYPosition=  150
-HardcopyFileExtension=    
+HardcopyFileExtension=.PNG
 NumberOfContours=   30
 ContourLineWidth=1
 AxisLineWidth=1
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCylinder\.\COAXTEST.AM
-ZoomLimits  1   -0.99999998E-02   6.4864712     -0.99999998E-02   5.0100004       0.0000000    
+LastProblemFile=E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCylinder\COAXTEST.AM
+ZoomLimits  1   -0.99999998E-02   8.8754004     -0.99999998E-02   5.0100004       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
