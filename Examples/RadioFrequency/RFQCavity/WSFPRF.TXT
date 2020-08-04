@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\.\WGHEX.AM
-ZoomLimits  1    -25.475821       31.627636      -22.062698       22.062699       0.0000000    
+LastProblemFile=E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\RFQCavity\.\4THRFQ.AF
+ZoomLimits  1   -0.14285714E-02   10.824199     -0.14285714E-02   8.3638286       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

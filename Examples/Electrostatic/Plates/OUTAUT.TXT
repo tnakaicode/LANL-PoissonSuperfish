@@ -18,13 +18,14 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Automesh  7.17  released 1-13-2006 
 Program file: E:\LANL\AUTOFISH.EXE
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\ChargeDensity\.\C1Q.AM  8-04-2020  10:17:56
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Plates\.\PLATE.AM  8-04-2020  10:17:56
 SF.INI file: E:\LANL\SF.INI  8-04-2020  10:17:22
 
 Problem description:
-Electrostatic problem with space charge - one quadrant
-4 nC/cm^3 charge density or line charge of 0.7854 nC/cm
+Electrostatic Problem, Parallel Plates in a Pipe
+Plate voltage = 500 V
+[Originally appeared in 1987 User's Guide 10.8]
 
 Error 101
-File C1Q.AM contains a Poisson problem.  Autofish runs
+File PLATE.AM contains a Poisson problem.  Autofish runs
 only Superfish problems.  Run Automesh, then Poisson or Pandira.
