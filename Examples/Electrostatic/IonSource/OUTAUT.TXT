@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\IonSource\SPSOURCE.AM  4-19-2020  10:38:20
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Program file: E:\LANL\AUTOMESH.EXE
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\IonSource\SPSOURCE.AM  8-04-2020  10:17:56
+SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\IonSource\SF.INI  8-04-2020  11:53:34
 
 Problem description:
 Electrostatic Problem, Sputter-Type Ion Source [U. of Wisconsin]
@@ -2335,7 +2335,7 @@ Electrostatic Problem, Sputter-Type Ion Source [U. of Wisconsin]
 This source, known as SNICS, was developed in the 1970s to
 produce beams of metal negative ions for injection into an
 electrostatic accelerator.
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\IonSource\SPSOURCE.AM  4-19-2020  10:38:20
+Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\IonSource\SPSOURCE.AM  8-04-2020  10:17:56
 Problem file length:        2706 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
