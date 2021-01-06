@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: E:\LANL\AUTOFISH.EXE
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FrequencyScan\MODE763.AF  8-04-2020  10:17:56
-SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FrequencyScan\SF.INI  8-04-2020  11:53:34
+Program file: D:\LANL\AUTOFISH.EXE
+Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF  1-06-2021  18:59:46
+SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\SF.INI  1-06-2021  18:59:46
 
 Problem description:
 On-Axis Coupled Cavity, Resonance search for zero mode at 763 MHz
@@ -603,7 +603,7 @@ Generation completed.
 Problem description:
 On-Axis Coupled Cavity, Resonance search for zero mode at 763 MHz
 [courtesy of R. Cooper]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FrequencyScan\MODE763.AF  8-04-2020  10:17:56
+Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF  1-06-2021  18:59:46
 Problem file length:         710 bytes
 Originating program: Autofish    Problem type: CCL
 

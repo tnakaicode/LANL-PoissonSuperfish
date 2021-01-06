@@ -5,7 +5,7 @@ import os
 import time
 import shutil
 import subprocess
-import pyautogui as pgui
+#import pyautogui as pgui
 from optparse import OptionParser
 
 import logging
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     opt, argc = parser.parse_args(argvs)
     print(opt, argc)
 
-    sfdir = "e:/LANL/"
+    sfdir = "D:/LANL/"
     shutil.copyfile("SF.INI", sfdir + "SF.INI")
 
     name = "SCAN"
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     name = "mode763"
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "AUTOFISH", name + ".af"))
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "SEGFIELD", name + ".sgf"))
-    #subprocess.Popen("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35"))
+    subprocess.Popen("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35 3"))
 
     #subprocess.Popen("{0:}{1:} {2:}".format(sfdir, "SF7", name + ".t35"))
     shutil.copyfile("../../../SF.INI", sfdir + "SF.INI")

@@ -19,16 +19,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FrequencyScan\MODE763.T35.
-Program file: E:\LANL\AUTOFISH.EXE
-SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FrequencyScan\SF.INI  8-04-2020  11:53:34
+Starting from file D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.T35.
+Program file: D:\LANL\AUTOFISH.EXE
+SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\SF.INI  1-06-2021  18:59:46
 Memory used for MODE763.T35 arrays:     183.600 K
 Memory used for other Fish arrays:     325.008 K
 
 Problem description:
 On-Axis Coupled Cavity, Resonance search for zero mode at 763 MHz
 [courtesy of R. Cooper]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FrequencyScan\MODE763.AF  8-04-2020  10:17:56
+Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF  1-06-2021  18:59:46
 Problem file length:         710 bytes
 Originating program: Autofish    Problem type: CCL
 
@@ -159,7 +159,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 5100                   freq = 763.
                                                   D(k^2) = 5.88618E-06
-      Solution time =    0.271 sec.                       End cycle  0
+      Solution time =    0.107 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -170,7 +170,7 @@ No materials other than air or empty space.
                               del(k^2) = 5.88618E-06    k^2 = 0.025578
                                                       freq = 763.08781
                                                  D(k^2) = -7.38082E-09
-      Solution time =    0.232 sec.                       End cycle  1
+      Solution time =    0.109 sec.                       End cycle  1
       ----------------------------------------------------------------
                                                         Start cycle  2
 
@@ -192,7 +192,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 2.
       Initial frequency = 763               Final frequency = 763.0877
-      Elapsed time  =    0.55 sec
+      Elapsed time  =    0.25 sec
 
 Problem variables computed by this code.
 
