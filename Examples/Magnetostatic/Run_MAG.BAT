@@ -10,7 +10,7 @@ Rem  Remove "Rem" from the next line to prevent codes from opening display windo
 Rem set screenoutput=no
 
 
-cd "%SFDIR%Examples\Magnetostatic\Dipoles"
+cd "Magnetostatic\Dipoles"
 START /W  " "  "%SFDIR%automesh"   dipole1
 START /W  " "  "%SFDIR%pandira"    dipole1
 copy outaut.txt outaut1.txt
@@ -22,7 +22,7 @@ START /W  " "  "%SFDIR%poisson"    dipole2
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" dipole2.t35 3
 
 
-cd "%SFDIR%Examples\Magnetostatic\ForceOnWire"
+cd "Magnetostatic\ForceOnWire"
 START /W  " "  "%SFDIR%automesh"      1wire
 rem START /W  " "  "%SFDIR%poisson"   1wire
 START /W  " "  "%SFDIR%pandira"       1wire
@@ -80,7 +80,7 @@ del outfor.txt
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" loop2.t35 3
 
 
-cd "%SFDIR%Examples\Magnetostatic\ForceTest"
+cd "Magnetostatic\ForceTest"
 START /W  " "  "%SFDIR%automesh"     iron1
 rem START /W  " "  "%SFDIR%poisson"  iron1
 START /W  " "  "%SFDIR%pandira"      iron1
@@ -105,7 +105,7 @@ if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" iron2.t35 3
 
 
 
-cd "%SFDIR%Examples\Magnetostatic\H-Magnet"
+cd "Magnetostatic\H-Magnet"
 START /W  " "  "%SFDIR%automesh"   htest1
 START /W  " "  "%SFDIR%poisson"    htest1
 copy outaut.txt outaut1.txt
@@ -125,13 +125,13 @@ if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" hfull.t35 3
 
 
 
-cd "%SFDIR%Examples\Magnetostatic\PMCylinders"
+cd "Magnetostatic\PMCylinders"
 START /W  " "  "%SFDIR%automesh"   pmcylin
 START /W  " "  "%SFDIR%pandira"    pmcylin
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" pmcylin.t35 3
 
 
-cd "%SFDIR%Examples\Magnetostatic\PMDipoles"
+cd "Magnetostatic\PMDipoles"
 START /W  " "  "%SFDIR%automesh"   pmdipole
 START /W  " "  "%SFDIR%pandira"    pmdipole
 START /W  " "  "%SFDIR%SF7"        pmdipole
@@ -145,7 +145,7 @@ START /W  " "  "%SFDIR%pandira"    pmdvar
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" pmvar.t35 3
 
 
-cd "%SFDIR%Examples\Magnetostatic\PMQuads"
+cd "Magnetostatic\PMQuads"
 START /W  " "  "%SFDIR%automesh"   pmquad1
 START /W  " "  "%SFDIR%pandira"    pmquad1
 copy outaut.txt outaut1.txt
@@ -173,7 +173,7 @@ del outpan.tbl
 
 
 
-cd "%SFDIR%Examples\Magnetostatic\POAsample"
+cd "Magnetostatic\POAsample"
 START /W  " "  "%SFDIR%automesh"   poa1
 copy outaut.txt outaut1.txt
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" poa1.t35 3
@@ -191,7 +191,7 @@ del outpoi.tbl
 
 
 
-cd "%SFDIR%Examples\Magnetostatic\Quadrupoles"
+cd "Magnetostatic\Quadrupoles"
 START /W  " "  "%SFDIR%automesh"   qtest1
 START /W  " "  "%SFDIR%poisson"    qtest1
 copy outaut.txt outaut1.txt
@@ -211,19 +211,19 @@ del outpoi.txt
 del outpoi.tbl
 
 
-cd "%SFDIR%Examples\Magnetostatic\Septum"
+cd "Magnetostatic\Septum"
 START /W  " "  "%SFDIR%automesh"   septum
 START /W  " "  "%SFDIR%poisson"    septum
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" septum.t35 3
 
 
-cd "%SFDIR%Examples\Magnetostatic\Shielding"
+cd "Magnetostatic\Shielding"
 START /W  " "  "%SFDIR%automesh"   vecp
 START /W  " "  "%SFDIR%poisson"    vecp
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" vecp.t35 3
 
 
-cd "%SFDIR%Examples\Magnetostatic\Solenoids"
+cd "Magnetostatic\Solenoids"
 START /W  " "  "%SFDIR%automesh"   soll1
 START /W  " "  "%SFDIR%pandira"    soll1
 copy outaut.txt outaut1.txt
@@ -239,7 +239,7 @@ if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" soll2.t35 3
 
 
 
-cd "%SFDIR%Examples\Magnetostatic\StoredEnergy"
+cd "Magnetostatic\StoredEnergy"
 START /W  " "  "%SFDIR%automesh"   mse1
 START /W  " "  "%SFDIR%pandira"    mse1
 copy outaut.txt outaut1.txt
@@ -266,4 +266,4 @@ del outpan.txt
 del outpan.tbl
 
 
-cd "%SFDIR%Examples\Magnetostatic"
+cd "Magnetostatic"

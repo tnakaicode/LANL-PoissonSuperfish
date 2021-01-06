@@ -9,7 +9,7 @@ Rem  Unauthorized commercial use is prohibited.
 Rem  Remove "Rem" from the next line to prevent codes from opening display windows.
 Rem set screenoutput=no
 
-cd "%SFDIR%Examples\RadioFrequency\Cfish"
+cd "RadioFrequency\Cfish"
 START /W  " "  "%SFDIR%automesh"  dirod
 START /W  " "  "%SFDIR%cfish"     dirod
 copy outaut.txt outaut1.txt
@@ -37,13 +37,13 @@ START /W  " "  "%SFDIR%SF7"       qztube
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" qztube.t35 3
 
 
-cd "%SFDIR%Examples\RadioFrequency\FerriteCavity"
+cd "RadioFrequency\FerriteCavity"
 START /W  " "  "%SFDIR%automesh"  ftest
 START /W  " "  "%SFDIR%fish"      ftest
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" ftest.t35 3
 
 
-cd "%SFDIR%Examples\RadioFrequency\FrequencyScan"
+cd "RadioFrequency\FrequencyScan"
 Rem Delete any old plot file, then do frequency scan.
 if exist fishscan.tbl del fishscan.tbl
 START /W  " "  "%SFDIR%automesh"  scan
@@ -66,7 +66,7 @@ START /W  " "  "%SFDIR%segfield"   mode763
 if (%1)==(p) START /W  " "  "%SFDIR%Tablplot" Segs.tbl 3
 
 
-cd "%SFDIR%Examples\RadioFrequency\PillboxCavities"
+cd "RadioFrequency\PillboxCavities"
 START /W  " "  "%SFDIR%autofish"  pill1
 copy outaut.txt outaut1.txt
 copy outfis.txt outfis1.txt
@@ -97,12 +97,12 @@ START /W  " "  "%SFDIR%autofish"  modpill
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" modpill.t35 3
 
 
-cd "%SFDIR%Examples\RadioFrequency\QuarterWaveResonator"
+cd "RadioFrequency\QuarterWaveResonator"
 START /W  " "  "%SFDIR%autofish"  qwave
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" qwave.t35 3
 
 
-cd "%SFDIR%Examples\RadioFrequency\RFQCavity"
+cd "RadioFrequency\RFQCavity"
 START /W  " "  "%SFDIR%autofish"  4thrfq
 copy outaut.txt outaut1.txt
 copy outfis.txt outfis1.txt
@@ -112,12 +112,12 @@ START /W  " "  "%SFDIR%autofish"  8thrfq
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" 8thrfq.t35 3
 
 
-cd "%SFDIR%Examples\RadioFrequency\SphericalCavity"
+cd "RadioFrequency\SphericalCavity"
 START /W  " "  "%SFDIR%autofish"  sphere
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" sphere.t35 3
 
 
-cd "%SFDIR%Examples\RadioFrequency\Waveguides"
+cd "RadioFrequency\Waveguides"
 START /W  " "  "%SFDIR%automesh"  wr2300
 START /W  " "  "%SFDIR%cfish"     wr2300
 copy outaut.txt outaut1.txt
@@ -131,4 +131,4 @@ copy outfis.txt outfis2.txt
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" wghex.t35 3
 
 
-cd "%SFDIR%Examples\RadioFrequency"
+cd "RadioFrequency"

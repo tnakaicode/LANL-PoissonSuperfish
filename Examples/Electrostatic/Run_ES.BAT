@@ -9,7 +9,7 @@ Rem  Unauthorized commercial use is prohibited.
 Rem  Remove "Rem" from the next line to prevent codes from opening display windows.
 Rem set screenoutput=no
 
-cd "%SFDIR%Examples\Electrostatic\ChargeDensity"
+cd "Electrostatic\ChargeDensity"
 del /q  c1q*.tbl
 del /q  c4q*.tbl
 start /W  " "  "%SFDIR%automesh"  c1q.am
@@ -64,7 +64,7 @@ if (%1)==(p) START /W  " "  "%SFDIR%WSFplot"   c4qpnt.T35  3
 if (%1)==(p) START /W  " "  "%SFDIR%Tablplot"  c4qpnt1.tbl 3
 
 
-cd "%SFDIR%Examples\Electrostatic\CoaxCapacitor"
+cd "Electrostatic\CoaxCapacitor"
 START /W  " "  "%SFDIR%automesh"  caprz
 START /W  " "  "%SFDIR%poisson"   caprz
 copy outaut.txt outaut1.txt
@@ -80,13 +80,13 @@ copy outpoi.tbl outpoi2.tbl
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" capxy.t35  3
 
 
-cd "%SFDIR%Examples\Electrostatic\CoaxCylinder"
+cd "Electrostatic\CoaxCylinder"
 START /W  " "  "%SFDIR%automesh"  coaxtest
 START /W  " "  "%SFDIR%poisson"   coaxtest
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" coaxtest.t35  3
 
 
-cd "%SFDIR%Examples\Electrostatic\Dielectrics"
+cd "Electrostatic\Dielectrics"
 START /W  " "  "%SFDIR%automesh"  1epsilon
 START /W  " "  "%SFDIR%poisson"   1epsilon
 copy outaut.txt outaut1.txt
@@ -100,14 +100,14 @@ copy outpoi.txt outpoi2.txt
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot"  2epsilon.t35  3
 
 
-cd "%SFDIR%Examples\Electrostatic\IonSource"
+cd "Electrostatic\IonSource"
 START /W  " "  "%SFDIR%automesh"   spsource
 START /W  " "  "%SFDIR%poisson"    spsource
 START /W  " "  "%SFDIR%SFO"        spsource
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot"  spsource.t35  3
 
 
-cd "%SFDIR%Examples\Electrostatic\Plates"
+cd "Electrostatic\Plates"
 START /W  " "  "%SFDIR%automesh"   plate
 START /W  " "  "%SFDIR%poisson"    plate
 START /W  " "  "%SFDIR%SF7"        plate
@@ -115,7 +115,7 @@ if (%1)==(p) START /W  " "  "%SFDIR%WSFplot"  plate.t35  3
 if (%1)==(p) START /W  " "  "%SFDIR%Tablplot" plate1.tbl  3
 
 
-cd "%SFDIR%Examples\Electrostatic\QuadLens"
+cd "Electrostatic\QuadLens"
 START /W  " "  "%SFDIR%automesh"  esquad
 START /W  " "  "%SFDIR%poisson"   esquad
 START /W  " "  "%SFDIR%SFO"       esquad.t35
@@ -131,7 +131,7 @@ copy outpoi.txt outpoi2.txt
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot esquad8.t35  3
 
 
-cd "%SFDIR%Examples\Electrostatic\StoredEnergy"
+cd "Electrostatic\StoredEnergy"
 START /W  " "  "%SFDIR%automesh"  ese1
 START /W  " "  "%SFDIR%pandira"   ese1
 copy outaut.txt outaut1.txt
@@ -145,5 +145,5 @@ copy outpan.txt outpan2.txt
 if (%1)==(p) START /W  " "  "%SFDIR%WSFplot"  ese2.t35  3
 
 
-cd "%SFDIR%Examples\Electrostatic"
+cd "Electrostatic"
 

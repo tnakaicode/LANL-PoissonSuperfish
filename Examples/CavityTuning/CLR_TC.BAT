@@ -6,7 +6,7 @@ Rem  of long filenames.
 Rem  Copyright 1998, by the University of California.
 Rem  Unauthorized commercial use is prohibited.
 
-cd "%SFDIR%Examples\CavityTuning"
+cd "CavityTuning"
 del /s /q  *.inf
 del /s /q  *.t35
 del /s /q  out*.*

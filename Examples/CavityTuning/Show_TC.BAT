@@ -5,12 +5,12 @@ Rem  Copyright 1998, by the University of California.
 Rem  Unauthorized commercial use is prohibited. 
 
 
-cd "%SFDIR%Examples\CavityTuning\CCDTL"
+cd "CavityTuning\CCDTL"
 START /W  " "  "%SFDIR%WSFplot" 1dtfc1.t35  3
 START /W  " "  "%SFDIR%WSFplot" 2dthc1.t35  3
 
 
-cd "%SFDIR%Examples\CavityTuning\CCL"
+cd "CavityTuning\CCL"
 START /W  " "  "%SFDIR%WSFplot" 805ccl1.t35  3
 START /W  " "  "%SFDIR%WSFplot" 805er1.t35   3
 START /W  " "  "%SFDIR%WSFplot" 805wr1.t35   3
@@ -18,24 +18,24 @@ START /W  " "  "%SFDIR%WSFplot" 3ghz1.t35    3
 START /W  " "  "%SFDIR%WSFplot" 425ew1.t35   3
 
 
-cd "%SFDIR%Examples\CavityTuning\DTL"
+cd "CavityTuning\DTL"
 START /W  " "  "%SFDIR%WSFplot"  rgdtl1.t35  3
 START /W  " "  "%SFDIR%WSFplot"  test1.t35   3
 START /W  " "  "%SFDIR%Tablplot" rgdtl.tbl   3
 
 
-cd "%SFDIR%Examples\CavityTuning\EllipticalCavity"
+cd "CavityTuning\EllipticalCavity"
 START /W  " "  "%SFDIR%WSFplot"  82b1.t35    3
 START /W  " "  "%SFDIR%WSFplot"  82be1.t35   3
 START /W  " "  "%SFDIR%WSFplot"  8C82BE1.t35 3
 START /W  " "  "%SFDIR%Tablplot" 8CFIELD.TBL 3
 
 
-cd "%SFDIR%Examples\CavityTuning\MulticellDTL"
+cd "CavityTuning\MulticellDTL"
 START /W  " "  "%SFDIR%WSFplot" test_1.t35  3
 
 
-cd "%SFDIR%Examples\CavityTuning\RFQ"
+cd "CavityTuning\RFQ"
 START /W  " "  "%SFDIR%WSFplot" rfq_a1.t35 3
 START /W  " "  "%SFDIR%WSFplot" rfq_b1.t35 3
 START /W  " "  "%SFDIR%WSFplot" rfq_c1.t35 3
@@ -51,9 +51,9 @@ START /W  " "  "%SFDIR%WSFplot" la3.t35 3
 START /W  " "  "%SFDIR%WSFplot" la4.t35 3
 
 
-cd "%SFDIR%Examples\CavityTuning\SideCouplingCell"
+cd "CavityTuning\SideCouplingCell"
 START /W  " "  "%SFDIR%WSFplot" 805cc1.t35 3
 START /W  " "  "%SFDIR%WSFplot" lf1.t35    3
 
-cd "%SFDIR%Examples\CavityTuning"
+cd "CavityTuning"
 

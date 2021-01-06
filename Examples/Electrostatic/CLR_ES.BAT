@@ -5,7 +5,7 @@ Rem  Running from DOS windows will not work because of long filenames.
 Rem  Copyright 1998, by the University of California. 
 Rem  Unauthorized commercial use is prohibited. 
 
-cd "%SFDIR%Examples\Electrostatic"
+cd "Electrostatic"
 del /s /q  *.inf
 del /s /q  *.t35
 del /s /q  out*.*
