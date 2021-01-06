@@ -5,7 +5,6 @@ import os
 import time
 import shutil
 import subprocess
-import pyautogui as pgui
 from optparse import OptionParser
 
 import logging
@@ -21,7 +20,7 @@ if __name__ == '__main__':
     print(opt, argc)
 
     name = "QWAVE"
-    sfdir = "e:/LANL/"
+    sfdir = "D:/LANL/"
     shutil.copyfile("SF.INI", sfdir + "SF.INI")
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "AUTOFISH", name + ".af"))
     subprocess.Popen("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35"))

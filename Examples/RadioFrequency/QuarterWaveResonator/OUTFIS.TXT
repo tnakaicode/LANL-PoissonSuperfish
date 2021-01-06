@@ -19,16 +19,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.T35.
-Program file: E:\LANL\AUTOFISH.EXE
-SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\QuarterWaveResonator\SF.INI  8-04-2020  11:53:34
+Starting from file D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.T35.
+Program file: D:\LANL\AUTOFISH.EXE
+SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\SF.INI  1-06-2021  18:59:46
 Memory used for QWAVE.T35 arrays:     416.160 K
 Memory used for other Fish arrays:     672.478 K
 
 Problem description:
 Quarter-wave coaxial resonator
 [Courtesy Amit Roy, Argonne National Laboratory]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  8-04-2020  10:17:56
+Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-06-2021  18:59:46
 Problem file length:        1005 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 
@@ -159,7 +159,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 11560             freq = 101.22777
                                                   D(k^2) = 8.48271E-13
-      Solution time =    0.522 sec.                       End cycle  0
+      Solution time =    0.353 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -172,7 +172,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 1.
       Initial frequency = 101.22777        Final frequency = 101.22782
-      Elapsed time  =    0.55 sec
+      Elapsed time  =    0.37 sec
 
 Problem variables computed by this code.
 
