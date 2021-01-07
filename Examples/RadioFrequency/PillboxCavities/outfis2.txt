@@ -159,7 +159,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 1110                  freq = 2500.
                                                     D(k^2) = -0.005284
-      Solution time =    0.069 sec.                       End cycle  0
+      Solution time =    0.058 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -170,7 +170,7 @@ No materials other than air or empty space.
                               del(k^2) = -0.005284      k^2 = 0.269251
                                                       freq = 2475.8243
                                                    D(k^2) = -0.0049251
-      Solution time =    0.061 sec.                       End cycle  1
+      Solution time =    0.058 sec.                       End cycle  1
       ----------------------------------------------------------------
                                                         Start cycle  2
 
@@ -211,7 +211,7 @@ No materials other than air or empty space.
                               del(k^2) = 5.31708E-05    k^2 = 0.261787
                                                       freq = 2441.2659
                                                   D(k^2) = 2.97812E-07
-      Solution time =    0.078 sec.                       End cycle  3
+      Solution time =    0.064 sec.                       End cycle  3
       ----------------------------------------------------------------
                                                         Start cycle  4
 
@@ -235,7 +235,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 4.
       Initial frequency = 2500             Final frequency = 2441.2673
-      Elapsed time  =    0.37 sec
+      Elapsed time  =    0.33 sec
 
 Problem variables computed by this code.
 

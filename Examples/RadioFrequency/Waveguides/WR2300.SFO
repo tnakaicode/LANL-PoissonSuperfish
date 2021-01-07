@@ -18,16 +18,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\WR2300.T35.
+Solution file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Waveguides\WR2300.T35.
 Program file: E:\LANL\AUTOFISH.EXE
-SF.INI file: E:\LANL\SF.INI  8-04-2020  10:17:22
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for WR2300.T35 arrays:      79.056 K
 
 Problem description:
 Waveguide problem for WR2300 (23 inches x 11.5 inches)
 Models one quarter of a full-height guide
 This guide is used with some 350-MHz accelerators
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\.\WR2300.AM  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Waveguides\WR2300.AM  1-07-2021   8:51:14
 Problem file length:        1160 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 

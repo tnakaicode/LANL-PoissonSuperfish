@@ -17,13 +17,13 @@ start /W  " "  "%SFDIR%SFO"  pill1.t35 pill1d.seg
 copy pill1.sfo  pill1d.sfo 
 start /W  " "  "%SFDIR%SFO"  pill1.t35 pill1e.seg
 copy pill1.sfo  pill1e.sfo 
-if (%1)==(p) start /W  " "  "%SFDIR%WSFplot" pill1.t35 3
+start /W  " "  "%SFDIR%WSFplot" pill1.t35 3
 
 start /W  " "  "%SFDIR%autofish"  pill2
 copy outaut.txt outaut2.txt
 copy outfis.txt outfis2.txt
-if (%1)==(p) start /W  " "  "%SFDIR%WSFplot" pill2.t35 3
+start /W  " "  "%SFDIR%WSFplot" pill2.t35 3
 
 start /W  " "  "%SFDIR%autofish"  modpill
-if (%1)==(p) start /W  " "  "%SFDIR%WSFplot" modpill.t35 3
+start /W  " "  "%SFDIR%WSFplot" modpill.t35 3
 

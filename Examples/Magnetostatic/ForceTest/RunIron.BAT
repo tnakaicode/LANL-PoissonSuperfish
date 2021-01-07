@@ -7,7 +7,7 @@ rem  Use OUTPOI.TXT if you run Poisson above
 rem  copy outpoi.txt outpoi1.txt
 copy outpan.txt outpan1.txt
 copy outfor.txt outfor1.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" iron1.t35 3
+START /W  " "  "%SFDIR%WSFplot" iron1.t35 3
 
 START /W  " "  "%SFDIR%automesh"     iron2
 rem START /W  " "  "%SFDIR%poisson"  iron2
@@ -18,5 +18,5 @@ rem  Use OUTPOI.TXT if you run Poisson above
 rem  copy outpoi.txt outpoi2.txt
 copy outpan.txt outpan2.txt
 copy outfor.txt outfor2.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" iron2.t35 3
+START /W  " "  "%SFDIR%WSFplot" iron2.t35 3
 

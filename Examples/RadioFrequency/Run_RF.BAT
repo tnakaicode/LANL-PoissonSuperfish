@@ -14,7 +14,7 @@ START /W  " "  "%SFDIR%automesh"  dirod
 START /W  " "  "%SFDIR%autofish"     dirod
 copy outaut.txt outaut1.txt
 copy outfis.txt outfis1.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" dirod.t35 3
+START /W  " "  "%SFDIR%WSFplot" dirod.t35 3
 
 START /W  " "  "%SFDIR%automesh"  coaxwg
 START /W  " "  "%SFDIR%autofish"     coaxwg
@@ -22,49 +22,52 @@ START /W  " "  "%SFDIR%SFO"       coaxwg
 START /W  " "  "%SFDIR%SF7"       coaxwg
 copy outaut.txt outaut2.txt
 copy outfis.txt outfis2.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" coaxwg.t35 3
+START /W  " "  "%SFDIR%WSFplot" coaxwg.t35 3
 
 START /W  " "  "%SFDIR%automesh"  splitter
 START /W  " "  "%SFDIR%autofish"     splitter
 copy outaut.txt outaut3.txt
 copy outfis.txt outfis3.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" splitter.t35 3
+START /W  " "  "%SFDIR%WSFplot" splitter.t35 3
 
 START /W  " "  "%SFDIR%automesh"  qztube
 START /W  " "  "%SFDIR%autofish"     qztube
 START /W  " "  "%SFDIR%SFO"       qztube
 START /W  " "  "%SFDIR%SF7"       qztube
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" qztube.t35 3
+START /W  " "  "%SFDIR%WSFplot" qztube.t35 3
 
 
 cd "..\FerriteCavity"
 START /W  " "  "%SFDIR%automesh"  ftest
-START /W  " "  "%SFDIR%fish"      ftest
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" ftest.t35 3
+START /W  " "  "%SFDIR%autofish"      ftest
+START /W  " "  "%SFDIR%WSFplot" ftest.t35 3
 
 
 cd "..\FrequencyScan"
 Rem Delete any old plot file, then do frequency scan.
 if exist fishscan.tbl del fishscan.tbl
 START /W  " "  "%SFDIR%automesh"  scan
-START /W  " "  "%SFDIR%fish"      scan
+START /W  " "  "%SFDIR%autofish"      scan
 copy outfis.txt outfis1.txt
-if (%1)==(p) START /W  " "  "%SFDIR%Tablplot" fishscan.tbl 3
+START /W  " "  "%SFDIR%Tablplot" fishscan.tbl 3
 
 Rem Run Autofish to find the higher-frequecy mode near 825 MHz.
 START /W  " "  "%SFDIR%autofish"  mode825
 copy outfis.txt outfis2.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" mode825.t35 3
+START /W  " "  "%SFDIR%WSFplot" mode825.t35 3
 
 Rem Run Autofish to find the lower-frequecy mode near 763 MHz.
 START /W  " " "%SFDIR%autofish"  mode763
 copy outfis.txt outfis3.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" mode763.t35 3
+START /W  " "  "%SFDIR%WSFplot" mode763.t35 3
 
 Rem Plot fields on segments 2 through 7 for the 763-MHz mode.
-START /W  " "  "%SFDIR%segfield"   mode763
-if (%1)==(p) START /W  " "  "%SFDIR%Tablplot" Segs.tbl 3
+START /W  " "  "%SFDIR%SF7"   mode763
+\START /W  " "  "%SFDIR%Tablplot" Segs.tbl 3
 
+Rem Plot fields on segments 2 through 7 for the 763-MHz mode.
+START /W  " "  "%SFDIR%SF8"   mode763
+\START /W  " "  "%SFDIR%Tablplot" Segs.tbl 3
 
 cd "..\PillboxCavities"
 START /W  " "  "%SFDIR%autofish"  pill1
@@ -86,35 +89,35 @@ START /W  " "  "%SFDIR%SFO"  pill1.t35 pill1d.seg
 copy pill1.sfo  pill1d.sfo 
 START /W  " "  "%SFDIR%SFO"  pill1.t35 pill1e.seg
 copy pill1.sfo  pill1e.sfo 
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" pill1.t35 3
+START /W  " "  "%SFDIR%WSFplot" pill1.t35 3
 
 START /W  " "  "%SFDIR%autofish"  pill2
 copy outaut.txt outaut2.txt
 copy outfis.txt outfis2.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" pill2.t35 3
+START /W  " "  "%SFDIR%WSFplot" pill2.t35 3
 
 START /W  " "  "%SFDIR%autofish"  modpill
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" modpill.t35 3
+START /W  " "  "%SFDIR%WSFplot" modpill.t35 3
 
 
 cd "..\QuarterWaveResonator"
 START /W  " "  "%SFDIR%autofish"  qwave
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" qwave.t35 3
+START /W  " "  "%SFDIR%WSFplot" qwave.t35 3
 
 
 cd "..\RFQCavity"
 START /W  " "  "%SFDIR%autofish"  4thrfq
 copy outaut.txt outaut1.txt
 copy outfis.txt outfis1.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" 4thrfq.t35 3
+START /W  " "  "%SFDIR%WSFplot" 4thrfq.t35 3
 
 START /W  " "  "%SFDIR%autofish"  8thrfq
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" 8thrfq.t35 3
+START /W  " "  "%SFDIR%WSFplot" 8thrfq.t35 3
 
 
 cd "..\SphericalCavity"
 START /W  " "  "%SFDIR%autofish"  sphere
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" sphere.t35 3
+START /W  " "  "%SFDIR%WSFplot" sphere.t35 3
 
 
 cd "..\Waveguides"
@@ -122,13 +125,13 @@ START /W  " "  "%SFDIR%automesh"  wr2300
 START /W  " "  "%SFDIR%autofish"     wr2300
 copy outaut.txt outaut1.txt
 copy outfis.txt outfis1.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" wr2300.t35 3
+START /W  " "  "%SFDIR%WSFplot" wr2300.t35 3
 
 START /W  " "  "%SFDIR%automesh"  wghex
 START /W  " "  "%SFDIR%autofish"     wghex
 copy outaut.txt outaut2.txt
 copy outfis.txt outfis2.txt
-if (%1)==(p) START /W  " "  "%SFDIR%WSFplot" wghex.t35 3
+START /W  " "  "%SFDIR%WSFplot" wghex.t35 3
 
 
 cd "RadioFrequency"

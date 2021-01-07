@@ -159,7 +159,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 5100                   freq = 763.
                                                   D(k^2) = 5.88618E-06
-      Solution time =    0.230 sec.                       End cycle  0
+      Solution time =    0.186 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -170,7 +170,7 @@ No materials other than air or empty space.
                               del(k^2) = 5.88618E-06    k^2 = 0.025578
                                                       freq = 763.08781
                                                  D(k^2) = -7.38082E-09
-      Solution time =    0.226 sec.                       End cycle  1
+      Solution time =    0.197 sec.                       End cycle  1
       ----------------------------------------------------------------
                                                         Start cycle  2
 
@@ -192,7 +192,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 2.
       Initial frequency = 763               Final frequency = 763.0877
-      Elapsed time  =    0.50 sec
+      Elapsed time  =    0.42 sec
 
 Problem variables computed by this code.
 

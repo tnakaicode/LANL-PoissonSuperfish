@@ -30,7 +30,7 @@ Five ceramic-spacers:  Material 4, Epsilon = 10.0, Mu = 1.0
 Ceramic vacuum window: Material 3, Epsilon =  9.0, Mu = 1.0
 Initialize one large ferrite block, then superimpose ceramic spacers
 [Originally appeared in 1987 Reference Manual C.12.2]
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\.\FTEST.AM  1-07-2021   8:51:14
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-07-2021   8:51:14
 Problem file length:        2702 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 
@@ -5309,7 +5309,7 @@ Five ceramic-spacers:  Material 4, Epsilon = 10.0, Mu = 1.0
 Ceramic vacuum window: Material 3, Epsilon =  9.0, Mu = 1.0
 Initialize one large ferrite block, then superimpose ceramic spacers
 [Originally appeared in 1987 Reference Manual C.12.2]
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\.\FTEST.AM  1-07-2021   8:51:14
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-07-2021   8:51:14
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 0):     EZERO =      1.00000 MV/m

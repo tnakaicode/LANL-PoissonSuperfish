@@ -32,7 +32,7 @@ Five ceramic-spacers:  Material 4, Epsilon = 10.0, Mu = 1.0
 Ceramic vacuum window: Material 3, Epsilon =  9.0, Mu = 1.0
 Initialize one large ferrite block, then superimpose ceramic spacers
 [Originally appeared in 1987 Reference Manual C.12.2]
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\.\FTEST.AM  1-07-2021   8:51:14
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-07-2021   8:51:14
 Problem file length:        2702 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 
@@ -171,7 +171,7 @@ Region Material    eps          mu
       ----------------------------------------------------------------
       Total number of mesh points = 11790              freq = 57.76775
                                                   D(k^2) = 4.82247E-09
-      Solution time =    0.493 sec.                       End cycle  0
+      Solution time =    0.515 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -184,7 +184,7 @@ Region Material    eps          mu
       ----------------------------------------------------------------
       Solution converged at the start of cycle 1.
       Initial frequency = 57.76775           Final frequency = 57.7687
-      Elapsed time  =    0.53 sec
+      Elapsed time  =    0.56 sec
 
 Problem variables computed by this code.
 

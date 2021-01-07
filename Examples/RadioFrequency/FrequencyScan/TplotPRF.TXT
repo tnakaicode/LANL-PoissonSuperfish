@@ -2,7 +2,7 @@
 MainWindowXPosition=  184
 MainWindowYPosition=   67
 MainWindowWidth= 1536
-MainWindowHeight=  864
+MainWindowHeight=  839
 EditWindowXPosition=   -1
 EditWindowYPosition=   -1
 EditWindowWidth=   -1
@@ -40,7 +40,7 @@ ConnectStatus=1
 MarkersStatus=1
 XlinLogStatus=LIN
 YLinLogStatus=LIN
-LastPlotFile=E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FrequencyScan\FishSCAN.tbl
+LastPlotFile=E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\fishscan.tbl
 ZoomLimits  1     750.00000       850.00000     -0.16558298E-02  0.10105470E-02
 ZoomLevel=1
 MaxZoomLevel=1

@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\WR2300.AM  4-19-2020  10:38:20
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Program file: E:\LANL\AUTOFISH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Waveguides\WR2300.AM  1-07-2021   8:51:14
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 
 Problem description:
 Waveguide problem for WR2300 (23 inches x 11.5 inches)
@@ -280,7 +280,7 @@ Region 2 mesh points
      41    13    8.00000000        2.00000000    
 
 Processing boundary data...
-Memory used for additional setup arrays:   83.632 K
+Memory used for additional setup arrays:   66.064 K
 
 
 Region 1    Material = 1
@@ -380,9 +380,9 @@ Problem description:
 Waveguide problem for WR2300 (23 inches x 11.5 inches)
 Models one quarter of a full-height guide
 This guide is used with some 350-MHz accelerators
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\WR2300.AM  4-19-2020  10:38:20
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Waveguides\WR2300.AM  1-07-2021   8:51:14
 Problem file length:        1160 bytes
-Originating program: Automesh    Problem type: Unknown RF Cavity
+Originating program: Autofish    Problem type: Unknown RF Cavity
 
 Problem constants and variables.
 Letter A in the code column indicates a value supplied in the

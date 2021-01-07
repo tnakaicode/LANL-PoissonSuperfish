@@ -1,0 +1,25 @@
+Input data for Parmila; originating program = Autofish.
+Cavity type: CCL
+Design frequency     =   850.000     MHz
+Resonant frequency   =   850.000     MHz
+Design beta          =  0.533035    
+Particle beta        =  0.533035    
+Cavity E0            =   1.00000     MV/m
+Transit-time factor  =  0.156629    
+Normalization length =   9.40000     cm
+
+Cell  Zstart(cm)      Zcenter(cm)    Zend(cm)      Lnorm(cm)       E0(MV/m)      g/bl
+  1    0.00000        0.00000        9.40000        9.40000        1.00000       3.574468E-02
+
+Cell   1  Beta =  0.533035     dZctr =   0.00000    
+X       X1            X2
+T    7.8314492E-02  7.8314492E-02
+T'   7.4824192E-02  7.4824192E-02
+T"  -1.7032348E-02 -1.7032348E-02
+S   -0.3240428      0.3240428    
+S'   2.9558355E-02 -2.9558355E-02
+S"  -2.0864862E-02  2.0864862E-02
+
+Shunt impedance data:
+Coupling(%)  Z(MOhm/m)
+   0.000      8.33370    

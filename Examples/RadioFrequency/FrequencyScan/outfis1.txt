@@ -19,17 +19,17 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.T35.
-Program file: D:\LANL\AUTOFISH.EXE
-SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\SF.INI  1-06-2021  18:59:46
-Memory used for MODE763.T35 arrays:     183.600 K
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\SCAN.T35.
+Program file: E:\LANL\AUTOFISH.EXE
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\SF.INI  1-07-2021   8:51:14
+Memory used for SCAN.T35 arrays:     183.600 K
 Memory used for other Fish arrays:     325.008 K
 
 Problem description:
-On-Axis Coupled Cavity, Resonance search for zero mode at 763 MHz
+On-Axis Coupled Cavity, Frequency scan over 100 MHz
 [courtesy of R. Cooper]
-Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF  1-06-2021  18:59:46
-Problem file length:         710 bytes
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\SCAN.AM  1-07-2021   8:51:14
+Problem file length:         742 bytes
 Originating program: Autofish    Problem type: CCL
 
 Coordinates and lengths have dimensions of centimeters.
@@ -51,10 +51,10 @@ CLENGTH                 0.0     Cavity length for normalization in SFO
 CLIGHT          2.997924580E+10 Exact speed of light in cm/sec
 CONV             1.00000000     Length conversion (number of units per cm)
 DBETA           5.000000000E-02 BETA increment in transit-time table
-DELFR                   0.0     Frequency step size for a resonance search
+DELFR      A     1.25000000     Frequency step size for a resonance search
 DIAGDLL                   0     If 1, DLL writes diagnostics to DiagDLL.txt
 DPHI       A     180.000000     Phase length of the problem geometry
-DSLOPE     A    -1.00000000     Slope of D(k^2) function
+DSLOPE           1.00000000     Slope of D(k^2) function
 DSTOLER         2.000000000E-02 Tolerance required on D(k^2)
 DX1             0.200000000     First X mesh interval (at XMIN)
 DXMIN           0.200000000     Minimum X mesh interval (found by Automesh)
@@ -66,7 +66,7 @@ EPSO            1.000000000E-05 Convergence parameter in mesh optimization
 EZERO            1000000.00     E0 for normalization in SFO when NORM=0
 EZEROT           1000000.00     E0*T for normalization in SFO when NORM=1
 FMU0            1.256637061E-06 Permeability of free space
-FREQ       A     763.000000     RF cavity resonant frequency
+FREQ       A     750.000000     RF cavity resonant frequency
 FREQD                   0.0     Design frequency for a cavity (MHz)
 HPHI             5000.00000     Normalization magnetic field for NORM=2
 IBETA                     0     If >0, SFO writes transit-time vs BETA
@@ -116,7 +116,7 @@ NREG                      2     Number of regions
 NRMSEG                    1     Normalization segment number for NORM=2
 NSEG                      9     Number of boundary segments
 NSPL                      1     Number of special-potential points
-NSTEP                     0     Number of steps for a resonance search
+NSTEP      A             81     Number of steps for a resonance search
 OMEGAM          1.000000000E-03 Used in optimization of RHOXY
 PI               3.14159265     The number pi to machine precision
 PLCELL           360.000000     Phase length per cell for multicell problems
@@ -152,58 +152,93 @@ ZCTR                    0.0     Reference Z in transit-time integrals
 -------------------------------------------------------------------------------
 No materials other than air or empty space.
 -------------------------------------------------------------------------------
-      Kmax =   48, Lmax =  100                        k^2 = 0.02557216
+      Kmax =   48, Lmax =  100                        k^2 = 0.02470819
       ----------------------------------------------------------------
       Writing temporary data arrays to memory.
       Memory used:         1.819 M
       ----------------------------------------------------------------
-      Total number of mesh points = 5100                   freq = 763.
-                                                  D(k^2) = 5.88618E-06
-      Solution time =    0.107 sec.                       End cycle  0
-      ----------------------------------------------------------------
-                                                        Start cycle  1
-
-
-               Using a one-point line with slope=  -1.0.
-
-
-                              del(k^2) = 5.88618E-06    k^2 = 0.025578
-                                                      freq = 763.08781
-                                                 D(k^2) = -7.38082E-09
-      Solution time =    0.109 sec.                       End cycle  1
-      ----------------------------------------------------------------
-                                                        Start cycle  2
-
-                         k^2        D(k^2)      D'(k^2)     D"(k^2)
-      Current point  0.0255780  -7.3808E-09  -1.0013E+00
-      Lower bound    0.0255722   5.8862E-06  -1.0013E+00
-      Upper bound    0.0255780  -7.3808E-09  -1.0013E+00
-
-      BEST=2             k^2        D(k^2)      D'(k^2)
-      1 (cycle  0)   0.0255722   5.8862E-06  -1.0013E+00
-      2 (cycle  1)   0.2557805  -7.3808E-09  -1.0013E+00
-
-
-               Using the two-point parabola with slope=-1 at D(k^2)=0.
-
-
-                              del(k^2) = -7.38083E-09   k^2 = 0.025578
-                                                       freq = 763.0877
-      ----------------------------------------------------------------
-      Solution converged at the start of cycle 2.
-      Initial frequency = 763               Final frequency = 763.0877
-      Elapsed time  =    0.25 sec
-
-Problem variables computed by this code.
-
-Variable Code         Value     Description
-DKSQ           -7.380827702E-09 Change in k^2 after an iteration in Fish
-DSLOPE          -1.00125392     Slope of D(k^2) function
-ERG              1168.72158     Integral (H^2 r dr dz)
-FREQ             763.087698     RF cavity resonant frequency
-ICYCLE                    2     Present iteration number
-METHOD                    3     Method used to get frequency in root finder
-Q2I                     0.0     1/2Q passed from CFish to SFO
-RESIK           2.885605930E-07 Residual = DKSQ/XKSQ
-XK0             0.159931355     The wave number k = 2pif/c
-XKSQ            2.557803843E-02 Square of the wave number
+      Total number of mesh points = 5100                   freq = 750.
+      Starting scan with the driving point at (K,L) = (6,47)
+      Frequency step = 1.25 MHz
+      Frequency       k^2            D(k^2)
+      7.5000000E+02  2.4708186E-02  1.0105470E-03
+      7.5125000E+02  2.4790615E-02  9.0400863E-04
+      7.5250000E+02  2.4873182E-02  7.9935059E-04
+      7.5375000E+02  2.4955885E-02  6.9664452E-04
+      7.5500000E+02  2.5038726E-02  5.9596775E-04
+      7.5625000E+02  2.5121705E-02  4.9740382E-04
+      7.5750000E+02  2.5204820E-02  4.0104303E-04
+      7.5875000E+02  2.5288073E-02  3.0698311E-04
+      7.6000000E+02  2.5371463E-02  2.1532979E-04
+      7.6125000E+02  2.5454991E-02  1.2619761E-04
+      7.6250000E+02  2.5538655E-02  3.9710603E-05
+      7.6375000E+02  2.5622457E-02 -4.3996877E-05
+      7.6500000E+02  2.5706396E-02 -1.2477931E-04
+      7.6625000E+02  2.5790473E-02 -2.0247914E-04
+      7.6750000E+02  2.5874687E-02 -2.7692590E-04
+      7.6875000E+02  2.5959038E-02 -3.4793533E-04
+      7.7000000E+02  2.6043526E-02 -4.1530848E-04
+      7.7125000E+02  2.6128151E-02 -4.7883096E-04
+      7.7250000E+02  2.6212914E-02 -5.3827220E-04
+      7.7375000E+02  2.6297814E-02 -5.9338495E-04
+      7.7500000E+02  2.6382852E-02 -6.4390498E-04
+      7.7625000E+02  2.6468026E-02 -6.8955110E-04
+      7.7750000E+02  2.6553338E-02 -7.3002573E-04
+      7.7875000E+02  2.6638787E-02 -7.6501596E-04
+      7.8000000E+02  2.6724374E-02 -7.9419550E-04
+      7.8125000E+02  2.6810097E-02 -8.1722757E-04
+      7.8250000E+02  2.6895958E-02 -8.3376915E-04
+      7.8375000E+02  2.6981957E-02 -8.4347669E-04
+      7.8500000E+02  2.7068092E-02 -8.4601375E-04
+      7.8625000E+02  2.7154365E-02 -8.4106092E-04
+      7.8750000E+02  2.7240775E-02 -8.2832818E-04
+      7.8875000E+02  2.7327322E-02 -8.0757022E-04
+      7.9000000E+02  2.7414007E-02 -7.7860478E-04
+      7.9125000E+02  2.7500828E-02 -7.4133413E-04
+      7.9250000E+02  2.7587788E-02 -6.9576942E-04
+      7.9375000E+02  2.7674884E-02 -6.4205752E-04
+      7.9500000E+02  2.7762118E-02 -5.8050910E-04
+      7.9625000E+02  2.7849488E-02 -5.1162666E-04
+      7.9750000E+02  2.7936997E-02 -4.3613019E-04
+      7.9875000E+02  2.8024642E-02 -3.5497766E-04
+      8.0000000E+02  2.8112425E-02 -2.6937715E-04
+      8.0125000E+02  2.8200345E-02 -1.8078699E-04
+      8.0250000E+02  2.8288402E-02 -9.0900610E-05
+      8.0375000E+02  2.8376596E-02 -1.6135098E-06
+      8.0500000E+02  2.8464928E-02  8.5028866E-05
+      8.0625000E+02  2.8553397E-02  1.6690150E-04
+      8.0750000E+02  2.8642003E-02  2.4188516E-04
+      8.0875000E+02  2.8730747E-02  3.0796108E-04
+      8.1000000E+02  2.8819628E-02  3.6330707E-04
+      8.1125000E+02  2.8908646E-02  4.0638647E-04
+      8.1250000E+02  2.8997801E-02  4.3602108E-04
+      8.1375000E+02  2.9087094E-02  4.5144114E-04
+      8.1500000E+02  2.9176524E-02  4.5230798E-04
+      8.1625000E+02  2.9266091E-02  4.3870832E-04
+      8.1750000E+02  2.9355795E-02  4.1112250E-04
+      8.1875000E+02  2.9445637E-02  3.7037187E-04
+      8.2000000E+02  2.9535616E-02  3.1755189E-04
+      8.2125000E+02  2.9625732E-02  2.5395841E-04
+      8.2250000E+02  2.9715986E-02  1.8101387E-04
+      8.2375000E+02  2.9806377E-02  1.0019885E-04
+      8.2500000E+02  2.9896905E-02  1.2992920E-05
+      8.2625000E+02  2.9987570E-02 -7.9173251E-05
+      8.2750000E+02  3.0078373E-02 -1.7495377E-04
+      8.2875000E+02  3.0169313E-02 -2.7311207E-04
+      8.3000000E+02  3.0260390E-02 -3.7253533E-04
+      8.3125000E+02  3.0351604E-02 -4.7224065E-04
+      8.3250000E+02  3.0442956E-02 -5.7137460E-04
+      8.3375000E+02  3.0534445E-02 -6.6920810E-04
+      8.3500000E+02  3.0626071E-02 -7.6512806E-04
+      8.3625000E+02  3.0717834E-02 -8.5862711E-04
+      8.3750000E+02  3.0809735E-02 -9.4929236E-04
+      8.3875000E+02  3.0901773E-02 -1.0367940E-03
+      8.4000000E+02  3.0993948E-02 -1.1208743E-03
+      8.4125000E+02  3.1086261E-02 -1.2013372E-03
+      8.4250000E+02  3.1178711E-02 -1.2780386E-03
+      8.4375000E+02  3.1271298E-02 -1.3508784E-03
+      8.4500000E+02  3.1364022E-02 -1.4197923E-03
+      8.4625000E+02  3.1456884E-02 -1.4847459E-03
+      8.4750000E+02  3.1549882E-02 -1.5457284E-03
+      8.4875000E+02  3.1643019E-02 -1.6027485E-03
+      8.5000000E+02  3.1736292E-02 -1.6558298E-03

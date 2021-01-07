@@ -1,8 +1,8 @@
 ; This file contains start-up settings for WSFplot
-MainWindowXPosition=  184
-MainWindowYPosition=   67
-MainWindowWidth= 1536
-MainWindowHeight=  839
+MainWindowXPosition=   47
+MainWindowYPosition=  125
+MainWindowWidth= 1370
+MainWindowHeight=  707
 EditWindowXPosition= 1300
 EditWindowYPosition=  150
 HardcopyFileExtension=    
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\RFQCavity\8THRFQ.AF
-ZoomLimits  1   -0.14285714E-02   8.3638291     -0.14285714E-02   6.4626341       0.0000000    
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\PillboxCavities\MODPILL.AF
+ZoomLimits  1   -0.25000000E-01   7.5250006     -0.21739131E-01   5.8123521       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

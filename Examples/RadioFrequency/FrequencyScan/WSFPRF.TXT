@@ -3,7 +3,7 @@ MainWindowXPosition=   47
 MainWindowYPosition=  125
 MainWindowWidth= 1370
 MainWindowHeight=  707
-EditWindowXPosition= 1066
+EditWindowXPosition= 1300
 EditWindowYPosition=  150
 HardcopyFileExtension=.PNG
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF
 ZoomLimits  1   -0.20000000E-01   22.283790     -0.17373737E-01   17.217373       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

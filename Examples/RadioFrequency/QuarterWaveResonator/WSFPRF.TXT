@@ -3,7 +3,7 @@ MainWindowXPosition=  184
 MainWindowYPosition=   67
 MainWindowWidth= 1370
 MainWindowHeight=  707
-EditWindowXPosition= 1066
+EditWindowXPosition= 1300
 EditWindowYPosition=  150
 HardcopyFileExtension=.PNG
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF
 ZoomLimits  1   -0.25000000E-01   71.625002     -0.21486487E-01   55.344423       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

@@ -160,7 +160,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 858                freq = 2378.184
                                                  D(k^2) = -4.69838E-08
-      Solution time =    0.064 sec.                       End cycle  0
+      Solution time =    0.067 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -171,7 +171,7 @@ No materials other than air or empty space.
                               del(k^2) = -4.69838E-08   k^2 = 0.248433
                                                       freq = 2378.1838
                                                   D(k^2) = 5.85663E-11
-      Solution time =    0.055 sec.                       End cycle  1
+      Solution time =    0.054 sec.                       End cycle  1
       ----------------------------------------------------------------
                                                         Start cycle  2
 

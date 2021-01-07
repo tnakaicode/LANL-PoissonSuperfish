@@ -161,7 +161,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 14884             freq = 412.04344
                                                   D(k^2) = 4.18125E-11
-      Solution time =    0.629 sec.                       End cycle  0
+      Solution time =    0.404 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -174,7 +174,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 1.
       Initial frequency = 412.04344        Final frequency = 412.04344
-      Elapsed time  =    0.68 sec
+      Elapsed time  =    0.44 sec
 
 Problem variables computed by this code.
 

@@ -1,5 +1,6 @@
 Los Alamos National Laboratory Poisson Superfish
-Program CFish written by Lloyd M. Young
+Program Fish written by
+Ron F. Holsinger in collaboration with Klaus Halbach
 
 The original Poisson Superfish codes were developed
 by Ron F. Holsinger in collaboration with Klaus Halbach.
@@ -16,19 +17,19 @@ this software would not infringe privately owned rights.
 Unpublished - rights reserved under Copyright Laws of the United States.        
 
 
-Program CFish  7.17  released 1-13-2006 
+Program Fish  7.17  released 1-13-2006 
 
-Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\WGHEX.T35.
-Program file: E:\LANL\CFISH.EXE
-SF.INI file: E:\LANL\SF.INI  8-04-2020  10:17:22
-Memory used for WGHEX.T35 arrays:     215.600 K
-Memory used for other CFish arrays:     703.636 K
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Waveguides\WGHEX.T35.
+Program file: E:\LANL\AUTOFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
+Memory used for WGHEX.T35 arrays:     176.400 K
+Memory used for other Fish arrays:     351.988 K
 
 Problem description:
 Waveguide problem for a full hexagonal guide
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\Waveguides\.\WGHEX.AM  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Waveguides\WGHEX.AM  1-07-2021   8:51:14
 Problem file length:        1356 bytes
-Originating program: Automesh    Problem type: Unknown RF Cavity
+Originating program: Autofish    Problem type: Unknown RF Cavity
 
 Coordinates and lengths have dimensions of inches.
 
@@ -68,7 +69,7 @@ FREQ       A     377.000000     RF cavity resonant frequency
 FREQD                   0.0     Design frequency for a cavity (MHz)
 HPHI             5000.00000     Normalization magnetic field for NORM=2
 IBETA                     0     If >0, SFO writes transit-time vs BETA
-ICCC                      2     1 for real arrays, 2 for complex arrays
+ICCC                      1     1 for real arrays, 2 for complex arrays
 ICCP                      1     If 1, compute material power loss
 ICORNER1                  0     First corner segment for computing average H
 ICORNER2                  0     Last corner segment for computing average H
@@ -153,11 +154,11 @@ No materials other than air or empty space.
       Kmax =   68, Lmax =   68                       k^2 = 0.006243111
       ----------------------------------------------------------------
       Writing temporary data arrays to memory.
-      Memory used:         4.911 M
+      Memory used:         2.455 M
       ----------------------------------------------------------------
       Total number of mesh points = 4900                    freq = 377
                                                    D(k^2) = 5.2971E-06
-      Solution time =    0.177 sec.                       End cycle  0
+      Solution time =    0.215 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -167,9 +168,8 @@ No materials other than air or empty space.
 
                               del(k^2) = 5.2971E-06    k^2 = 0.0062484
                                                        freq = 377.1599
-      Etotal = 2906.8      1/2q =   0.0000      omega/2q =   0.000    
                                                  D(k^2) = -4.63599E-08
-      Solution time =    0.173 sec.                       End cycle  1
+      Solution time =    0.179 sec.                       End cycle  1
       ----------------------------------------------------------------
                                                         Start cycle  2
 
@@ -188,22 +188,21 @@ No materials other than air or empty space.
 
                               del(k^2) = -4.63635E-08  k^2 = 0.0062484
                                                        freq = 377.1585
-      Etotal = 2959.6      1/2q =   0.0000      omega/2q =   0.000    
       ----------------------------------------------------------------
       Solution converged at the start of cycle 2.
       Initial frequency = 377               Final frequency = 377.1585
-      Elapsed time  =    0.43 sec
+      Elapsed time  =    0.44 sec
 
 Problem variables computed by this code.
 
 Variable Code         Value     Description
-DKSQ           -4.636354344E-08 Change in k^2 after an iteration in Fish
+DKSQ           -4.636354343E-08 Change in k^2 after an iteration in Fish
 DSLOPE          -1.00875195     Slope of D(k^2) function
 ERG              1479.81105     Integral (H^2 r dr dz)
 FREQ             377.158504     RF cavity resonant frequency
 ICYCLE                    2     Present iteration number
 METHOD                    3     Method used to get frequency in root finder
 Q2I                     0.0     1/2Q passed from CFish to SFO
-RESIK           7.419478783E-06 Residual = DKSQ/XKSQ
+RESIK           7.419478781E-06 Residual = DKSQ/XKSQ
 XK0             7.904657721E-02 The wave number k = 2pif/c
 XKSQ            6.248361369E-03 Square of the wave number

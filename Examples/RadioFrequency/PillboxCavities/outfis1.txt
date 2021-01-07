@@ -159,7 +159,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 540                    freq = 2400
                                                     D(k^2) = 0.0094094
-      Solution time =    0.150 sec.                       End cycle  0
+      Solution time =    0.048 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -170,7 +170,7 @@ No materials other than air or empty space.
                               del(k^2) = 0.0025301      k^2 = 0.255542
                                                       freq = 2411.9701
                                                      D(k^2) = 0.006568
-      Solution time =    0.104 sec.                       End cycle  1
+      Solution time =    0.049 sec.                       End cycle  1
       ----------------------------------------------------------------
                                                         Start cycle  2
 
@@ -189,7 +189,7 @@ No materials other than air or empty space.
                               del(k^2) = 0.0062484       k^2 = 0.26179
                                                       freq = 2441.2804
                                                  D(k^2) = -2.96945E-06
-      Solution time =    0.096 sec.                       End cycle  2
+      Solution time =    0.048 sec.                       End cycle  2
       ----------------------------------------------------------------
                                                         Start cycle  3
 
@@ -211,7 +211,7 @@ No materials other than air or empty space.
                               del(k^2) = -2.96696E-06   k^2 = 0.261787
                                                       freq = 2441.2666
                                                  D(k^2) = -5.74396E-10
-      Solution time =    0.099 sec.                       End cycle  3
+      Solution time =    0.051 sec.                       End cycle  3
       ----------------------------------------------------------------
                                                         Start cycle  4
 
@@ -235,7 +235,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 4.
       Initial frequency = 2400             Final frequency = 2441.2666
-      Elapsed time  =    0.64 sec
+      Elapsed time  =    0.28 sec
 
 Problem variables computed by this code.
 

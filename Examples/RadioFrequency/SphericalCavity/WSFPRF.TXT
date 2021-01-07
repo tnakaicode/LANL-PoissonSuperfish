@@ -2,8 +2,8 @@
 MainWindowXPosition=  184
 MainWindowYPosition=   67
 MainWindowWidth= 1536
-MainWindowHeight=  864
-EditWindowXPosition= 1620
+MainWindowHeight=  839
+EditWindowXPosition= 1300
 EditWindowYPosition=  150
 HardcopyFileExtension=    
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\SphericalCavity\.\SPHERE.AF
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\SphericalCavity\SPHERE.AF
 ZoomLimits  1   -0.18867925       129.64739     -0.16393442       100.16394       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
