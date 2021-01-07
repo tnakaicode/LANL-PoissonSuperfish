@@ -17,16 +17,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\2EPSILON.AM  4-19-2020  10:38:20
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Program file: E:\LANL\AUTOMESH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\2EPSILON.AM  1-07-2021   8:51:14
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\SF.INI  1-07-2021   8:51:14
 
 Problem description:
 Parallel Plate Capacitor with two dielectric regions
 Voltage on lower plate = 0.0 V
 Voltage on upper plate = 1000.0 V
-Lower dielectric region: material 3, î = 2
-Upper dielectric region: material 4, î = 9
+Lower dielectric region: material 3, ï¿½ = 2
+Upper dielectric region: material 4, ï¿½ = 9
 
 Coordinates and lengths have dimensions of centimeters.
 
@@ -435,7 +435,7 @@ Poisson and Pandira material data:
   MTID  LEN MTYPE AEASY  GAMPER        X0A          Y0A          PHIA    AMULT  HCEPT        BCEPT        GAMMA
     1    0    0    0.0   1             0.0          0.0                   2                               0.004
     2    0    0    0.0   1             0.0          0.0                   2                               0.004
-    3    0    0    0.0   1             0.0          0.0                   2                               2
+    3    0    0    0.0   1             0.0          0.0                   2                               3
     4    0    0    0.0   1             0.0          0.0                   2                               9
 
 Processing boundary data...
@@ -544,10 +544,10 @@ Problem description:
 Parallel Plate Capacitor with two dielectric regions
 Voltage on lower plate = 0.0 V
 Voltage on upper plate = 1000.0 V
-Lower dielectric region: material 3, î = 2
-Upper dielectric region: material 4, î = 9
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\2EPSILON.AM  4-19-2020  10:38:20
-Problem file length:        1350 bytes
+Lower dielectric region: material 3, ï¿½ = 2
+Upper dielectric region: material 4, ï¿½ = 9
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\2EPSILON.AM  1-07-2021   8:51:14
+Problem file length:        1354 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
 Problem constants and variables.

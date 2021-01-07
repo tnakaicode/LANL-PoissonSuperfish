@@ -18,12 +18,12 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SF7  7.17  released 1-13-2006 
 
-Program file: C:\LANL\SF7.EXE
-SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
-Solution file C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C4QPNT.T35.
+Program file: E:\LANL\SF7.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
+Solution file E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C4QPNT.T35.
 Memory used for C4QPNT.T35 arrays:       2.470 M
 Reading keyword commands and data from file:
-C:\USERS\NAKAI\LANL-TMP\EXAMPLES\ELECTROSTATIC\CHARGEDENSITY\IN7
+E:\NAKAI\DAILY\PYTHON-CODE\LANL\EXAMPLES\ELECTROSTATIC\CHARGEDENSITY\IN7
 
 Electric fields along a straight line with end points at:
 (X1,Y1) = (1,0.666667)

@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\StoredEnergy\ESE2.AM  2-13-2006  10:53:22
-SF.INI file: C:\LANL\SF.INI  9-30-2019  11:41:14
+Program file: E:\LANL\AUTOMESH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\StoredEnergy\ESE2.AM  1-07-2021   8:51:14
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 
 Problem description:
 Parallel Plate Capacitor ICYLYN = 0 for XY, 1 for RZ
@@ -357,7 +357,7 @@ Er = 0, Ez = -200 V/cm for the following conditions
 Voltage on lower plate = 0.0 V
 Voltage on upper plate = 1000.0 V
 Plate separation = 5 cm
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\StoredEnergy\ESE2.AM  2-13-2006  10:53:22
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\StoredEnergy\ESE2.AM  1-07-2021   8:51:14
 Problem file length:        1072 bytes
 Originating program: Automesh    Problem type: Electrostatic
 

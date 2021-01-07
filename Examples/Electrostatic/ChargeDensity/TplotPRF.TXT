@@ -2,7 +2,7 @@
 MainWindowXPosition=  184
 MainWindowYPosition=   67
 MainWindowWidth= 1536
-MainWindowHeight=  864
+MainWindowHeight=  839
 EditWindowXPosition=   -1
 EditWindowYPosition=   -1
 EditWindowWidth=   -1
@@ -40,7 +40,7 @@ ConnectStatus=1
 MarkersStatus=1
 XlinLogStatus=LIN
 YLinLogStatus=LIN
-LastPlotFile=C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C4QTRI1.TBL
-ZoomLimits  1     1.0000000       3.0000000       586.28113       6790.2021    
+LastPlotFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\c4qpnt1.tbl
+ZoomLimits  1     1.0000000       3.0000000       586.28070       6790.2148    
 ZoomLevel=1
 MaxZoomLevel=1

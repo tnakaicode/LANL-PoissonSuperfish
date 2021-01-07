@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C1QMM.AM 10-13-2004   9:01:08
-SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
+Program file: E:\LANL\AUTOMESH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C1QMM.AM  1-07-2021   8:51:14
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 
 Problem description:
 Electrostatic problem in millimeters with space charge - one quadrant
@@ -708,7 +708,7 @@ Region   Charge density      Area
 Problem description:
 Electrostatic problem in millimeters with space charge - one quadrant
 Charge density = 400 nC/mm^3 produces same current/length as file C1q.am
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C1QMM.AM 10-13-2004   9:01:08
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C1QMM.AM  1-07-2021   8:51:14
 Problem file length:        1085 bytes
 Originating program: Automesh    Problem type: Electrostatic
 

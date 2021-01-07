@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Poisson  7.17  released 1-13-2006 
 
-Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCylinder\COAXTEST.T35.
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\COAXTEST.T35.
 Program file: E:\LANL\POISSON.EXE
-SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCylinder\SF.INI  8-04-2020  11:52:20
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\SF.INI  1-07-2021   8:51:14
 Memory used for COAXTEST.T35 arrays:     191.020 K
 Memory used for other Poisson arrays:   67.512 K
 
@@ -29,7 +29,7 @@ Problem description:
 Electrostatic problem, coaxial cylinder
 Voltage = 1 kV on the inner conductor
 [Originally appeared in 1987 Reference Manual B.12.2]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\CoaxCylinder\COAXTEST.AM  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\COAXTEST.AM  1-07-2021   8:51:14
 Problem file length:        1087 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
@@ -158,23 +158,23 @@ Material 1 corresponds to air regions.
                       maximum =   9.9404E+02
       Residual:                   6.1789E-03 in open space
       Over-relaxation factor:     1.9072E+00 in open space
-      Elapsed time  =    0.06 sec                    End of cycle 50
+      Elapsed time  =    0.10 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9102E+00     Lambda =   9.9892E-01
       Solution matrix minimum =   7.3722E+00
                       maximum =   9.9477E+02
       Residual:                   6.0251E-05 in open space
       Over-relaxation factor:     1.9102E+00 in open space
-      Elapsed time  =    0.12 sec                    End of cycle 100
+      Elapsed time  =    0.17 sec                    End of cycle 100
       ----------------------------------------------------------------
       Solution matrix minimum =   7.3716E+00
                       maximum =   9.9477E+02
       Residual:                   4.4464E-07 in open space
       Over-relaxation factor:     1.9102E+00 in open space
-      Elapsed time  =    0.17 sec                    End of cycle 150
+      Elapsed time  =    0.22 sec                    End of cycle 150
       ----------------------------------------------------------------
       Solution converged in 150 iterations.
-      Elapsed time  =    0.18 sec
+      Elapsed time  =    0.23 sec
 
 XJFACT = 0.0
 

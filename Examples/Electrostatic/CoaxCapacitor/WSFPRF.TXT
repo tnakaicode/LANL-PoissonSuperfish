@@ -2,8 +2,8 @@
 MainWindowXPosition=  239
 MainWindowYPosition=   49
 MainWindowWidth= 1536
-MainWindowHeight=  864
-EditWindowXPosition= 1620
+MainWindowHeight=  839
+EditWindowXPosition= 1300
 EditWindowYPosition=  150
 HardcopyFileExtension=.PNG
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=C:\USERS\NAKAI\LANL-POISSONSUPERFISH\EXAMPLES\ELECTROSTATIC\COAXCAPACITOR\CAPRZ.AM
-ZoomLimits  1     1.9900000       8.4864712     -0.99999998E-02   5.0100004       0.0000000    
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCapacitor\CAPXY.AM
+ZoomLimits  1   -0.99999998E-02   6.4829006     -0.86206896E-02   5.0086206       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

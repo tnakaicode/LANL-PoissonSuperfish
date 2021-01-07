@@ -1,0 +1,29 @@
+; This file contains start-up settings for WSFplot
+MainWindowXPosition=  184
+MainWindowYPosition=   67
+MainWindowWidth= 1536
+MainWindowHeight=  839
+EditWindowXPosition= 1300
+EditWindowYPosition=  150
+HardcopyFileExtension=    
+NumberOfContours=   30
+ContourLineWidth=1
+AxisLineWidth=1
+ArrowLineWidth=1
+CircleLineWidth=1
+BoundaryLineWidth=1
+MeshLineWidth=1
+GridSpacing=  0.30000000    
+TitleStatus=1
+AxisStatus=1
+TriangleStatus=1
+ContourStatus=1
+ArrowStatus=0
+CircleStatus=0
+FooterStatus=1
+XYSwapStatus=0
+OriginStatus=0
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Plates\PLATE.AM
+ZoomLimits  1   -0.49999999E-02   4.5050007     -0.43269233E-02   3.4806735       0.0000000    
+ZoomLevel=1
+MaxZoomLevel=1

@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\AUTOMESH.EXE
-Problem file: C:\USERS\NAKAI\LANL-POISSONSUPERFISH\EXAMPLES\ELECTROSTATIC\COAXCAPACITOR\CAPXY.AM  4-19-2020  10:38:20
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Program file: E:\LANL\AUTOMESH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCapacitor\CAPXY.AM  1-07-2021   8:51:14
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 
 Problem description:
 Coaxial Capacitor Using X,Y Coordinates
@@ -489,7 +489,7 @@ Region   Charge density      Area
 Problem description:
 Coaxial Capacitor Using X,Y Coordinates
 Calculated field may be compared to the analytic result.
-Problem file: C:\USERS\NAKAI\LANL-POISSONSUPERFISH\EXAMPLES\ELECTROSTATIC\COAXCAPACITOR\CAPXY.AM  4-19-2020  10:38:20
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCapacitor\CAPXY.AM  1-07-2021   8:51:14
 Problem file length:         701 bytes
 Originating program: Automesh    Problem type: Electrostatic
 

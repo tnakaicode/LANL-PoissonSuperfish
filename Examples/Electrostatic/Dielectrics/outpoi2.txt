@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Poisson  7.17  released 1-13-2006 
 
-Starting from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\2EPSILON.T35.
-Program file: C:\LANL\POISSON.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\2EPSILON.T35.
+Program file: E:\LANL\POISSON.EXE
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\SF.INI  1-07-2021   8:51:14
 Memory used for 2EPSILON.T35 arrays:      61.544 K
 Memory used for other Poisson arrays:   28.896 K
 
@@ -29,10 +29,10 @@ Problem description:
 Parallel Plate Capacitor with two dielectric regions
 Voltage on lower plate = 0.0 V
 Voltage on upper plate = 1000.0 V
-Lower dielectric region: material 3, î = 2
-Upper dielectric region: material 4, î = 9
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\2EPSILON.AM  4-19-2020  10:38:20
-Problem file length:        1350 bytes
+Lower dielectric region: material 3, ï¿½ = 2
+Upper dielectric region: material 4, ï¿½ = 9
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\2EPSILON.AM  1-07-2021   8:51:14
+Problem file length:        1354 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
 Coordinates and lengths have dimensions of centimeters.
@@ -150,7 +150,7 @@ YORG                    0.0     Y coordinate center of harmonic analysis circle
 
 Material properties:
 Material 1 corresponds to air regions.
-Material 3 uses the fixed permittivity Epsilon = 2 from
+Material 3 uses the fixed permittivity Epsilon = 3 from
 MT namelist ID 3.
 Material 4 uses the fixed permittivity Epsilon = 9 from
 MT namelist ID 4.
@@ -159,28 +159,28 @@ MT namelist ID 4.
       ----------------------------------------------------------------
       Over-relaxation factor:     1.9000E+00 in open space
       ----------------------------------------------------------------
-      Optimized O-R factor:       1.8993E+00     Lambda =   9.9862E-01
-      Solution matrix minimum =   3.4851E+01
-                      maximum =   9.6955E+02
-      Residual:                   8.8547E-03 in open space
-      Over-relaxation factor:     1.8993E+00 in open space
-      Elapsed time  =    0.08 sec                    End of cycle 50
+      Optimized O-R factor:       1.8992E+00     Lambda =   9.9862E-01
+      Solution matrix minimum =   3.5180E+01
+                      maximum =   9.6876E+02
+      Residual:                   8.8666E-03 in open space
+      Over-relaxation factor:     1.8992E+00 in open space
+      Elapsed time  =    0.06 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.8983E+00     Lambda =   9.9859E-01
-      Solution matrix minimum =   3.6193E+01
-                      maximum =   9.6576E+02
-      Residual:                   4.8269E-05 in open space
+      Solution matrix minimum =   3.6025E+01
+                      maximum =   9.6529E+02
+      Residual:                   4.7708E-05 in open space
       Over-relaxation factor:     1.8983E+00 in open space
-      Elapsed time  =    0.15 sec                    End of cycle 100
+      Elapsed time  =    0.14 sec                    End of cycle 100
       ----------------------------------------------------------------
-      Solution matrix minimum =   3.6195E+01
-                      maximum =   9.6576E+02
-      Residual:                   3.4106E-07 in open space
+      Solution matrix minimum =   3.6031E+01
+                      maximum =   9.6529E+02
+      Residual:                   3.3344E-07 in open space
       Over-relaxation factor:     1.8983E+00 in open space
-      Elapsed time  =    0.22 sec                    End of cycle 150
+      Elapsed time  =    0.19 sec                    End of cycle 150
       ----------------------------------------------------------------
       Solution converged in 150 iterations.
-      Elapsed time  =    0.23 sec
+      Elapsed time  =    0.20 sec
 
 XJFACT = 0.0
 
@@ -188,40 +188,40 @@ Field interpolation at cycle 150.
 
    K    L     X             Y               Ex            Ey            |E|            V      Chi^2/d.f. Fn
             (cm)          (cm)            (V/cm)        (V/cm)        (V/cm)          (V)  
-   1    1   0.00000       0.00000      0.000000E+00 -2.099480E+02  2.099480E+02  0.000000E+00  7.31E-07  24
-   2    1  0.200000       0.00000      0.000000E+00 -2.102612E+02  2.102612E+02  0.000000E+00  5.98E-07  24
-   3    1  0.400000       0.00000      0.000000E+00 -2.109020E+02  2.109020E+02  0.000000E+00  2.28E-07  24
-   4    1  0.600000       0.00000      0.000000E+00 -2.114835E+02  2.114835E+02  0.000000E+00  1.10E-06  23
-   5    1  0.800000       0.00000      0.000000E+00 -2.127094E+02  2.127094E+02  0.000000E+00  1.58E-06  23
-   6    1   1.00000       0.00000      0.000000E+00 -2.144600E+02  2.144600E+02  0.000000E+00  2.02E-06  23
-   7    1   1.20000       0.00000      0.000000E+00 -2.168826E+02  2.168826E+02  0.000000E+00  2.04E-06  23
-   8    1   1.40000       0.00000      0.000000E+00 -2.201382E+02  2.201382E+02  0.000000E+00  1.97E-06  23
-   9    1   1.60000       0.00000      0.000000E+00 -2.243034E+02  2.243034E+02  0.000000E+00  4.12E-06  23
-  10    1   1.80000       0.00000      0.000000E+00 -2.291734E+02  2.291734E+02  0.000000E+00  9.31E-06  23
-  11    1   2.00000       0.00000      0.000000E+00 -2.341005E+02  2.341005E+02  0.000000E+00  1.27E-05  23
-  12    1   2.20000       0.00000      0.000000E+00 -2.381240E+02  2.381240E+02  0.000000E+00  1.20E-05  23
-  13    1   2.40000       0.00000      0.000000E+00 -2.403707E+02  2.403707E+02  0.000000E+00  1.08E-05  23
-  14    1   2.60000       0.00000      0.000000E+00 -2.403696E+02  2.403696E+02  0.000000E+00  1.08E-05  23
-  15    1   2.80000       0.00000      0.000000E+00 -2.381263E+02  2.381263E+02  0.000000E+00  1.20E-05  23
-  16    1   3.00000       0.00000      0.000000E+00 -2.341122E+02  2.341122E+02  0.000000E+00  1.27E-05  23
-  17    1   3.20000       0.00000      0.000000E+00 -2.291900E+02  2.291900E+02  0.000000E+00  9.37E-06  23
-  18    1   3.40000       0.00000      0.000000E+00 -2.243139E+02  2.243139E+02  0.000000E+00  4.18E-06  23
-  19    1   3.60000       0.00000      0.000000E+00 -2.201393E+02  2.201393E+02  0.000000E+00  2.02E-06  23
-  20    1   3.80000       0.00000      0.000000E+00 -2.168795E+02  2.168795E+02  0.000000E+00  2.10E-06  23
-  21    1   4.00000       0.00000      0.000000E+00 -2.144571E+02  2.144571E+02  0.000000E+00  2.02E-06  23
-  22    1   4.20000       0.00000      0.000000E+00 -2.127081E+02  2.127081E+02  0.000000E+00  1.54E-06  23
-  23    1   4.40000       0.00000      0.000000E+00 -2.118779E+02  2.118779E+02  0.000000E+00  2.76E-07  24
-  24    1   4.60000       0.00000      0.000000E+00 -2.108952E+02  2.108952E+02  0.000000E+00  4.49E-07  24
-  25    1   4.80000       0.00000      0.000000E+00 -2.101884E+02  2.101884E+02  0.000000E+00  6.65E-07  24
-  26    1   5.00000       0.00000      0.000000E+00 -2.102239E+02  2.102239E+02  0.000000E+00  9.11E-06  24
+   1    1   0.00000       0.00000      0.000000E+00 -2.087276E+02  2.087276E+02  0.000000E+00  1.28E-06  24
+   2    1  0.200000       0.00000      0.000000E+00 -2.091492E+02  2.091492E+02  0.000000E+00  1.04E-06  24
+   3    1  0.400000       0.00000      0.000000E+00 -2.100253E+02  2.100253E+02  0.000000E+00  4.27E-07  24
+   4    1  0.600000       0.00000      0.000000E+00 -2.107774E+02  2.107774E+02  0.000000E+00  2.42E-06  23
+   5    1  0.800000       0.00000      0.000000E+00 -2.124630E+02  2.124630E+02  0.000000E+00  3.60E-06  23
+   6    1   1.00000       0.00000      0.000000E+00 -2.149233E+02  2.149233E+02  0.000000E+00  4.61E-06  23
+   7    1   1.20000       0.00000      0.000000E+00 -2.184003E+02  2.184003E+02  0.000000E+00  4.57E-06  23
+   8    1   1.40000       0.00000      0.000000E+00 -2.231514E+02  2.231514E+02  0.000000E+00  4.46E-06  23
+   9    1   1.60000       0.00000      0.000000E+00 -2.292854E+02  2.292854E+02  0.000000E+00  9.45E-06  23
+  10    1   1.80000       0.00000      0.000000E+00 -2.364508E+02  2.364508E+02  0.000000E+00  1.96E-05  23
+  11    1   2.00000       0.00000      0.000000E+00 -2.436259E+02  2.436259E+02  0.000000E+00  2.41E-05  23
+  12    1   2.20000       0.00000      0.000000E+00 -2.493955E+02  2.493955E+02  0.000000E+00  2.16E-05  23
+  13    1   2.40000       0.00000      0.000000E+00 -2.525744E+02  2.525744E+02  0.000000E+00  2.01E-05  23
+  14    1   2.60000       0.00000      0.000000E+00 -2.525794E+02  2.525794E+02  0.000000E+00  2.01E-05  23
+  15    1   2.80000       0.00000      0.000000E+00 -2.494150E+02  2.494150E+02  0.000000E+00  2.17E-05  23
+  16    1   3.00000       0.00000      0.000000E+00 -2.436624E+02  2.436624E+02  0.000000E+00  2.43E-05  23
+  17    1   3.20000       0.00000      0.000000E+00 -2.364918E+02  2.364918E+02  0.000000E+00  1.99E-05  23
+  18    1   3.40000       0.00000      0.000000E+00 -2.293131E+02  2.293131E+02  0.000000E+00  9.64E-06  23
+  19    1   3.60000       0.00000      0.000000E+00 -2.231618E+02  2.231618E+02  0.000000E+00  4.57E-06  23
+  20    1   3.80000       0.00000      0.000000E+00 -2.184024E+02  2.184024E+02  0.000000E+00  4.71E-06  23
+  21    1   4.00000       0.00000      0.000000E+00 -2.149251E+02  2.149251E+02  0.000000E+00  4.62E-06  23
+  22    1   4.20000       0.00000      0.000000E+00 -2.124672E+02  2.124672E+02  0.000000E+00  3.51E-06  23
+  23    1   4.40000       0.00000      0.000000E+00 -2.113879E+02  2.113879E+02  0.000000E+00  6.04E-07  24
+  24    1   4.60000       0.00000      0.000000E+00 -2.100196E+02  2.100196E+02  0.000000E+00  7.86E-07  24
+  25    1   4.80000       0.00000      0.000000E+00 -2.090536E+02  2.090536E+02  0.000000E+00  1.16E-06  24
+  26    1   5.00000       0.00000      0.000000E+00 -2.091015E+02  2.091015E+02  0.000000E+00  1.66E-05  24
 
 Problem variables computed by this code.
 
 Variable Code         Value     Description
-ETAAIR          0.907553736     Rate of convergence in air, cycle N
+ETAAIR          0.907090221     Rate of convergence in air, cycle N
 ICYCLE                  150     Present iteration number
-RESIDA          3.410556945E-07 Residual for air
-RHOAIR           1.89832232     Over-relaxation factor: air, interface points
+RESIDA          3.334367416E-07 Residual for air
+RHOAIR           1.89826590     Over-relaxation factor: air, interface points
 SNEGA                   0.0     Total negative current, this solution
 SPOSA                   0.0     total positive current, this solution
 STOTA                   0.0     Total current in problem, this solution

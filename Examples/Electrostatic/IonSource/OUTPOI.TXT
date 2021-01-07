@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Poisson  7.17  released 1-13-2006 
 
-Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\IonSource\SPSOURCE.T35.
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\IonSource\SPSOURCE.T35.
 Program file: E:\LANL\POISSON.EXE
-SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\IonSource\SF.INI  8-04-2020  11:53:34
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\IonSource\SF.INI  1-07-2021   8:51:14
 Memory used for SPSOURCE.T35 arrays:       1.234 M
 Memory used for other Poisson arrays:  435.552 K
 
@@ -30,7 +30,7 @@ Electrostatic Problem, Sputter-Type Ion Source [U. of Wisconsin]
 This source, known as SNICS, was developed in the 1970s to
 produce beams of metal negative ions for injection into an
 electrostatic accelerator.
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\IonSource\SPSOURCE.AM  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\IonSource\SPSOURCE.AM  1-07-2021   8:51:14
 Problem file length:        2706 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
@@ -159,30 +159,30 @@ Material 1 corresponds to air regions.
                       maximum =  -5.0053E-04
       Residual:                   2.5714E-03 in open space
       Over-relaxation factor:     1.8991E+00 in open space
-      Elapsed time  =    0.09 sec                    End of cycle 50
+      Elapsed time  =    0.11 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9237E+00     Lambda =   9.9923E-01
       Solution matrix minimum =  -4.9774E+03
                       maximum =  -7.2108E-04
       Residual:                   3.9042E-04 in open space
       Over-relaxation factor:     1.9237E+00 in open space
-      Elapsed time  =    0.18 sec                    End of cycle 100
+      Elapsed time  =    0.21 sec                    End of cycle 100
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9296E+00     Lambda =   9.9935E-01
       Solution matrix minimum =  -4.9778E+03
                       maximum =  -8.2416E-04
       Residual:                   6.3714E-06 in open space
       Over-relaxation factor:     1.9296E+00 in open space
-      Elapsed time  =    0.34 sec                    End of cycle 200
+      Elapsed time  =    0.40 sec                    End of cycle 200
       ----------------------------------------------------------------
       Solution matrix minimum =  -4.9778E+03
                       maximum =  -8.2453E-04
       Residual:                   3.3320E-07 in open space
       Over-relaxation factor:     1.9296E+00 in open space
-      Elapsed time  =    0.43 sec                    End of cycle 260
+      Elapsed time  =    0.53 sec                    End of cycle 260
       ----------------------------------------------------------------
       Solution converged in 260 iterations.
-      Elapsed time  =    0.43 sec
+      Elapsed time  =    0.53 sec
 
 XJFACT = 0.0
 

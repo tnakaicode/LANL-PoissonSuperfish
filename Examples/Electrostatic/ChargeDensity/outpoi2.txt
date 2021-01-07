@@ -19,16 +19,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Poisson  7.17  released 1-13-2006 
 
-Starting from file C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C1QC.T35.
-Program file: C:\LANL\POISSON.EXE
-SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C1QC.T35.
+Program file: E:\LANL\POISSON.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for C1QC.T35 arrays:     826.480 K
 Memory used for other Poisson arrays:  291.792 K
 
 Problem description:
 Electrostatic problem with space charge - one quadrant
 4 nC/cm^3 charge density or line charge of 0.7854 nC/cm
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\Electrostatic\ChargeDensity\C1QC.AM 10-13-2004   9:00:54
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C1QC.AM  1-07-2021   8:51:14
 Problem file length:        1031 bytes
 Originating program: Automesh    Problem type: Electrostatic
 
@@ -157,37 +157,37 @@ Material 1 corresponds to air regions.
                       maximum =   8.1056E+03
       Residual:                   1.3822E-02 in open space
       Over-relaxation factor:     1.9508E+00 in open space
-      Elapsed time  =    0.04 sec                    End of cycle 50
+      Elapsed time  =    0.08 sec                    End of cycle 50
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9672E+00     Lambda =   9.9987E-01
       Solution matrix minimum =   1.5567E+01
                       maximum =   1.0964E+04
       Residual:                   9.7487E-03 in open space
       Over-relaxation factor:     1.9672E+00 in open space
-      Elapsed time  =    0.08 sec                    End of cycle 100
+      Elapsed time  =    0.15 sec                    End of cycle 100
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9679E+00     Lambda =   9.9988E-01
       Solution matrix minimum =   2.9718E+01
                       maximum =   1.4009E+04
       Residual:                   1.7303E-03 in open space
       Over-relaxation factor:     1.9679E+00 in open space
-      Elapsed time  =    0.16 sec                    End of cycle 200
+      Elapsed time  =    0.28 sec                    End of cycle 200
       ----------------------------------------------------------------
       Optimized O-R factor:       1.9670E+00     Lambda =   9.9987E-01
       Solution matrix minimum =   3.0844E+01
                       maximum =   1.4569E+04
       Residual:                   5.8301E-06 in open space
       Over-relaxation factor:     1.9670E+00 in open space
-      Elapsed time  =    0.29 sec                    End of cycle 400
+      Elapsed time  =    0.55 sec                    End of cycle 400
       ----------------------------------------------------------------
       Solution matrix minimum =   3.0847E+01
                       maximum =   1.4570E+04
       Residual:                   4.0281E-07 in open space
       Over-relaxation factor:     1.9670E+00 in open space
-      Elapsed time  =    0.34 sec                    End of cycle 490
+      Elapsed time  =    0.66 sec                    End of cycle 490
       ----------------------------------------------------------------
       Solution converged in 490 iterations.
-      Elapsed time  =    0.35 sec
+      Elapsed time  =    0.67 sec
 
 XJFACT = 0.0
 
