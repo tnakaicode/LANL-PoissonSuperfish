@@ -1,0 +1,52 @@
+Los Alamos/Grumman Ramped Gradient Drift-Tube Linac
+Representative cells used for PARMILA design work
+Machine was designed, built, and tested between 1985 and 1988
+Resonant frequency = 425 MHz, Beam energy = 2.0 to 6.7 MeV
+No tuning on this cavity.
+
+&REG KPROB=1                     ; Superfish problem
+MAT=1                            ; Material air or empty space
+FREQ=425.0400611412              ; Mode frequency, starting frequency in Fish solver
+FREQD=425                        ; Design frequency, used (with DPHI) to compute wave number if KMETHOD = 0
+BETA=0.079775584281              ; Particle velocity, used to compute wave number if KMETHOD = 1
+KMETHOD=1                        ; SFO will use BETA to compute wave number
+DPHI=180                         ; Phase length of the half cavity, used (with FREQD) in SFO if KMETHOD = 0
+NBSUP=1,NBSLO=0,NBSRT=1,NBSLF=1  ; Boundary conditions
+LINES=1                          ; Fix internal points on line regions
+ICYLIN=1                         ; X=>Z,Y=>R, cylindrical coordinates
+NORM=0                           ; Normalize to EZERO
+EZERO=1000000                    ; Accelerating field
+DTL=1,                           ; Cavity is drift-tube linac
+RMASS=-3                         ; Rest mass value or indicator
+EPSO=1.0E-6                      ; Mesh optimization convergence parameter
+IRTYPE=0                         ; Rs method: Normal conductor formula
+TEMPC=32.2                       ; Operating Temperature, degrees C
+XDRI=0.6685210174806             ; Drive point X coordinate
+YDRI=4.270462275373              ; Drive point Y coordinate
+DSLOPE=-1                        ; Allow convergence in 1 iteration
+; X line-region physical locations:
+XREG=0.368,1.309987481176,1.609987481176,
+; X line-region logical locations:
+KREG=1,5,24,27,
+KMAX=34                          ; Column number for X = XMAX
+; Y line-region physical locations:
+YREG=0.0707106781187,0.393933982822,0.9480752029569,4.241832034356,
+4.948938815543,
+; Y line-region logical locations:
+LREG=1,3,9,28,75,80,
+LMAX=138 &                       ; Row number for Y = YMAX
+
+; Start of boundary points
+&PO X=0.0,Y=0.0 &                                ; 1
+&PO X=0.0,Y=21.13788 &                           ; 2
+&PO X=2.813661,Y=21.13788 &                      ; 3
+&PO X=2.813661,Y=4.0297 &                        ; 4
+&PO X=1.159987481176,Y=4.0297 &                  ; 5
+&PO NT=2,X0=1.159987481176,Y0=3.5297,            ; 6
+    X=-0.4993147673773,Y=0.0261679781215 &
+&PO X=0.5184454012048,Y=0.842009185779 &         ; 7
+&PO NT=2,X0=0.843,Y0=0.825,                      ; 8
+    X=0.0,Y=-0.325 &
+&PO X=2.813661,Y=0.5 &                           ; 9
+&PO X=2.813661,Y=0.0 &                           ; 10
+&PO X=0.0,Y=0.0 &                                ; 11

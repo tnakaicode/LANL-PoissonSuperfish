@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: C:\LANL\CDTFISH.EXE
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\CCDTL\2DTHC1.AM  2-05-2020  17:34:26
-SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
+Program file: E:\LANL\CDTFISH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\CCDTL\2DTHC1.AM  1-07-2021  12:00:38
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 
 Problem description:
 Example 2-drift-tube CCDTL cavity
@@ -1196,7 +1196,7 @@ Example 2-drift-tube CCDTL cavity
 Tuned by adjusting cavity diameter
 Unequal face angles on drift tubes
 Adjusting cavity diameter, currently =  28.8515017
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\CCDTL\2DTHC1.AM  2-05-2020  17:34:26
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\CCDTL\2DTHC1.AM  1-07-2021  12:00:38
 Problem file length:        3815 bytes
 Originating program: CDTfish    Problem type:  2-DT CCDTL
 

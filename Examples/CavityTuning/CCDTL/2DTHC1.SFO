@@ -18,10 +18,10 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\CCDTL\2DTHC1.T35.
-More input from file C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\CCDTL\2DTHC1.SEG.
-Program file: C:\LANL\CDTFISH.EXE
-SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
+Solution file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\CCDTL\2DTHC1.T35.
+More input from file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\CCDTL\2DTHC1.SEG.
+Program file: E:\LANL\CDTFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for 2DTHC1.T35 arrays:     341.496 K
 
 This problem originated with the program CDTfish,
@@ -74,7 +74,7 @@ Example 2-drift-tube CCDTL cavity
 Tuned by adjusting cavity diameter
 Unequal face angles on drift tubes
 Adjusting cavity diameter, currently =  28.8515017
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\CCDTL\2DTHC1.AM  2-05-2020  17:34:26
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\CCDTL\2DTHC1.AM  1-07-2021  12:00:38
 Problem file length:        3815 bytes
 Originating program: CDTfish    Problem type:  2-DT CCDTL
 
@@ -2080,7 +2080,7 @@ Example 2-drift-tube CCDTL cavity
 Tuned by adjusting cavity diameter
 Unequal face angles on drift tubes
 Adjusting cavity diameter, currently =  28.8515017
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\CCDTL\2DTHC1.AM  2-05-2020  17:34:26
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\CCDTL\2DTHC1.AM  1-07-2021  12:00:38
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 1):    EZEROT =      2.00000 MV/m

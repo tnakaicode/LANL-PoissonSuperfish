@@ -1,0 +1,36 @@
+Sample problems for coupling cells.
+Resonant frequency = 805 MHz
+Adjusting gap, currently =   2.4385902
+
+&REG KPROB=1                     ; Superfish problem
+MAT=1                            ; Material air or empty space
+FREQ=804.9997243471              ; Mode frequency, starting frequency in Fish solver
+FREQD=805                        ; Design frequency, used (with DPHI) to compute K if KMETHOD = 0
+NBSUP=1,NBSLO=0,NBSRT=1,NBSLF=1  ; Boundary conditions
+LINES=1                          ; Fix internal points on line regions
+ICYLIN=1                         ; X=>Z,Y=>R, cylindrical coordinates
+CCL=1,                           ; Cavity is part of a coupled-cavity linac
+EPSO=1.0E-6                      ; Mesh optimization convergence parameter
+IRTYPE=0                         ; Rs method: Normal conductor formula
+XDRI=2.869103210531              ; Drive point X coordinate
+YDRI=5.467443266673              ; Drive point Y coordinate
+DSLOPE=-1                        ; Allow convergence in 1 iteration
+DX=0.08 &                        ; Mesh spacing in X direction
+
+; Start of boundary points
+&PO X=0.0,Y=0.0 &                                ; 1
+&PO X=0.0,Y=8.7249 &                             ; 2
+&PO X=3.61328,Y=8.7249 &                         ; 3
+&PO NT=2,X0=3.61328,Y0=7.7724,                   ; 4
+    X=0.9525,Y=0.0 &
+&PO X=4.56578,Y=4.67995 &                        ; 5
+&PO NT=2,X0=4.24828,Y0=4.67995,                  ; 6
+    X=0.0,Y=-0.3175 &
+&PO X=1.89455959499,Y=4.36245 &                  ; 7
+&PO NT=2,X0=1.89455959499,Y0=4.04495,            ; 8
+    X=-0.3126764615814,Y=0.0551332964093 &
+&PO X=1.226891215953,Y=2.086824088833 &          ; 9
+&PO NT=2,X0=1.71929509246,Y0=2,                  ; 10
+    X=-0.5,Y=0.0 &
+&PO X=1.21929509246,Y=0.0 &                      ; 11
+&PO X=0.0,Y=0.0 &                                ; 12

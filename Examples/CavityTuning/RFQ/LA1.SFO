@@ -18,10 +18,10 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\LA1.T35.
-More input from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\LA1.SEG.
-Program file: C:\LANL\RFQFISH.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Solution file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA1.T35.
+More input from file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA1.SEG.
+Program file: E:\LANL\RFQFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for LA1.T35 arrays:     288.900 K
 
 This problem originated with the program RFQfish,
@@ -51,7 +51,7 @@ Problem description:
 RFQ conceptual design at 201.25 MHz
 Los Alamos Neutron Science Center (LANSCE) accelerator
 r0,Vg,rho,Ws,Ls,Wb,H,W=0.595 .104 .505 5.60 0.00 5.60 17.86  0.00    Vary H
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\LA1.AM  4-19-2020  10:42:58
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA1.AM  1-07-2021  12:33:12
 Problem file length:        2601 bytes
 Originating program: RFQfish    Problem type: RFQ
 
@@ -1365,7 +1365,7 @@ Superfish output summary for problem description:
 RFQ conceptual design at 201.25 MHz
 Los Alamos Neutron Science Center (LANSCE) accelerator
 r0,Vg,rho,Ws,Ls,Wb,H,W=0.595 .104 .505 5.60 0.00 5.60 17.86  0.00    Vary H
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\LA1.AM  4-19-2020  10:42:58
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA1.AM  1-07-2021  12:33:12
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 0):     EZERO =      8.74538 MV/m

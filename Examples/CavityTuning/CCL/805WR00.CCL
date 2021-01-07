@@ -1,0 +1,59 @@
+; CCLfish control file 805WR00.CCL
+; Created 01-07-2021  12:00:58
+; Originating file 805WR.CCL
+
+Title
+Sample problems for tuning coupled-cavity linac cells.
+Resonant frequency = 805 MHz, Bore radius = 2.25 cm
+ENDTitle
+ 
+PARTICLE              H+
+CAVITY_shape          0
+InitialEnergy         100     ; Energies used in program CCLCells
+FinalEnergy           2000
+ 
+FILEname_prefix       805WR
+SEQuence_number       1
+PI_MODE
+FREQuency             805
+BETA                  0.4350009365479
+LENGTH                8.1
+DIAMeter              28.365
+G_OVER_Beta_lambda    0.2348217952665
+GAP_Length            3.804113083317
+E0_Normalization      1.494111431188
+E0T_Normalization     1.211078158199
+;EQUATOR_Flat         0.5759999999998     ; for use in CDTfish
+OUTER_CORNer_radius   3
+INNER_CORNer_radius   0.5
+INNER_NOSE_radius     0.085
+OUTER_NOSE_radius     0.25
+FLAT_length           0.0
+CONE_angle            20
+SEPTUM_thickness      1.524
+BORE_radius           2.25
+PHASE_length          90
+RING_TYPE             4
+RING_Width            2.5
+RING_Angle            45
+RING_Effect           4
+RING_Thickness        0.1915113427824
+DELTA_frequency       0.02
+MESH_size             0.035
+INCrement             2
+START                 -4
+
+; Start codes for CCLfish:
+; 1 No tuning
+; 2 Adjust diameter
+; 3 Adjust septum thickness (not recommended)
+; 4 Adjust gap
+; 5 Adjust cone angle
+; Ring_Type codes for CCLfish:
+; 0 No tuning ring
+; 1 Equator ring of a given thickness.
+; 2 Equator ring of a given frequency effect.
+; 3 Wall rings of a given thickness.
+; 4 Wall rings of a given frequency effect.
+
+EndFile

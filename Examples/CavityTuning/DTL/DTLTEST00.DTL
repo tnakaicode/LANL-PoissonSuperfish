@@ -1,0 +1,75 @@
+; DTLfish control file DTLTEST00.DTL
+; Created 01-07-2021  12:01:24
+; Originating file DTLTEST.DTL
+
+Title
+Sample problems for tuning drift-tube linac cells.
+Resonant frequency = 425 MHz
+ENDTitle
+
+PARTICLE              H+
+ 
+InitialEnergy         2     ; Energies used in program DTLCells
+ 
+FILEname_prefix       TEST   
+SEQuence_number       1
+FREQuency             425
+BETA                  0.0861331800082
+LENGTH                6.075783
+DIAMeter              43.13302294388
+G_OVER_Beta_lambda    0.1810466239495
+GAP_Length            1.1
+E0_Normalization      4.4
+E0T_Normalization     3.880467481959
+CORNER_radius         0.5
+INNER_nose_radius     0.325
+OUTER_nose_radius     0.325
+FLAT_length           0.0
+FACE_angle            5
+DRIFT_TUBE_Diameter   8.0594
+GAP_Change            0.0
+STEM_Diameter         1.905
+STEM_Count            1
+BORE_radius           0.4
+PHASE_length          180
+DELTA_frequency       0.01
+MESH_size             0.05
+INCrement             2
+START                 -2
+
+; Start codes for DTLfish:
+; 1 No tuning
+; 2 Adjust tank diameter
+; 3 Adjust drift tube diameter (not recommended)
+; 4 Adjust gap
+; 5 Adjust face angle
+
+SEQuence_number       2       ; Problem 2
+DIAMeter              PREVIOUS          ; 43.13302294388
+G_OVER_Beta_lambda    0.091
+GAP_Length            0.552896253
+E0_Normalization      4.4
+E0T_Normalization     4.078072990226
+DRIFT_TUBE_Diameter   4.861087687222
+START                 -3
+
+SEQuence_number       3       ; Problem 3
+DIAMeter              43
+G_OVER_Beta_lambda    0.1790130221842
+GAP_Length            1.087644276965
+E0_Normalization      4.4
+E0T_Normalization     3.88598671797
+DRIFT_TUBE_Diameter   8.0594
+START                 -4
+
+FILEname_prefix       TEST   TESTP
+SEQuence_number       4       ; Problem 4
+G_OVER_Beta_lambda    0.1810466239495
+GAP_Length            1.1
+E0_Normalization      4.4
+E0T_Normalization     3.880604063185
+FACE_angle            4.804697029394
+GAP_Change            -0.00508
+START                 -5
+
+EndFile

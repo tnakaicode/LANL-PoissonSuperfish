@@ -1,0 +1,41 @@
+Intrasegment coupling cavity for left side of bridge coupler
+Nominal accelerator frequency = 805 MHz
+This cavity tuned 12 MHz high anticipating coupling slot detuning
+No tuning on this cavity.
+
+&REG KPROB=1                     ; Superfish problem
+MAT=1                            ; Material air or empty space
+FREQ=816.9092309736              ; Mode frequency, starting frequency in Fish solver
+FREQD=817                        ; Design frequency, used (with DPHI) to compute K if KMETHOD = 0
+NBSUP=1,NBSLO=0,NBSRT=1,NBSLF=1  ; Boundary conditions
+LINES=1                          ; Fix internal points on line regions
+ICYLIN=1                         ; X=>Z,Y=>R, cylindrical coordinates
+CCL=1,                           ; Cavity is part of a coupled-cavity linac
+EPSO=1.0E-6                      ; Mesh optimization convergence parameter
+IRTYPE=0                         ; Rs method: Normal conductor formula
+XDRI=3.878484000046              ; Drive point X coordinate
+YDRI=8.245009002885              ; Drive point Y coordinate
+DSLOPE=-1                        ; Allow convergence in 1 iteration
+DX=0.08 &                        ; Mesh spacing in X direction
+
+; Start of boundary points
+&PO X=-4.058666,Y=0.0 &                          ; 1
+&PO X=-4.058666,Y=6.348476 &                     ; 2
+&PO NT=2,X0=-4.211066,Y0=6.348476,               ; 3
+    X=0.0,Y=0.1524 &
+&PO X=-4.2164,Y=6.500876 &                       ; 4
+&PO NT=2,X0=-4.2164,Y0=6.653276,                 ; 5
+    X=-0.1524,Y=0.0 &
+&PO X=-4.3688,Y=12.5476 &                        ; 6
+&PO NT=2,X0=-3.4163,Y0=12.5476,                  ; 7
+    X=0.0,Y=0.9525 &
+&PO X=4.3688,Y=13.5001 &                         ; 8
+&PO X=4.3688,Y=6.65988 &                         ; 9
+&PO NT=2,X0=4.20878,Y0=6.65988,                  ; 10
+    X=0.0,Y=-0.16002 &
+&PO X=3.829920697502,Y=6.49986 &                 ; 11
+&PO NT=2,X0=3.829920697502,Y0=6.33984,           ; 12
+    X=-0.1598006981514,Y=0.008374799718 &
+&PO X=3.390138,Y=1.00584 &                       ; 13
+&PO X=3.390138,Y=0.0 &                           ; 14
+&PO X=-4.058666,Y=0.0 &                          ; 15

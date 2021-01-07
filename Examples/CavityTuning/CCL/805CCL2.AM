@@ -1,0 +1,53 @@
+Sample problems for tuning coupled-cavity linac cells.
+Resonant frequency = 805 MHz, Bore radius = 2.25 cm
+Tuning ring removed to find frequency effect.
+
+&REG KPROB=1                     ; Superfish problem
+MAT=1                            ; Material air or empty space
+FREQ=805.004794893               ; Mode frequency, starting frequency in Fish solver
+FREQD=805                        ; Design frequency, used (with DPHI) to compute wave number if KMETHOD = 0
+BETA=0.4350009365479             ; Particle velocity, used to compute wave number if KMETHOD = 1
+KMETHOD=1                        ; SFO will use BETA to compute wave number
+DPHI=90                          ; Phase length of the half cavity, used (with FREQD) in SFO if KMETHOD = 0
+NBSUP=1,NBSLO=0,NBSRT=0,NBSLF=1  ; Boundary conditions
+LINES=1                          ; Fix internal points on line regions
+ICYLIN=1                         ; X=>Z,Y=>R, cylindrical coordinates
+NORM=0                           ; Normalize to EZERO
+EZERO=1500000                    ; Accelerating field
+CCL=1                            ; Cavity is coupled-cavity linac
+ISLOT=1                          ; Compute coupling slot power effect
+RMASS=-2                         ; Rest mass value or indicator
+EPSO=1.0E-6                      ; Mesh optimization convergence parameter
+IRTYPE=0                         ; Rs method: Normal conductor formula
+XDRI=0.2159106132102             ; Drive point X coordinate
+YDRI=11.29032426304              ; Drive point Y coordinate
+DSLOPE=-1                        ; Allow convergence in 1 iteration
+; X line-region physical locations:
+XREG=1.318562078864,1.758562078864,2.363057043033,
+; X line-region logical locations:
+KREG=1,8,13,27,
+KMAX=47                          ; Column number for X = XMAX
+; Y line-region physical locations:
+YREG=0.0622253967444,0.1866761902332,2.032211111395,2.156661904883,
+2.866905770177,3.116687082318,3.996687082318,
+; Y line-region logical locations:
+LREG=1,3,5,20,22,43,48,55,
+LMAX=97 &                        ; Row number for Y = YMAX
+
+; Start of boundary points
+&PO X=0.0,Y=0.0 &                                ; 1
+&PO X=0.0,Y=14.19783357266 &                     ; 2
+&PO X=0.288,Y=14.19783357266 &                   ; 3
+&PO NT=2,X0=0.288,Y0=11.19783357266,             ; 4
+    X=3,Y=0.0 &
+&PO X=3.288,Y=3.33675208057 &                    ; 5
+&PO NT=2,X0=2.788,Y0=3.33675208057,              ; 6
+    X=0.1710100716628,Y=-0.469846310393 &
+&PO X=2.143057043033,Y=2.569923155196 &          ; 7
+&PO NT=2,X0=2.228562078864,Y0=2.335,             ; 8
+    X=-0.25,Y=0.0 &
+&PO NT=2,X0=2.063562078864,Y0=2.335,             ; 9
+    X=0.0,Y=-0.085 &
+&PO X=4.05,Y=2.25 &                              ; 10
+&PO X=4.05,Y=0.0 &                               ; 11
+&PO X=0.0,Y=0.0 &                                ; 12

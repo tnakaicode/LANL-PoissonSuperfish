@@ -9,12 +9,12 @@ Rem  Unauthorized commercial use is prohibited.
 Rem  Remove "Rem" from the next line to prevent codes from opening display windows.   
 Rem set screenoutput=no
 
-cd "CavityTuning\CCDTL"
+cd "CCDTL"
 START /W  " "  "%SFDIR%cdtfish" 1dtfc
 START /W  " "  "%SFDIR%cdtfish" 2dthc
 
 
-cd "CavityTuning\CCL"
+cd "..\CCL"
 START /W  " "  "%SFDIR%cclfish" 805ccl
 START /W  " "  "%SFDIR%cclfish" 805er
 START /W  " "  "%SFDIR%cclfish" 805wr
@@ -22,13 +22,13 @@ START /W  " "  "%SFDIR%cclfish" 3ghz
 START /W  " "  "%SFDIR%cclfish" 425ew
 
 
-cd "CavityTuning\DTL"
+cd "..\DTL"
 START /W  " "  "%SFDIR%dtlfish"  dtltest
 START /W  " "  "%SFDIR%dtlfish"  rgfish
 START /W  " "  "%SFDIR%sfotable" rgdtl.sft
 
 
-cd "CavityTuning\EllipticalCavity"
+cd "..\EllipticalCavity"
 START /W  " "  "%SFDIR%ellfish"  82b
 START /W  " "  "%SFDIR%ellfish"  82be
 START /W  " "  "%SFDIR%ellcav"   82be00
@@ -37,16 +37,16 @@ START /W  " "  "%SFDIR%sfo"      8c82be1.seg
 START /W  " "  "%SFDIR%segfield" segfld.sgf
 
 
-cd "CavityTuning\MulticellDTL"
+cd "..\MulticellDTL"
 START /W  " "  "%SFDIR%mdtfish" mdttest
 
 
-cd "CavityTuning\RFQ"
+cd "..\RFQ"
 START /W  " "  "%SFDIR%rfqfish" rfqtest
 START /W  " "  "%SFDIR%rfqfish" lansce
 
 
-cd "CavityTuning\SideCouplingCell"
+cd "..\SideCouplingCell"
 START /W  " "  "%SFDIR%sccfish" 805cc
 START /W  " "  "%SFDIR%sccfish" lf
 

@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\8C82BE1.T35.
-Program file: C:\LANL\AUTOFISH.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\EllipticalCavity\8C82BE1.T35.
+Program file: E:\LANL\AUTOFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for 8C82BE1.T35 arrays:       2.014 M
 Memory used for other Fish arrays:       3.329 M
 
@@ -31,7 +31,7 @@ Design beta = 0.82
 Resonant frequency = 700 MHz, Bore radius = 8 cm
 Left side from 82B cavity
 Right side tuned by adjusting dome size
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\8C82BE1.AF  4-19-2020  10:40:08
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\EllipticalCavity\8C82BE1.AF  1-07-2021  12:02:08
 Problem file length:        4779 bytes
 Originating program: Autofish    Problem type: 8-cell SC cavity
 
@@ -162,7 +162,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 55944                  freq = 700.
                                                   D(k^2) = 6.87058E-08
-      Solution time =    1.755 sec.                       End cycle  0
+      Solution time =    1.593 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -175,7 +175,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 1.
       Initial frequency = 700              Final frequency = 700.00112
-      Elapsed time  =    1.84 sec
+      Elapsed time  =    1.67 sec
 
 Problem variables computed by this code.
 

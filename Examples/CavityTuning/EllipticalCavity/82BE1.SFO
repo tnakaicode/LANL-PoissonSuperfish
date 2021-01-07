@@ -18,10 +18,10 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\82BE1.T35.
-More input from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\82BE1.SEG.
-Program file: C:\LANL\ELLFISH.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Solution file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\EllipticalCavity\82BE1.T35.
+More input from file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\EllipticalCavity\82BE1.SEG.
+Program file: E:\LANL\ELLFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for 82BE1.T35 arrays:     963.036 K
 
 This problem originated with the program ELLfish,
@@ -73,7 +73,7 @@ Resonant frequency = 700 MHz, Bore radius = 8 cm
 Left side from 82B cavity
 Right side tuned by adjusting dome size
 Adjusting right-side dome size, currently =   5.0819062
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\82BE1.AM  4-19-2020  10:40:02
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\EllipticalCavity\82BE1.AM  1-07-2021  12:02:02
 Problem file length:        3328 bytes
 Originating program: ELLfish    Problem type: SC cavity
 
@@ -1670,7 +1670,7 @@ Resonant frequency = 700 MHz, Bore radius = 8 cm
 Left side from 82B cavity
 Right side tuned by adjusting dome size
 Adjusting right-side dome size, currently =   5.0819062
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\EllipticalCavity\82BE1.AM  4-19-2020  10:40:02
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\EllipticalCavity\82BE1.AM  1-07-2021  12:02:02
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 1):    EZEROT =     10.00000 MV/m

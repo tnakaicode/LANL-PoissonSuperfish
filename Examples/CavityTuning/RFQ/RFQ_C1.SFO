@@ -18,10 +18,10 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\RFQ_C1.T35.
-More input from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\RFQ_C1.SEG.
-Program file: C:\LANL\RFQFISH.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Solution file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\RFQ_C1.T35.
+More input from file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\RFQ_C1.SEG.
+Program file: E:\LANL\RFQFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for RFQ_C1.T35 arrays:     174.168 K
 
 This problem originated with the program RFQfish,
@@ -51,7 +51,7 @@ Problem description:
 Sample Tuning of Radio-Frequency Quadrupole Cavities
 Target frequency = 350 MHz
 r0,Vg,rho,Ws,Ls,Wb,H,W=0.300 .060 .255 1.50 0.00 1.50  9.31  0.00    Vary H
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\RFQ_C1.AM  4-19-2020  10:42:36
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\RFQ_C1.AM  1-07-2021  12:32:56
 Problem file length:        2444 bytes
 Originating program: RFQfish    Problem type: RFQ
 
@@ -1217,7 +1217,7 @@ Superfish output summary for problem description:
 Sample Tuning of Radio-Frequency Quadrupole Cavities
 Target frequency = 350 MHz
 r0,Vg,rho,Ws,Ls,Wb,H,W=0.300 .060 .255 1.50 0.00 1.50  9.31  0.00    Vary H
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\RFQ_C1.AM  4-19-2020  10:42:36
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\RFQ_C1.AM  1-07-2021  12:32:56
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 0):     EZERO =     10.00000 MV/m

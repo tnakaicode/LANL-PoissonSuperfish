@@ -1,0 +1,140 @@
+; DTLfish control file RGFISH00.DTL
+; Created 01-07-2021  12:01:37
+; Originating file RGFISH.DTL
+
+Title
+Los Alamos/Grumman Ramped Gradient Drift-Tube Linac
+Representative cells used for PARMILA design work
+Machine was designed, built, and tested between 1985 and 1988
+Resonant frequency = 425 MHz, Beam energy = 2.0 to 6.7 MeV
+ENDTitle
+
+PARTICLE              H-
+TEMPerature           32.2
+ 
+InitialEnergy         2     ; Energies used in program DTLCells
+ 
+FILEname_prefix       RGDTL   
+SEQuence_number       1
+FREQuency             425
+BETA                  0.065188417782
+LENGTH                4.598352
+DIAMeter              42.27576
+G_OVER_Beta_lambda    0.1675352126923
+GAP_Length            0.770385880354
+E0_Normalization      1
+E0T_Normalization     0.8148456152958
+CORNER_radius         0.5
+INNER_nose_radius     0.325
+OUTER_nose_radius     0.325
+FLAT_length           0.0
+FACE_angle            3
+DRIFT_TUBE_Diameter   8.0594
+GAP_Change            0.0
+STEM_Diameter         1.905
+STEM_Count            1
+BORE_radius           0.5
+PHASE_length          180
+DELTA_frequency       0.005
+MESH_size             0.05
+INCrement             2
+START                 -1
+
+; Start codes for DTLfish:
+; 1 No tuning
+; 2 Adjust tank diameter
+; 3 Adjust drift tube diameter (not recommended)
+; 4 Adjust gap
+; 5 Adjust face angle
+
+SEQuence_number       2       ; Problem 2
+BETA                  0.0728538215928
+LENGTH                5.139065
+G_OVER_Beta_lambda    0.1765135001215
+GAP_Length            0.907114350502
+E0_Normalization      1
+E0T_Normalization     0.833172316743
+START                 -1
+
+SEQuence_number       3       ; Problem 3
+BETA                  0.079775584281
+LENGTH                5.627322
+G_OVER_Beta_lambda    0.1841017805628
+GAP_Length            1.036
+E0_Normalization      1
+E0T_Normalization     0.8453714510353
+START                 -1
+
+SEQuence_number       4       ; Problem 4
+BETA                  0.0861331800082
+LENGTH                6.075783
+G_OVER_Beta_lambda    0.1907065289983
+GAP_Length            1.158691486877
+E0_Normalization      1
+E0T_Normalization     0.8534445795999
+START                 -1
+
+SEQuence_number       5       ; Problem 5
+BETA                  0.0920436213909
+LENGTH                6.492702
+G_OVER_Beta_lambda    0.1966364859522
+GAP_Length            1.276702105615
+E0_Normalization      1
+E0T_Normalization     0.8592595685212
+START                 -1
+
+SEQuence_number       6       ; Problem 6
+BETA                  0.0975881963315
+LENGTH                6.883813
+G_OVER_Beta_lambda    0.2020218072581
+GAP_Length            1.390680343087
+E0_Normalization      1
+E0T_Normalization     0.8631691995882
+START                 -1
+
+SEQuence_number       7       ; Problem 7
+BETA                  0.1028261341384
+LENGTH                7.253294
+G_OVER_Beta_lambda    0.2069979989392
+GAP_Length            1.501417343718
+E0_Normalization      1
+E0T_Normalization     0.8661025888367
+START                 -1
+
+SEQuence_number       8       ; Problem 8
+BETA                  0.1078021474109
+LENGTH                7.604299
+G_OVER_Beta_lambda    0.2116464885928
+GAP_Length            1.60942318156
+E0_Normalization      1
+E0T_Normalization     0.8681159179198
+START                 -1
+
+SEQuence_number       9       ; Problem 9
+BETA                  0.1125509968633
+LENGTH                7.93928
+G_OVER_Beta_lambda    0.2159436916052
+GAP_Length            1.714437431887
+E0_Normalization      1
+E0T_Normalization     0.8694208593928
+START                 -1
+
+SEQuence_number       10      ; Problem 10
+BETA                  0.1171003407964
+LENGTH                8.260188
+G_OVER_Beta_lambda    0.2200519654502
+GAP_Length            1.817670604388
+E0_Normalization      1
+E0T_Normalization     0.8702887412959
+START                 -1
+
+SEQuence_number       11      ; Problem 11
+BETA                  0.1214726063923
+LENGTH                8.568605
+G_OVER_Beta_lambda    0.2240068625544
+GAP_Length            1.919426322518
+E0_Normalization      1
+E0T_Normalization     0.8706486888138
+START                 -1
+
+EndFile

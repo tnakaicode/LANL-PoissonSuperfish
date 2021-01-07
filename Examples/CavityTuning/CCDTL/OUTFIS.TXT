@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\CCDTL\2DTHC1.T35.
-Program file: C:\LANL\CDTFISH.EXE
-SF.INI file: C:\LANL\SF.INI  2-05-2020  17:11:10
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\CCDTL\2DTHC1.T35.
+Program file: E:\LANL\CDTFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for 2DTHC1.T35 arrays:     341.496 K
 Memory used for other Fish arrays:     668.535 K
 
@@ -31,7 +31,7 @@ Example 2-drift-tube CCDTL cavity
 Tuned by adjusting cavity diameter
 Unequal face angles on drift tubes
 Adjusting cavity diameter, currently =  28.8515017
-Problem file: C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\CCDTL\2DTHC1.AM  2-05-2020  17:34:26
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\CCDTL\2DTHC1.AM  1-07-2021  12:00:38
 Problem file length:        3815 bytes
 Originating program: CDTfish    Problem type:  2-DT CCDTL
 
@@ -162,7 +162,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 9486              freq = 699.33556
                                                   D(k^2) = 4.07759E-05
-      Solution time =    0.184 sec.                       End cycle  0
+      Solution time =    0.271 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -173,7 +173,7 @@ No materials other than air or empty space.
                               del(k^2) = 4.07759E-05    k^2 = 0.021524
                                                       freq = 699.99894
                                                  D(k^2) = -2.22729E-07
-      Solution time =    0.158 sec.                       End cycle  1
+      Solution time =    0.290 sec.                       End cycle  1
       ----------------------------------------------------------------
                                                         Start cycle  2
 
@@ -195,7 +195,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 2.
       Initial frequency = 699.33556        Final frequency = 699.99532
-      Elapsed time  =    0.37 sec
+      Elapsed time  =    0.62 sec
 
 Problem variables computed by this code.
 
