@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.T35.
-Program file: E:\LANL\FISH.EXE
-SF.INI file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\SF.INI  8-04-2020  11:53:34
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.T35.
+Program file: E:\LANL\AUTOFISH.EXE
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\SF.INI  1-07-2021   8:51:14
 Memory used for FTEST.T35 arrays:     424.440 K
 Memory used for other Fish arrays:     692.103 K
 
@@ -32,9 +32,9 @@ Five ceramic-spacers:  Material 4, Epsilon = 10.0, Mu = 1.0
 Ceramic vacuum window: Material 3, Epsilon =  9.0, Mu = 1.0
 Initialize one large ferrite block, then superimpose ceramic spacers
 [Originally appeared in 1987 Reference Manual C.12.2]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\FerriteCavity\FTEST.AM  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\.\FTEST.AM  1-07-2021   8:51:14
 Problem file length:        2702 bytes
-Originating program: Automesh    Problem type: Unknown RF Cavity
+Originating program: Autofish    Problem type: Unknown RF Cavity
 
 Coordinates and lengths have dimensions of centimeters.
 
@@ -184,7 +184,7 @@ Region Material    eps          mu
       ----------------------------------------------------------------
       Solution converged at the start of cycle 1.
       Initial frequency = 57.76775           Final frequency = 57.7687
-      Elapsed time  =    0.57 sec
+      Elapsed time  =    0.53 sec
 
 Problem variables computed by this code.
 

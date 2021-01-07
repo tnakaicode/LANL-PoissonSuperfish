@@ -18,8 +18,8 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Automesh  7.17  released 1-13-2006 
 Program file: E:\LANL\AUTOFISH.EXE
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\SphericalCavity\.\SPHERE.AF  8-04-2020  10:17:56
-SF.INI file: E:\LANL\SF.INI  8-04-2020  10:17:22
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\SphericalCavity\SPHERE.AF  1-07-2021   8:51:14
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 
 Problem description:
 Spherical Cavity
@@ -409,7 +409,7 @@ Problem description:
 Spherical Cavity
 Uses NT=5 option to draw arc of specified radius
 [Originally appeared in 1987 Reference Manual C.12.1]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\SphericalCavity\.\SPHERE.AF  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\SphericalCavity\SPHERE.AF  1-07-2021   8:51:14
 Problem file length:         616 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 

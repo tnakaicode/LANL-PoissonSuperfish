@@ -1,0 +1,25 @@
+Input data for Parmila; originating program = Autofish.
+Cavity type: Unknown RF Cavity
+Design frequency     =   2378.18     MHz
+Resonant frequency   =   2378.18     MHz
+Design beta          =  0.950000    
+Particle beta        =  0.950000    
+Cavity E0            =   1.00000     MV/m
+Transit-time factor  =  0.524147    
+Normalization length =   7.50000     cm
+
+Cell  Zstart(cm)      Zcenter(cm)    Zend(cm)      Lnorm(cm)       E0(MV/m)      g/bl
+  1    0.00000        0.00000        7.50000        7.50000        1.00000       0.417514    
+
+Cell   1  Beta =  0.950000     dZctr =   0.00000    
+X       X1            X2
+T    0.2620735      0.2620735    
+T'   5.4645414E-02  5.4645414E-02
+T"  -2.0162088E-03 -2.0162088E-03
+S   -0.3064251      0.3064251    
+S'  -1.1943267E-02  1.1943267E-02
+S"  -1.1910455E-02  1.1910455E-02
+
+Shunt impedance data:
+Coupling(%)  Z(MOhm/m)
+   0.000      49.8823    

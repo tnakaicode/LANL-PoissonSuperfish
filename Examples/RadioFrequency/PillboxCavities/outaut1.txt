@@ -1,0 +1,370 @@
+Los Alamos National Laboratory Poisson Superfish
+Program Automesh written by James H. Billen and Lloyd M. Young
+
+The original Poisson Superfish codes were developed
+by Ron F. Holsinger in collaboration with Klaus Halbach.
+These programs are provided as a service to the accelerator
+community by the Los Alamos Accelerator Code Group (LAACG).
+
+(c) Copyright 1985-2005, by the Regents of the University of California.        
+This software was produced under U. S. Government contract W-7405-ENG-36        
+by Los Alamos National Laboratory, which is operated by the University          
+of California for the U. S. Department of Energy.  Neither the Government       
+nor the University makes any warranty, express or implied, or assumes           
+any liability or responsibility for its use, or represents that use of          
+this software would not infringe privately owned rights.                        
+Unpublished - rights reserved under Copyright Laws of the United States.        
+
+
+Program Automesh  7.17  released 1-13-2006 
+Program file: E:\LANL\AUTOFISH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\PillboxCavities\PILL1.AF  1-07-2021   8:51:14
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
+
+Problem description:
+2.4-GHz TM010 Short Pillbox Cavity
+In this problem, Kmax < Lmax
+
+Coordinates and lengths have dimensions of centimeters.
+
+Region data:
+IREG      =  1
+MAT       =  1
+CUR       =  0.0
+DEN       =  0.0
+ITRI      =  0            [equal weight triangles]
+IBOUND    =  1            [Neumann boundary]
+IPDIAG    =  0            [no extra Automesh diagnostics]
+DX        =  0.2
+XMIN      =  0.0
+XMAX      =  3
+DY        =  0.1732051    [=DX*sin(60)]
+YMIN      =  0.0
+YMAX      =  4.7
+DX1       =  0.2
+KMAX      =  16
+DY1       =  0.1740741
+LMAX      =  28
+ITOT      =  540
+Memory used for the solution file:      19.440 K
+Memory used for Automesh setup data:    58.456 K
+
+Region 1 boundary points from the PO namelist:
+  Point  NT    X0          Y0          X           Y           R          THETA        A           B
+     1   1                            0.000       0.000
+     2   1                            0.000       4.700
+     3   1                            3.000       4.700
+     4   1                            3.000       0.000
+     5   1                            0.000       0.000
+ 
+Number of user-supplied fixed points      =     5
+Fixed points added at line regions        =     0
+Fixed points added on overlapping regions =     0
+Total number of fixed points              =     5
+
+Logical path finding for region 1
+(includes extra boundary points at intersections of line
+regions plus points from other user-supplied segments)
+  Point NT    X           Y           R           A           B         Fwd   Bkw
+     2   1    0.000       4.700                                          28    28
+     3   1    3.000       4.700                                          16    16
+     4   1    3.000       0.000                                          28    28
+     5   1    0.000       0.000                                          16    16
+ 
+
+Region 1 mesh points
+      K     L        X                 Y
+      1     1    0.00000000        0.00000000    
+      1     2    0.00000000       0.174074074    
+      1     3    0.00000000       0.348148148    
+      1     4    0.00000000       0.522222222    
+      1     5    0.00000000       0.696296296    
+      1     6    0.00000000       0.870370370    
+      1     7    0.00000000        1.04444444    
+      1     8    0.00000000        1.21851852    
+      1     9    0.00000000        1.39259259    
+      1    10    0.00000000        1.56666667    
+      1    11    0.00000000        1.74074074    
+      1    12    0.00000000        1.91481481    
+      1    13    0.00000000        2.08888889    
+      1    14    0.00000000        2.26296296    
+      1    15    0.00000000        2.43703704    
+      1    16    0.00000000        2.61111111    
+      1    17    0.00000000        2.78518519    
+      1    18    0.00000000        2.95925926    
+      1    19    0.00000000        3.13333333    
+      1    20    0.00000000        3.30740741    
+      1    21    0.00000000        3.48148148    
+      1    22    0.00000000        3.65555556    
+      1    23    0.00000000        3.82962963    
+      1    24    0.00000000        4.00370370    
+      1    25    0.00000000        4.17777778    
+      1    26    0.00000000        4.35185185    
+      1    27    0.00000000        4.52592593    
+      1    28    0.00000000        4.70000000    
+      2    28   0.200000000        4.70000000    
+      3    28   0.400000000        4.70000000    
+      4    28   0.600000000        4.70000000    
+      5    28   0.800000000        4.70000000    
+      6    28    1.00000000        4.70000000    
+      7    28    1.20000000        4.70000000    
+      8    28    1.40000000        4.70000000    
+      9    28    1.60000000        4.70000000    
+     10    28    1.80000000        4.70000000    
+     11    28    2.00000000        4.70000000    
+     12    28    2.20000000        4.70000000    
+     13    28    2.40000000        4.70000000    
+     14    28    2.60000000        4.70000000    
+     15    28    2.80000000        4.70000000    
+     16    28    3.00000000        4.70000000    
+     16    27    3.00000000        4.52592593    
+     16    26    3.00000000        4.35185185    
+     16    25    3.00000000        4.17777778    
+     16    24    3.00000000        4.00370370    
+     16    23    3.00000000        3.82962963    
+     16    22    3.00000000        3.65555556    
+     16    21    3.00000000        3.48148148    
+     16    20    3.00000000        3.30740741    
+     16    19    3.00000000        3.13333333    
+     16    18    3.00000000        2.95925926    
+     16    17    3.00000000        2.78518519    
+     16    16    3.00000000        2.61111111    
+     16    15    3.00000000        2.43703704    
+     16    14    3.00000000        2.26296296    
+     16    13    3.00000000        2.08888889    
+     16    12    3.00000000        1.91481481    
+     16    11    3.00000000        1.74074074    
+     16    10    3.00000000        1.56666667    
+     16     9    3.00000000        1.39259259    
+     16     8    3.00000000        1.21851852    
+     16     7    3.00000000        1.04444444    
+     16     6    3.00000000       0.870370370    
+     16     5    3.00000000       0.696296296    
+     16     4    3.00000000       0.522222222    
+     16     3    3.00000000       0.348148148    
+     16     2    3.00000000       0.174074074    
+     16     1    3.00000000        0.00000000    
+     15     1    2.80000000        0.00000000    
+     14     1    2.60000000        0.00000000    
+     13     1    2.40000000        0.00000000    
+     12     1    2.20000000        0.00000000    
+     11     1    2.00000000        0.00000000    
+     10     1    1.80000000        0.00000000    
+      9     1    1.60000000        0.00000000    
+      8     1    1.40000000        0.00000000    
+      7     1    1.20000000        0.00000000    
+      6     1    1.00000000        0.00000000    
+      5     1   0.800000000        0.00000000    
+      4     1   0.600000000        0.00000000    
+      3     1   0.400000000        0.00000000    
+      2     1   0.200000000        0.00000000    
+      1     1    0.00000000        0.00000000    
+Region 1 done, 5 fixed points, 85 total boundary points.
+Logical boundary segment end points for region 1:
+Segment   Starting Point    Ending Point
+              K     L         K     L
+    1         1     1         1    28
+    2         1    28        16    28
+    3        16    28        16     1
+    4        16     1         1     1
+
+
+Drive point at X = 1, K = 6, Y = 4.7, L = 28.
+
+Region 2 mesh points
+      K     L        X                 Y
+      6    28    1.00000000        4.70000000    
+
+Processing boundary data...
+Memory used for additional setup arrays:   20.272 K
+
+
+Region 1    Material = 1
+Region boundary indicator = 1
+Equal-weight triangles
+Region 1 is closed.
+
+
+Region 2    Material = 1
+Region boundary indicator = -1
+Driving field = 1
+Equal-weight triangles
+Region 2 contains a single point.
+
+Logical boundary segment end points for all regions:
+Segment    Starting Point        Ending Point
+          Index    K     L     Index    K     L
+    1        1     1     1       28     1    28
+    2       28     1    28       43    16    28
+    3       43    16    28       70    16     1
+    4       70    16     1       85     1     1
+
+Relaxation parameters, 364 unknown points.
+Optimizing mesh by successive over relaxation...
+          -------X coordinate--------     -------Y coordinate--------
+Cycle      Residual     ETA      RHO       Residual     ETA      RHO
+
+     1    5.146E-02   1.0000   1.6000     1.076E-09   1.0000   1.6000
+     2    7.139E-02   0.6667   1.6000     1.509E-09   0.6812   1.6000
+     3    4.810E-02   0.6749   1.6000     1.034E-09   0.6853   1.6000
+     4    3.223E-02   0.6711   1.6000     7.108E-10   0.6873   1.6000
+     5    2.176E-02   0.6756   1.6000     4.896E-10   0.6888   1.6000
+     6    1.463E-02   0.6731   1.6000     3.454E-10   0.7053   1.6000
+     7    9.908E-03   0.6772   1.6000     2.318E-10   0.6712   1.6000
+     8    6.704E-03   0.6770   1.6000     1.586E-10   0.6842   1.6000
+     9    4.566E-03   0.6812   1.6000     1.103E-10   0.6957   1.6000
+    10    3.127E-03   0.6849   1.6000     7.287E-11   0.6604   1.6000
+    11    2.160E-03   0.6908   1.6000     5.308E-11   0.7284   1.6000
+    12    1.514E-03   0.7011   1.6000     3.534E-11   0.6659   1.6000
+    13    1.078E-03   0.7122   1.6000     2.556E-11   0.7231   1.6000
+    14    7.893E-04   0.7319   1.6000     1.724E-11   0.6746   1.6000
+    15    5.933E-04   0.7517   1.6000     1.218E-11   0.7067   1.6000
+    16    4.614E-04   0.7777   1.6000     8.688E-12   0.7130   1.6000
+    17    3.697E-04   0.8012   1.6000     6.033E-12   0.6945   1.6000
+    18    3.049E-04   0.8246   1.6000     4.331E-12   0.7178   1.6000
+    19    2.566E-04   0.8416   1.6000     3.144E-12   0.7259   1.6000
+    20    2.199E-04   0.8569   1.6000     2.350E-12   0.7476   1.6000
+    21    1.903E-04   0.8657   1.6000     1.774E-12   0.7550   1.6000
+    22    1.663E-04   0.8738   1.6000     1.354E-12   0.7630   1.6000
+    23    1.460E-04   0.8781   1.6000     1.021E-12   0.7540   1.6000
+    24    1.288E-04   0.8817   1.6000     7.956E-13   0.7794   1.6000
+    25    1.139E-04   0.8845   1.6000     6.428E-13   0.8079   1.6000
+    26    1.413E-04   1.2407   1.7198     6.009E-13   0.9348   1.6622
+    27    1.217E-04   0.8612   1.7198     5.137E-13   0.8549   1.6622
+    28    1.038E-04   0.8533   1.7198     4.338E-13   0.8446   1.6622
+    29    8.801E-05   0.8476   1.7198     3.596E-13   0.8289   1.6622
+    30    7.357E-05   0.8359   1.7198     3.043E-13   0.8461   1.6622
+    31    6.106E-05   0.8300   1.7198     2.602E-13   0.8551   1.6622
+    32    4.984E-05   0.8162   1.7198     2.243E-13   0.8620   1.6622
+    33    4.050E-05   0.8126   1.7198     1.828E-13   0.8152   1.6622
+    34    3.240E-05   0.8001   1.7198     1.531E-13   0.8372   1.6622
+    35    2.599E-05   0.8020   1.7198     1.254E-13   0.8191   1.6622
+    36    2.058E-05   0.7921   1.7198     1.061E-13   0.8462   1.6622
+    37    1.638E-05   0.7956   1.7198     8.977E-14   0.8462   1.6622
+    38    1.272E-05   0.7767   1.7198     7.248E-14   0.8074   1.6622
+    39    9.824E-06   0.7724   1.7198     6.185E-14   0.8533   1.6622
+Iteration converged.
+Generation completed.
+
+Problem description:
+2.4-GHz TM010 Short Pillbox Cavity
+In this problem, Kmax < Lmax
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\PillboxCavities\PILL1.AF  1-07-2021   8:51:14
+Problem file length:         494 bytes
+Originating program: Autofish    Problem type: Unknown RF Cavity
+
+Problem constants and variables.
+Letter A in the code column indicates a value supplied in the
+Automesh input file.
+
+Variable Code         Value     Description
+ALPHAT          3.930000000E-03 Temperature coefficient of resistance
+ASCALE           3767.30313     Scaling factor for H at drive point
+BETA                    0.0     Particle velocity
+BETA1           0.100000000     Starting BETA in transit-time table
+BETA2           0.950000000     Ending BETA in transit-time table
+CCLDELK          1.00000000     Increment for coupling for table in SFO
+CCLMAXK          6.00000000     Highest coupling for table in SFO
+CCLMINK          1.00000000     Lowest coupling for table in SFO
+CLENGTH                 0.0     Cavity length for normalization in SFO
+CLIGHT          2.997924580E+10 Exact speed of light in cm/sec
+CONV             1.00000000     Length conversion (number of units per cm)
+DBETA           5.000000000E-02 BETA increment in transit-time table
+DELFR                   0.0     Frequency step size for a resonance search
+DIAGDLL                   0     If 1, DLL writes diagnostics to DiagDLL.txt
+DPHI             180.000000     Phase length of the problem geometry
+DSLOPE           1.00000000     Slope of D(k^2) function
+DSTOLER         2.000000000E-02 Tolerance required on D(k^2)
+DX1             0.200000000     First X mesh interval (at XMIN)
+DXMIN           0.200000000     Minimum X mesh interval (found by Automesh)
+DYMIN           0.174074074     Minimum Y mesh interval (found by Automesh)
+ENORM            1000000.00     Field normalization for NORM=4 option
+EPS0            8.854187818E-12 Permittivity of free space
+EPSIK           1.000000000E-04 Frequency convergence parameter
+EPSO            1.000000000E-05 Convergence parameter in mesh optimization
+EZERO            1000000.00     E0 for normalization in SFO when NORM=0
+EZEROT           1000000.00     E0*T for normalization in SFO when NORM=1
+FMU0            1.256637061E-06 Permeability of free space
+FREQ       A     2400.00000     RF cavity resonant frequency
+FREQD                   0.0     Design frequency for a cavity (MHz)
+HPHI             5000.00000     Normalization magnetic field for NORM=2
+IBETA                     0     If >0, SFO writes transit-time vs BETA
+ICCC                      1     1 for real arrays, 2 for complex arrays
+ICCP                      1     If 1, compute material power loss
+ICORNER1                  0     First corner segment for computing average H
+ICORNER2                  0     Last corner segment for computing average H
+ICYLIN                    1     0 for X,Y problems, 1 for Z,R problems
+IMAX                     18     KMAX+2
+INFODATA                  0     Number of tuning-code parameters
+IOBSEG                   -1     First segment of the CCL outer boundary
+IPIVOT                    1     Pivoting in matrix inversion routines
+IRESID                    0     If 1, calculate potential residuals
+IRMAX                    25     Used in optimization of RHOXY
+IRTYPE                    0     Surface resistance option indicator
+ISLOT                     0     If 1, SFO computes coupling-slot power loss
+ITFILE                    0     If 1, SFO writes transit-time plot file
+ITOT                    540     (KMAX+2)*(LMAX+2)
+KDRI                      6     K coordinate of the drive point
+KMAX                     16     Number of horizontal logical mesh points
+KMETHOD                   0     Wavenumber computation method (1= use beta)
+KPROB      A              1     Problem type indicator (Superfish)
+LAST35                    0     Code for last program to update T35 file
+LCYCLE                   39     Iteration number in mesh optimization
+LDRI                     28     L coordinate of the drive point
+LINT                      1     Logical-mesh coordinate for Ez integration
+LMAX                     28     Number of vertical logical mesh points
+MAXCY                    -1     Maximum number of cycles (-1: use default)
+MAXPPR                  100     Maximum points per region
+NAIR                    431     Number of air points
+NBND                     16     Number of Dirichlet boundary points
+NBSLF                     1     Left-side boundary condition
+NBSLO                     0     Lower boundary condition
+NBSRT                     1     Right-side boundary condition
+NBSUP                     1     Upper boundary condition
+NDRI                    511     Drive point index = IRLAX(NPINP)
+NEGAT                     0     Zero-area triangle indicator
+NFE                       0     Number of iron points
+NHSTEM                    1     Number of half stems
+NINTER                    0     Number of interface points
+NMATR                     0     Number of material records in T35 file
+NORM                      0     Normalization method in SFO
+NPBOUND                  85     Total number of boundary points in the mesh
+NPINP                   448     Total points in problem
+NPONTS                  364     Number of unknown relaxation points
+NREG                      2     Number of regions
+NRMSEG                    1     Normalization segment number for NORM=2
+NSEG                      4     Number of boundary segments
+NSPL                      1     Number of special-potential points
+NSTEP                     0     Number of steps for a resonance search
+OMEGAM          1.000000000E-03 Used in optimization of RHOXY
+PI               3.14159265     The number pi to machine precision
+PLCELL           360.000000     Phase length per cell for multicell problems
+RESIDR          1.000000000E-08 Residual resistance of a superconductor
+RFMU             1.00000000     Permeability for rf surface resistance
+RHO             1.724100000E-06 Material resistivity (Ohm-m)
+RHOR            1.724100000E-06 Reference resistivity (Ohm-cm) at TEMPR
+RHOXY            1.60000000     Over-relaxation factor in mesh optimization
+RMASS           -2.00000000     Rest mass energy of particle in SFO
+RS                      0.0     RF surface resistance (Ohms)
+RSTEM            1.00000000     Stem radius in cm
+SLOSS           3.000000000E-02 Coupling-slot power factor per % coupling
+TC               9.20000000     Critical temperature of a superconductor
+TEMPC            20.0000000     Normal conductor operating temperature
+TEMPK            2.00000000     Operating temperature of a superconductor
+TEMPR            20.0000000     Reference temperature for IRTYPE=3
+TRIAVG          1.740740741E-02 Average area of all triangles
+TRIMAX          2.294836270E-02 Area of the largest positive-area triangle
+TRIMIN          1.047646466E-02 Area of the smallest positive-area triangle
+VOLUME           208.193345     Cavity volume (cylindrical symmetry only)
+XDRI       A     1.00000000     X coordinate of the drive point
+XMAXG            3.00000000     Upper X bound of the problem geometry
+XMING                   0.0     Lower X bound of the problem geometry
+XNORM1                  0.0     Starting X for NORM=4 integration path
+XNORM2                  0.0     Ending X for NORM=4 integration path
+XYAREA           14.1000000     Total cross sectional area
+YDRI       A     4.70000000     Y coordinate of the drive point
+YMAXG            4.70000000     Upper Y bound of the problem geometry
+YMING                   0.0     Lower Y bound of the problem geometry
+YNORM1                  0.0     Starting Y for NORM=4 integration path
+YNORM2                  0.0     Ending Y for NORM=4 integration path
+ZCTR                    0.0     Reference Z in transit-time integrals

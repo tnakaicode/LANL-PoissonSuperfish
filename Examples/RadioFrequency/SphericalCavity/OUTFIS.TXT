@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\SphericalCavity\SPHERE.T35.
+Starting from file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\SphericalCavity\SPHERE.T35.
 Program file: E:\LANL\AUTOFISH.EXE
-SF.INI file: E:\LANL\SF.INI  8-04-2020  10:17:22
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for SPHERE.T35 arrays:     129.024 K
 Memory used for other Fish arrays:     250.222 K
 
@@ -29,7 +29,7 @@ Problem description:
 Spherical Cavity
 Uses NT=5 option to draw arc of specified radius
 [Originally appeared in 1987 Reference Manual C.12.1]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\SphericalCavity\.\SPHERE.AF  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\SphericalCavity\SPHERE.AF  1-07-2021   8:51:14
 Problem file length:         616 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 
@@ -160,7 +160,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Total number of mesh points = 3584              freq = 130.91416
                                                  D(k^2) = -3.29006E-11
-      Solution time =    0.095 sec.                       End cycle  0
+      Solution time =    0.151 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -173,7 +173,7 @@ No materials other than air or empty space.
       ----------------------------------------------------------------
       Solution converged at the start of cycle 1.
       Initial frequency = 130.91416        Final frequency = 130.91416
-      Elapsed time  =    0.12 sec
+      Elapsed time  =    0.17 sec
 
 Problem variables computed by this code.
 

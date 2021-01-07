@@ -18,16 +18,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\SphericalCavity\SPHERE.T35.
+Solution file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\SphericalCavity\SPHERE.T35.
 Program file: E:\LANL\AUTOFISH.EXE
-SF.INI file: E:\LANL\SF.INI  8-04-2020  10:17:22
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for SPHERE.T35 arrays:     129.024 K
 
 Problem description:
 Spherical Cavity
 Uses NT=5 option to draw arc of specified radius
 [Originally appeared in 1987 Reference Manual C.12.1]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\SphericalCavity\.\SPHERE.AF  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\SphericalCavity\SPHERE.AF  1-07-2021   8:51:14
 Problem file length:         616 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 
@@ -580,7 +580,7 @@ Superfish output summary for problem description:
 Spherical Cavity
 Uses NT=5 option to draw arc of specified radius
 [Originally appeared in 1987 Reference Manual C.12.1]
-Problem file: E:\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\SphericalCavity\.\SPHERE.AF  8-04-2020  10:17:56
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\SphericalCavity\SPHERE.AF  1-07-2021   8:51:14
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 0):     EZERO =      1.00000 MV/m

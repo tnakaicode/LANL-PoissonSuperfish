@@ -18,16 +18,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.T35.
-More input from file D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.SEG.
-Program file: D:\LANL\AUTOFISH.EXE
-SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\SF.INI  1-06-2021  18:59:46
+Solution file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.T35.
+More input from file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.SEG.
+Program file: E:\LANL\AUTOFISH.EXE
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\SF.INI  1-07-2021   8:51:14
 Memory used for QWAVE.T35 arrays:     416.160 K
 
 Problem description:
 Quarter-wave coaxial resonator
 [Courtesy Amit Roy, Argonne National Laboratory]
-Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-06-2021  18:59:46
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-07-2021   8:51:14
 Problem file length:        1005 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 
@@ -1759,7 +1759,7 @@ ZLONG            12.7000000     Length in SFO used to define E0
 Superfish output summary for problem description:
 Quarter-wave coaxial resonator
 [Courtesy Amit Roy, Argonne National Laboratory]
-Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-06-2021  18:59:46
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-07-2021   8:51:14
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 4):     ENORM =      1.00000 MV/m

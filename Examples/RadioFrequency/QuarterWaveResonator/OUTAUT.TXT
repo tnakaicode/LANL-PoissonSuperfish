@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: D:\LANL\AUTOFISH.EXE
-Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-06-2021  18:59:46
-SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\SF.INI  1-06-2021  18:59:46
+Program file: E:\LANL\AUTOFISH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-07-2021   8:51:14
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\SF.INI  1-07-2021   8:51:14
 
 Problem description:
 Quarter-wave coaxial resonator
@@ -842,7 +842,7 @@ Generation completed.
 Problem description:
 Quarter-wave coaxial resonator
 [Courtesy Amit Roy, Argonne National Laboratory]
-Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-06-2021  18:59:46
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\QuarterWaveResonator\QWAVE.AF  1-07-2021   8:51:14
 Problem file length:        1005 bytes
 Originating program: Autofish    Problem type: Unknown RF Cavity
 

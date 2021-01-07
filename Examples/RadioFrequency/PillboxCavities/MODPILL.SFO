@@ -1,0 +1,515 @@
+Los Alamos National Laboratory Poisson Superfish
+Program SFO written by James H. Billen and Lloyd M. Young
+
+The original Poisson Superfish codes were developed
+by Ron F. Holsinger in collaboration with Klaus Halbach.
+These programs are provided as a service to the accelerator
+community by the Los Alamos Accelerator Code Group (LAACG).
+
+(c) Copyright 1985-2005, by the Regents of the University of California.        
+This software was produced under U. S. Government contract W-7405-ENG-36        
+by Los Alamos National Laboratory, which is operated by the University          
+of California for the U. S. Department of Energy.  Neither the Government       
+nor the University makes any warranty, express or implied, or assumes           
+any liability or responsibility for its use, or represents that use of          
+this software would not infringe privately owned rights.                        
+Unpublished - rights reserved under Copyright Laws of the United States.        
+
+
+Program SFO  7.17  released 1-13-2006 
+
+Solution file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\PillboxCavities\MODPILL.T35.
+Program file: E:\LANL\AUTOFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
+Memory used for MODPILL.T35 arrays:      30.888 K
+
+Problem description:
+2.4-GHz TM010 Modified Pillbox Cavity
+Pillbox cavity with a 2-cm-radius bore tube
+[Originally appeared in 1987 User's Guide 1.4]
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\PillboxCavities\MODPILL.AF  1-07-2021   8:51:14
+Problem file length:         717 bytes
+Originating program: Autofish    Problem type: Unknown RF Cavity
+
+Coordinates and lengths have dimensions of centimeters.
+
+Problem constants and variables.
+Letter A in the code column indicates a value supplied in the
+Automesh input file.
+Letter S in the code column indicates a value supplied in the
+SFO input file.
+
+Variable Code         Value     Description
+ALPHAT          3.930000000E-03 Temperature coefficient of resistance
+ASCALE           3767.30313     Scaling factor for H at drive point
+BETA       A    0.950000000     Particle velocity
+BETA1           0.100000000     Starting BETA in transit-time table
+BETA2           0.950000000     Ending BETA in transit-time table
+CCLDELK          1.00000000     Increment for coupling for table in SFO
+CCLMAXK          6.00000000     Highest coupling for table in SFO
+CCLMINK          1.00000000     Lowest coupling for table in SFO
+CLENGTH                 0.0     Cavity length for normalization in SFO
+CLIGHT          2.997924580E+10 Exact speed of light in cm/sec
+CONV             1.00000000     Length conversion (number of units per cm)
+DBETA           5.000000000E-02 BETA increment in transit-time table
+DELFR                   0.0     Frequency step size for a resonance search
+DIAGDLL                   0     If 1, DLL writes diagnostics to DiagDLL.txt
+DKSQ            5.856642948E-11 Change in k^2 after an iteration in Fish
+DPHI             180.000000     Phase length of the problem geometry
+DSLOPE          -1.00124652     Slope of D(k^2) function
+DSTOLER         2.000000000E-02 Tolerance required on D(k^2)
+DX1             0.250000000     First X mesh interval (at XMIN)
+DXMIN           0.250000000     Minimum X mesh interval (found by Automesh)
+DYMIN           0.217391304     Minimum Y mesh interval (found by Automesh)
+ENORM            1000000.00     Field normalization for NORM=4 option
+EPS0            8.854187818E-12 Permittivity of free space
+EPSIK           1.000000000E-04 Frequency convergence parameter
+EPSO            1.000000000E-05 Convergence parameter in mesh optimization
+ERG              29.4325393     Integral (H^2 r dr dz)
+EZERO            1000000.00     E0 for normalization in SFO when NORM=0
+EZEROT           1000000.00     E0*T for normalization in SFO when NORM=1
+FMU0            1.256637061E-06 Permeability of free space
+FREQ             2378.18378     RF cavity resonant frequency
+FREQD                   0.0     Design frequency for a cavity (MHz)
+HPHI             5000.00000     Normalization magnetic field for NORM=2
+IBETA                     0     If >0, SFO writes transit-time vs BETA
+ICCC                      1     1 for real arrays, 2 for complex arrays
+ICCP                      1     If 1, compute material power loss
+ICORNER1                  0     First corner segment for computing average H
+ICORNER2                  0     Last corner segment for computing average H
+ICYCLE                    2     Present iteration number
+ICYLIN     A              1     0 for X,Y problems, 1 for Z,R problems
+IMAX                     33     KMAX+2
+INFODATA                  0     Number of tuning-code parameters
+IOBSEG                   -1     First segment of the CCL outer boundary
+IPIVOT                    1     Pivoting in matrix inversion routines
+IRESID                    0     If 1, calculate potential residuals
+IRMAX                    25     Used in optimization of RHOXY
+IRTYPE                    0     Surface resistance option indicator
+ISLOT                     0     If 1, SFO computes coupling-slot power loss
+ITFILE                    0     If 1, SFO writes transit-time plot file
+ITOT                    858     (KMAX+2)*(LMAX+2)
+KDRI                      1     K coordinate of the drive point
+KMAX                     31     Number of horizontal logical mesh points
+KMETHOD    A              1     Wavenumber computation method (1= use beta)
+KPROB      A              1     Problem type indicator (Superfish)
+LAST35                    1     Code for last program to update T35 file
+LCYCLE                   25     Iteration number in mesh optimization
+LDRI                     24     L coordinate of the drive point
+LINT                      1     Logical-mesh coordinate for Ez integration
+LMAX                     24     Number of vertical logical mesh points
+MAXCY                    19     Maximum number of cycles (-1: use default)
+MAXPPR                  108     Maximum points per region
+METHOD                    3     Method used to get frequency in root finder
+NAIR                    432     Number of air points
+NBND                     31     Number of Dirichlet boundary points
+NBSLF                     1     Left-side boundary condition
+NBSLO                     0     Lower boundary condition
+NBSRT                     1     Right-side boundary condition
+NBSUP                     1     Upper boundary condition
+NDRI                    794     Drive point index = IRLAX(NPINP)
+NEGAT                     0     Zero-area triangle indicator
+NFE                       0     Number of iron points
+NHSTEM                    1     Number of half stems
+NINTER                    0     Number of interface points
+NMATR                     0     Number of material records in T35 file
+NORM                      0     Normalization method in SFO
+NPBOUND                 107     Total number of boundary points in the mesh
+NPINP                   464     Total points in problem
+NPONTS                  358     Number of unknown relaxation points
+NREG                      2     Number of regions
+NRMSEG                    1     Normalization segment number for NORM=2
+NSEG                      6     Number of boundary segments
+NSPL                      1     Number of special-potential points
+NSTEP                     0     Number of steps for a resonance search
+OMEGAM          1.000000000E-03 Used in optimization of RHOXY
+PI               3.14159265     The number pi to machine precision
+PLCELL           360.000000     Phase length per cell for multicell problems
+Q2I                     0.0     1/2Q passed from CFish to SFO
+RESIDR          1.000000000E-08 Residual resistance of a superconductor
+RESIK           2.357430588E-10 Residual = DKSQ/XKSQ
+RFMU             1.00000000     Permeability for rf surface resistance
+RHO             1.724100000E-06 Material resistivity (Ohm-m)
+RHOR            1.724100000E-06 Reference resistivity (Ohm-cm) at TEMPR
+RHOXY            1.60000000     Over-relaxation factor in mesh optimization
+RMASS           -2.00000000     Rest mass energy of particle in SFO
+RSTEM            1.00000000     Stem radius in cm
+SLOSS           3.000000000E-02 Coupling-slot power factor per % coupling
+TC               9.20000000     Critical temperature of a superconductor
+TEMPC            20.0000000     Normal conductor operating temperature
+TEMPK            2.00000000     Operating temperature of a superconductor
+TEMPR            20.0000000     Reference temperature for IRTYPE=3
+TRIAVG          2.743902439E-02 Average area of all triangles
+TRIMAX          3.645985558E-02 Area of the largest positive-area triangle
+TRIMIN          1.617066526E-02 Area of the smallest positive-area triangle
+VOLUME           259.181394     Cavity volume (cylindrical symmetry only)
+XDRI       A            0.0     X coordinate of the drive point
+XK0             0.498430463     The wave number k = 2pif/c
+XKSQ            0.248432926     Square of the wave number
+XMAXG            7.50000000     Upper X bound of the problem geometry
+XMING                   0.0     Lower X bound of the problem geometry
+XNORM1                  0.0     Starting X for NORM=4 integration path
+XNORM2                  0.0     Ending X for NORM=4 integration path
+XYAREA           22.5000000     Total cross sectional area
+YDRI       A     5.00000000     Y coordinate of the drive point
+YMAXG            5.00000000     Upper Y bound of the problem geometry
+YMING                   0.0     Lower Y bound of the problem geometry
+YNORM1                  0.0     Starting Y for NORM=4 integration path
+YNORM2                  0.0     Ending Y for NORM=4 integration path
+ZCTR                    0.0     Reference Z in transit-time integrals
+-------------------------------------------------------------------------------
+Segment numbers for field calculations
+[Note: negative values indicate stem segments.]
+     2     3     4
+-------------------------------------------------------------------------------
+No materials other than air or empty space.
+-------------------------------------------------------------------------------
+The field normalization factor ASCALE for this problem is based
+upon the calculated cavity length ZLONG  =     7.50000000.
+
+Transit-time factor integrals and partial derivatives with repect to k
+TT = (1/V0)Int{Ez(z) cos k(z-Zc) dz} - tan(phi)(1/V0)Int{Ez(z) sin k(z-Zc) dz}
+TT = T - tan(phi) S
+T' and S' are partial derivative with respect to k.
+T" and S" are second partial derivatives.
+
+For symmetric half cells (Zs = Zc), the computations are done using
+integration limits Zs to Ze, but reported results correspond to a lower
+limit of integration equal to -Ze.
+
+Integrals along logical row L = 1 [R = 0.0 cm]
+between logical coordinates K = 1 and 30
+
+Integration lower limit:   Zs =    0.0000000 cm   (See note above.)
+Integration upper limit:   Ze =    7.5000000 cm
+Center of gap:             Zc =    0.0000000 cm
+Electrical center:        Zec =    0.0000000 cm
+Frequency for T integrals     = 2378.1837754 MHz
+Wave number:    k = 2pif/c    =    0.4984305 radians/cm
+Particle velocity:    beta    =    0.9500000
+Structure wave number: k/beta =    0.5246636 radians/cm
+           V0 = Int{Ez(z) dz} =    7.50000E+04 V
+     E0 = (1/L)*Int{Ez(z) dz} =    1.00000E+06 V/m
+Treating the problem geometry as a single half cell:
+          Transit-time factor =    0.524147 (when Zc = Zec)
+                           T  =    0.524147    
+                           S  =     0.00000    
+                           T' =    0.109291    
+                           S' =     0.00000    
+                           T" =   -4.032418E-03
+                           S" =     0.00000    
+-------------------------------------------------------------------------------
+Electric field along R =         0.000000
+for normalization ASCALE =   15109.640370:
+
+    Z(cm)      Ez(V/m)
+   0.00000   2.593918E+06
+   0.15064   2.591152E+06
+   0.25000   2.584376E+06
+   0.38618   2.573268E+06
+   0.50000   2.558595E+06
+   0.63312   2.538888E+06
+   0.75000   2.513734E+06
+   0.88241   2.484011E+06
+   1.00000   2.448419E+06
+   1.13250   2.407018E+06
+   1.25000   2.360391E+06
+   1.38296   2.305370E+06
+   1.50000   2.247459E+06
+   1.63361   2.176956E+06
+   1.75000   2.108090E+06
+   1.88438   2.021000E+06
+   2.00000   1.942161E+06
+   2.13517   1.839121E+06
+   2.25000   1.752005E+06
+   2.38595   1.636250E+06
+   2.50000   1.543528E+06
+   2.63665   1.421015E+06
+   2.75000   1.326393E+06
+   2.88724   1.204688E+06
+   3.00000   1.112354E+06
+   3.13771   9.986241E+05
+   3.25000   9.123673E+05
+   3.38807   8.116257E+05
+   3.50000   7.342693E+05
+   3.63834   6.487919E+05
+   3.75000   5.819635E+05
+   3.88855   5.117570E+05
+   4.00000   4.558772E+05
+   4.13869   3.995689E+05
+   4.25000   3.540584E+05
+   4.38883   3.096379E+05
+   4.50000   2.733327E+05
+   4.63894   2.387062E+05
+   4.75000   2.101781E+05
+   4.88908   1.834040E+05
+   5.00000   1.612461E+05
+   5.13925   1.406688E+05
+   5.25000   1.236104E+05
+   5.38949   1.078686E+05
+   5.50000   9.483844E+04
+   5.63985   8.284756E+04
+   5.75000   7.297485E+04
+   5.89043   6.388571E+04
+   6.00000   5.648339E+04
+   6.14137   4.964125E+04
+   6.25000   4.417986E+04
+   6.39303   3.908619E+04
+   6.50000   3.517078E+04
+   6.64617   3.145146E+04
+   6.75000   2.906729E+04
+   6.90297   2.649706E+04
+   7.00000   2.475334E+04
+   7.17186   2.304228E+04
+   7.25000   2.249917E+04
+   7.50000   2.157323E+04
+Total cavity stored energy (from program Fish):   1.8691088E-03 Joules
+-------------------------------------------------------------------------------
+Power and fields on wall segment 2.     K,L = 1,24 to 11,24
+This segment uses surface resistance option IRTYPE = 0
+Surface resistance,          Rs =  1.272283E-02 Ohm calculated from:
+Operating temperature,    TEMPC =  20.000 C
+Reference resistivity,     RHOR =  1.724100E-06 Ohm-cm
+Reference temperature,    TEMPR =  20.000 C
+Temperature coefficient, ALPHAT =  3.930000E-03 /C
+Relative permeability,     RFMU =  1.000
+
+   m     K     L        Z             R            H          |E|
+                      (cm)          (cm)         (A/m)       (V/m)
+    1     1    24   0.00000       5.00000      4.0117E+03  0.0000E+00
+                   0.125000       5.00000      4.0116E+03  5.7797E+02
+    2     2    24  0.250000       5.00000      4.0115E+03  2.3453E+03
+                   0.375000       5.00000      4.0110E+03  3.5179E+03
+    3     3    24  0.500000       5.00000      4.0104E+03  4.6905E+03
+                   0.625000       5.00000      4.0097E+03  7.2770E+03
+    4     4    24  0.750000       5.00000      4.0084E+03  8.7324E+03
+                   0.875000       5.00000      4.0066E+03  9.1596E+03
+    5     5    24   1.00000       5.00000      4.0050E+03  9.9509E+03
+                    1.12500       5.00000      4.0031E+03  1.0392E+04
+    6     6    24   1.25000       5.00000      4.0013E+03  1.0557E+04
+                    1.37500       5.00000      3.9993E+03  1.0537E+04
+    7     7    24   1.50000       5.00000      3.9976E+03  1.0110E+04
+                    1.62500       5.00000      3.9957E+03  9.5782E+03
+    8     8    24   1.75000       5.00000      3.9942E+03  8.5732E+03
+                    1.87500       5.00000      3.9926E+03  7.6350E+03
+    9     9    24   2.00000       5.00000      3.9915E+03  6.1126E+03
+                    2.12500       5.00000      3.9902E+03  5.2990E+03
+   10    10    24   2.25000       5.00000      3.9894E+03  3.5326E+03
+                    2.37500       5.00000      3.9890E+03  1.9025E+03
+   11    11    24   2.50000       5.00000      3.9888E+03  0.0000E+00
+
+Summary for the above wall segment:
+Emax         =  1.0557E+04 V/m
+Hmax         =  4.0116E+03 A/m
+Surface Area =  7.8540E+01 cm^2
+Power        =  7.9978E+02 W
+Maximum P/A  =  1.0238E+01 W/cm^2
+Average P/A  =  1.0183E+01 W/cm^2
+df/dr        = -5.0274E+01 MHz/mm (for volume added to the cavity)
+df/f         = -2.1140E-02
+-------------------------------------------------------------------------------
+Power and fields on wall segment 3.     K,L = 11,24 to 11,10
+This segment uses surface resistance option IRTYPE = 0
+Surface resistance,          Rs =  1.272283E-02 Ohm calculated from:
+Operating temperature,    TEMPC =  20.000 C
+Reference resistivity,     RHOR =  1.724100E-06 Ohm-cm
+Reference temperature,    TEMPR =  20.000 C
+Temperature coefficient, ALPHAT =  3.930000E-03 /C
+Relative permeability,     RFMU =  1.000
+
+   m     K     L        Z             R            H          |E|
+                      (cm)          (cm)         (A/m)       (V/m)
+    1    11    24   2.50000       5.00000      3.9888E+03  0.0000E+00
+                    2.50000       4.89286      4.0705E+03  7.9468E+04
+    2    11    23   2.50000       4.78571      4.1444E+03  1.6249E+05
+                    2.50000       4.67857      4.2099E+03  2.4932E+05
+    3    11    22   2.50000       4.57143      4.2663E+03  3.4022E+05
+                    2.50000       4.46429      4.3125E+03  4.3172E+05
+    4    11    21   2.50000       4.35714      4.3502E+03  5.2141E+05
+                    2.50000       4.25000      4.3786E+03  6.1070E+05
+    5    11    20   2.50000       4.14286      4.3978E+03  6.9954E+05
+                    2.50000       4.03571      4.4084E+03  7.9418E+05
+    6    11    19   2.50000       3.92857      4.4079E+03  8.8669E+05
+                    2.50000       3.82143      4.3975E+03  9.7849E+05
+    7    11    18   2.50000       3.71429      4.3771E+03  1.0695E+06
+                    2.50000       3.60714      4.3472E+03  1.1675E+06
+    8    11    17   2.50000       3.50000      4.3055E+03  1.2614E+06
+                    2.50000       3.39286      4.2532E+03  1.3540E+06
+    9    11    16   2.50000       3.28571      4.1903E+03  1.4454E+06
+                    2.50000       3.17857      4.1170E+03  1.5525E+06
+   10    11    15   2.50000       3.07143      4.0298E+03  1.6484E+06
+                    2.50000       2.96429      3.9308E+03  1.7422E+06
+   11    11    14   2.50000       2.85714      3.8200E+03  1.8337E+06
+                    2.50000       2.75000      3.6961E+03  1.9885E+06
+   12    11    13   2.50000       2.64286      3.5507E+03  2.0942E+06
+                    2.50000       2.53571      3.3902E+03  2.1954E+06
+   13    11    12   2.50000       2.42857      3.2148E+03  2.2914E+06
+                    2.50000       2.32143      2.8505E+03  2.8094E+06
+   14    11    11   2.50000       2.21429      2.6149E+03  2.8619E+06
+                    2.50000       2.10714      2.3734E+03  2.9218E+06
+   15    11    10   2.50000       2.00000      2.1247E+03  2.9874E+06
+
+Summary for the above wall segment:
+Emax         =  2.9874E+06 V/m
+Hmax         =  4.4084E+03 A/m
+Surface Area =  6.5973E+01 cm^2
+Power        =  6.9143E+02 W
+Maximum P/A  =  1.2363E+01 W/cm^2
+Average P/A  =  1.0480E+01 W/cm^2
+df/dz        = -6.0585E+00 MHz/mm (for volume added to the cavity)
+df/f         = -2.5475E-03
+-------------------------------------------------------------------------------
+Power and fields on wall segment 4.     K,L = 11,10 to 31,10
+This segment uses surface resistance option IRTYPE = 0
+Surface resistance,          Rs =  1.272283E-02 Ohm calculated from:
+Operating temperature,    TEMPC =  20.000 C
+Reference resistivity,     RHOR =  1.724100E-06 Ohm-cm
+Reference temperature,    TEMPR =  20.000 C
+Temperature coefficient, ALPHAT =  3.930000E-03 /C
+Relative permeability,     RFMU =  1.000
+
+   m     K     L        Z             R            H          |E|
+                      (cm)          (cm)         (A/m)       (V/m)
+    1    11    10   2.50000       2.00000      2.1247E+03  2.9874E+06
+                    2.62500       2.00000      1.7958E+03  2.5073E+06
+    2    12    10   2.75000       2.00000      1.5321E+03  2.3176E+06
+                    2.87500       2.00000      1.2008E+03  2.0035E+06
+    3    13    10   3.00000       2.00000      9.7401E+02  1.6162E+06
+                    3.12500       2.00000      7.4982E+02  7.5475E+05
+    4    14    10   3.25000       2.00000      6.3657E+02  6.1488E+05
+                    3.37500       2.00000      5.5276E+02  5.2732E+05
+    5    15    10   3.50000       2.00000      4.7307E+02  4.3633E+05
+                    3.62500       2.00000      4.1333E+02  3.7949E+05
+    6    16    10   3.75000       2.00000      3.5560E+02  3.1863E+05
+                    3.87500       2.00000      3.1113E+02  2.7872E+05
+    7    17    10   4.00000       2.00000      2.6854E+02  2.3622E+05
+                    4.12500       2.00000      2.3512E+02  2.0731E+05
+    8    18    10   4.25000       2.00000      2.0336E+02  1.7671E+05
+                    4.37500       2.00000      1.7814E+02  1.5539E+05
+    9    19    10   4.50000       2.00000      1.5430E+02  1.3292E+05
+                    4.62500       2.00000      1.3523E+02  1.1702E+05
+   10    20    10   4.75000       2.00000      1.1726E+02  1.0031E+05
+                    4.87500       2.00000      1.0282E+02  8.8365E+04
+   11    21    10   5.00000       2.00000      8.9242E+01  7.5824E+04
+                    5.12500       2.00000      7.8306E+01  6.6799E+04
+   12    22    10   5.25000       2.00000      6.8042E+01  5.7334E+04
+                    5.37500       2.00000      5.9765E+01  5.0480E+04
+   13    23    10   5.50000       2.00000      5.2010E+01  4.3299E+04
+                    5.62500       2.00000      4.5760E+01  3.8068E+04
+   14    24    10   5.75000       2.00000      3.9917E+01  3.2594E+04
+                    5.87500       2.00000      3.5216E+01  2.8575E+04
+   15    25    10   6.00000       2.00000      3.0838E+01  2.4374E+04
+                    6.12500       2.00000      2.7330E+01  2.1257E+04
+   16    26    10   6.25000       2.00000      2.4084E+01  1.8005E+04
+                    6.37500       2.00000      2.1505E+01  1.5551E+04
+   17    27    10   6.50000       2.00000      1.9144E+01  1.2997E+04
+                    6.62500       2.00000      1.7298E+01  1.1020E+04
+   18    28    10   6.75000       2.00000      1.5645E+01  8.9671E+03
+                    6.87500       2.00000      1.4390E+01  7.3170E+03
+   19    29    10   7.00000       2.00000      1.3322E+01  5.6026E+03
+                    7.12500       2.00000      1.2603E+01  4.2241E+03
+   20    30    10   7.25000       2.00000      1.2021E+01  2.8161E+03
+                    7.37500       2.00000      1.1689E+01  1.3692E+03
+   21    31    10   7.50000       2.00000      1.1576E+01  0.0000E+00
+
+Summary for the above wall segment:
+Emax         =  2.9874E+06 V/m
+Hmax         =  1.7958E+03 A/m
+Surface Area =  6.2832E+01 cm^2
+Power        =  1.2331E+01 W
+Maximum P/A  =  2.0514E+00 W/cm^2
+Average P/A  =  1.9625E-01 W/cm^2
+df/dr        =  6.3919E+00 MHz/mm (for volume added to the cavity)
+df/f         =  2.6877E-03
+-------------------------------------------------------------------------------
+Transit-time factor summary
+
+Input data for Parmila; originating program = Autofish.
+Cavity type: Unknown RF Cavity
+Design frequency     =   2378.18     MHz
+Resonant frequency   =   2378.18     MHz
+Design beta          =  0.950000    
+Particle beta        =  0.950000    
+Cavity E0            =   1.00000     MV/m
+Transit-time factor  =  0.524147    
+Normalization length =   7.50000     cm
+
+Cell  Zstart(cm)      Zcenter(cm)    Zend(cm)      Lnorm(cm)       E0(MV/m)      g/bl
+  1    0.00000        0.00000        7.50000        7.50000        1.00000       0.417514    
+
+Cell   1  Beta =  0.950000     dZctr =   0.00000    
+X       X1            X2             X1+X2         |X1|+|X2|
+T    0.2620735      0.2620735      0.5241470      0.5241470    
+T'   5.4645414E-02  5.4645414E-02  0.1092908      0.1092908    
+T"  -2.0162088E-03 -2.0162088E-03 -4.0324177E-03  4.0324177E-03
+S   -0.3064251      0.3064251       0.000000      0.6128502    
+S'  -1.1943267E-02  1.1943267E-02   0.000000      2.3886535E-02
+S"  -1.1910455E-02  1.1910455E-02   0.000000      2.3820910E-02
+
+SFDATA line expected in old versions of Parmila:
+  0.950000      0.524147      0.109291      0.306425      1.194327E-02  0.417514       49.8823    
+-------------------------------------------------------------------------------
+
+Problem variables computed by this code.
+
+Variable Code         Value     Description
+ASCALE           15109.6404     Scaling factor for H at drive point
+CAPK            0.524663645     2pi/beta*lambda, phase change/length
+DPHI             225.457594     Phase length of the problem geometry
+EMAX             2987439.28     Peak electric field on boundary segments
+ENERGY          1.869108838E-03 Total stored energy in RF fields
+EZERO            1000000.00     E0 for normalization in SFO when NORM=0
+EZEROT           524147.043     E0*T for normalization in SFO when NORM=1
+FREQC            2378.18378     Frequency corrected for stems and posts
+HCORNER                 0.0     Average H at corner arc with coupling slot
+HMAX             4407.91662     Peak H on specified boundary segments
+HPHI             4010.73124     Normalization magnetic field for NORM=2
+NCELL                     0     Number of cells for multicell problems
+NPEG                      3     Number of FieldSegments entries
+NRESIST                   0     Number of segments with unique resistivity
+NSTEM                     0     Number of stems for multicell problems
+POWER            1503.54042     Power on conducting boundaries
+RHOC            1.724100000E-06 Computed resistivity for IRTYPE=3
+RS              1.272283223E-02 RF surface resistance (Ohms)
+SAREA            207.345115     Total surface area in power calculations
+T               0.524147043     Transit-time factor
+ZLONG            7.50000000     Length in SFO used to define E0
+
+Superfish output summary for problem description:
+2.4-GHz TM010 Modified Pillbox Cavity
+Pillbox cavity with a 2-cm-radius bore tube
+[Originally appeared in 1987 User's Guide 1.4]
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\PillboxCavities\MODPILL.AF  1-07-2021   8:51:14
+-------------------------------------------------------------------------------
+All calculated values below refer to the mesh geometry only.
+Field normalization (NORM = 0):     EZERO =      1.00000 MV/m
+Frequency                                 =   2378.18378 MHz
+Particle rest mass energy                 =   938.272029 MeV
+Beta =  0.9500000          Kinetic energy =     2066.603 MeV
+Normalization factor for E0 =  1.000 MV/m =    15109.640
+Transit-time factor                       =    0.5241470
+Stored energy                             =    0.0018691 Joules
+Using standard room-temperature copper.
+Surface resistance                        =     12.72283 milliOhm
+Normal-conductor resistivity              =      1.72410 microOhm-cm
+Operating temperature                     =      20.0000 C
+Power dissipation                         =    1503.5404 W
+Q    =   18575.7          Shunt impedance =       49.882 MOhm/m
+Rs*Q =   236.335 Ohm                Z*T*T =       13.704 MOhm/m
+r/Q  =    55.331 Ohm  Wake loss parameter =      0.20670 V/pC
+Average magnetic field on the outer wall  =      4001.66 A/m, 10.1867 W/cm^2
+Maximum H (at Z,R = 2.5,3.92857)          =      4407.92 A/m, 12.3601 W/cm^2
+Maximum E (at Z,R = 2.5,2)                =      2.98744 MV/m, 0.070981 Kilp.
+Ratio of peak fields Bmax/Emax            =       1.8541 mT/(MV/m)
+Peak-to-average ratio Emax/E0             =       2.9874
+
+Wall segments:
+Segment   Zend        Rend           Emax       Power       P/A          dF/dZ      dF/dR
+          (cm)        (cm)          (MV/m)      (W)       (W/cm^2)      (MHz/mm)   (MHz/mm)
+----------------------------------------------------------------------------------------------
+         0.0000       5.0000    
+   2     2.5000       5.0000       1.0557E-02   799.8       10.18       0.000      -50.27    
+   3     2.5000       2.0000        2.987       691.4       10.48      -6.058       0.000    
+   4     7.5000       2.0000        2.987       12.33      0.1963       0.000       6.392    
+----------------------------------------------------------------------------------------------
+                                    Total       1504.    

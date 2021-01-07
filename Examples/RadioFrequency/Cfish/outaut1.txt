@@ -1,0 +1,627 @@
+Los Alamos National Laboratory Poisson Superfish
+Program Automesh written by James H. Billen and Lloyd M. Young
+
+The original Poisson Superfish codes were developed
+by Ron F. Holsinger in collaboration with Klaus Halbach.
+These programs are provided as a service to the accelerator
+community by the Los Alamos Accelerator Code Group (LAACG).
+
+(c) Copyright 1985-2005, by the Regents of the University of California.        
+This software was produced under U. S. Government contract W-7405-ENG-36        
+by Los Alamos National Laboratory, which is operated by the University          
+of California for the U. S. Department of Energy.  Neither the Government       
+nor the University makes any warranty, express or implied, or assumes           
+any liability or responsibility for its use, or represents that use of          
+this software would not infringe privately owned rights.                        
+Unpublished - rights reserved under Copyright Laws of the United States.        
+
+
+Program Automesh  7.17  released 1-13-2006 
+Program file: E:\LANL\AUTOFISH.EXE
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Cfish\DIROD.AM  1-07-2021   8:51:14
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
+
+Problem description:
+CFISH Test:  Pillbox with a Lossy Dielectric Rod
+Uses line drive at Y = 6.752
+1 iteration, no resonance search
+
+Coordinates and lengths have dimensions of centimeters.
+
+Region data:
+IREG      =  1
+MAT       =  1
+CUR       =  0.0
+DEN       =  0.0
+ITRI      =  0            [equal weight triangles]
+IBOUND    =  1            [Neumann boundary]
+IPDIAG    =  0            [no extra Automesh diagnostics]
+DX        =  0.15
+XMIN      =  0.0
+XMAX      =  3.376
+DY        =  0.1299038    [=DX*sin(60)]
+YMIN      =  0.0
+YMAX      =  6.752
+DX1       =  0.1467826
+KMAX      =  24
+DY1       =  0.1298462
+LMAX      =  53
+ITOT      =  1430
+Memory used for the solution file:      51.480 K
+Memory used for Automesh setup data:    88.772 K
+
+Region 1 boundary points from the PO namelist:
+  Point  NT    X0          Y0          X           Y           R          THETA        A           B
+     1   1                            0.000       0.000
+     2   1                            0.000       6.752
+     3   1                            3.376       6.752
+     4   1                            3.376       0.000
+     5   1                            0.000       0.000
+ 
+
+Region data:
+IREG      =  2
+MAT       =  2
+CUR       =  0.0
+DEN       =  0.0
+ITRI      =  0            [equal weight triangles]
+IBOUND    =  1            [Neumann boundary]
+IPDIAG    =  0            [no extra Automesh diagnostics]
+
+Region 2 boundary points from the PO namelist:
+  Point  NT    X0          Y0          X           Y           R          THETA        A           B
+     1   1                            0.000       0.000
+     2   1                            0.000       1.000
+     3   1                            3.376       1.000
+     4   1                            3.376       0.000
+     5   1                            0.000       0.000
+ 
+
+Region data:
+IREG      =  3
+MAT       =  1
+CUR       =  1
+DEN       =  0.0
+ITRI      =  0            [equal weight triangles]
+IBOUND    =  -1           special fixed potential
+IPDIAG    =  0            [no extra Automesh diagnostics]
+
+Region 3 boundary points from the PO namelist:
+  Point  NT    X0          Y0          X           Y           R          THETA        A           B
+     1   1                            0.000       6.752
+     2   1                            3.376       6.752
+ 
+Number of user-supplied fixed points      =    12
+Fixed points added at line regions        =     0
+Fixed points added on overlapping regions =     2
+Total number of fixed points              =    14
+
+Logical path finding for region 1
+(includes extra boundary points at intersections of line
+regions plus points from other user-supplied segments)
+  Point NT    X           Y           R           A           B         Fwd   Bkw
+     2   1    0.000       1.000                                          9     9
+     3   1    0.000       6.752                                          45    45
+     4   1    3.376       6.752                                          24    24
+     5   1    3.376       1.000                                          45    45
+     6   1    3.376       0.000                                          9     9
+     7   1    0.000       0.000                                          24    24
+ 
+
+Region 1 mesh points
+      K     L        X                 Y
+      1     1    0.00000000        0.00000000    
+      1     2    0.00000000       0.125000000    
+      1     3    0.00000000       0.250000000    
+      1     4    0.00000000       0.375000000    
+      1     5    0.00000000       0.500000000    
+      1     6    0.00000000       0.625000000    
+      1     7    0.00000000       0.750000000    
+      1     8    0.00000000       0.875000000    
+      1     9    0.00000000        1.00000000    
+      1    10    0.00000000        1.13072727    
+      1    11    0.00000000        1.26145455    
+      1    12    0.00000000        1.39218182    
+      1    13    0.00000000        1.52290909    
+      1    14    0.00000000        1.65363636    
+      1    15    0.00000000        1.78436364    
+      1    16    0.00000000        1.91509091    
+      1    17    0.00000000        2.04581818    
+      1    18    0.00000000        2.17654545    
+      1    19    0.00000000        2.30727273    
+      1    20    0.00000000        2.43800000    
+      1    21    0.00000000        2.56872727    
+      1    22    0.00000000        2.69945455    
+      1    23    0.00000000        2.83018182    
+      1    24    0.00000000        2.96090909    
+      1    25    0.00000000        3.09163636    
+      1    26    0.00000000        3.22236364    
+      1    27    0.00000000        3.35309091    
+      1    28    0.00000000        3.48381818    
+      1    29    0.00000000        3.61454545    
+      1    30    0.00000000        3.74527273    
+      1    31    0.00000000        3.87600000    
+      1    32    0.00000000        4.00672727    
+      1    33    0.00000000        4.13745455    
+      1    34    0.00000000        4.26818182    
+      1    35    0.00000000        4.39890909    
+      1    36    0.00000000        4.52963636    
+      1    37    0.00000000        4.66036364    
+      1    38    0.00000000        4.79109091    
+      1    39    0.00000000        4.92181818    
+      1    40    0.00000000        5.05254545    
+      1    41    0.00000000        5.18327273    
+      1    42    0.00000000        5.31400000    
+      1    43    0.00000000        5.44472727    
+      1    44    0.00000000        5.57545455    
+      1    45    0.00000000        5.70618182    
+      1    46    0.00000000        5.83690909    
+      1    47    0.00000000        5.96763636    
+      1    48    0.00000000        6.09836364    
+      1    49    0.00000000        6.22909091    
+      1    50    0.00000000        6.35981818    
+      1    51    0.00000000        6.49054545    
+      1    52    0.00000000        6.62127273    
+      1    53    0.00000000        6.75200000    
+      2    53   0.146782609        6.75200000    
+      3    53   0.293565217        6.75200000    
+      4    53   0.440347826        6.75200000    
+      5    53   0.587130435        6.75200000    
+      6    53   0.733913043        6.75200000    
+      7    53   0.880695652        6.75200000    
+      8    53    1.02747826        6.75200000    
+      9    53    1.17426087        6.75200000    
+     10    53    1.32104348        6.75200000    
+     11    53    1.46782609        6.75200000    
+     12    53    1.61460870        6.75200000    
+     13    53    1.76139130        6.75200000    
+     14    53    1.90817391        6.75200000    
+     15    53    2.05495652        6.75200000    
+     16    53    2.20173913        6.75200000    
+     17    53    2.34852174        6.75200000    
+     18    53    2.49530435        6.75200000    
+     19    53    2.64208696        6.75200000    
+     20    53    2.78886957        6.75200000    
+     21    53    2.93565217        6.75200000    
+     22    53    3.08243478        6.75200000    
+     23    53    3.22921739        6.75200000    
+     24    53    3.37600000        6.75200000    
+     24    52    3.37600000        6.62127273    
+     24    51    3.37600000        6.49054545    
+     24    50    3.37600000        6.35981818    
+     24    49    3.37600000        6.22909091    
+     24    48    3.37600000        6.09836364    
+     24    47    3.37600000        5.96763636    
+     24    46    3.37600000        5.83690909    
+     24    45    3.37600000        5.70618182    
+     24    44    3.37600000        5.57545455    
+     24    43    3.37600000        5.44472727    
+     24    42    3.37600000        5.31400000    
+     24    41    3.37600000        5.18327273    
+     24    40    3.37600000        5.05254545    
+     24    39    3.37600000        4.92181818    
+     24    38    3.37600000        4.79109091    
+     24    37    3.37600000        4.66036364    
+     24    36    3.37600000        4.52963636    
+     24    35    3.37600000        4.39890909    
+     24    34    3.37600000        4.26818182    
+     24    33    3.37600000        4.13745455    
+     24    32    3.37600000        4.00672727    
+     24    31    3.37600000        3.87600000    
+     24    30    3.37600000        3.74527273    
+     24    29    3.37600000        3.61454545    
+     24    28    3.37600000        3.48381818    
+     24    27    3.37600000        3.35309091    
+     24    26    3.37600000        3.22236364    
+     24    25    3.37600000        3.09163636    
+     24    24    3.37600000        2.96090909    
+     24    23    3.37600000        2.83018182    
+     24    22    3.37600000        2.69945455    
+     24    21    3.37600000        2.56872727    
+     24    20    3.37600000        2.43800000    
+     24    19    3.37600000        2.30727273    
+     24    18    3.37600000        2.17654545    
+     24    17    3.37600000        2.04581818    
+     24    16    3.37600000        1.91509091    
+     24    15    3.37600000        1.78436364    
+     24    14    3.37600000        1.65363636    
+     24    13    3.37600000        1.52290909    
+     24    12    3.37600000        1.39218182    
+     24    11    3.37600000        1.26145455    
+     24    10    3.37600000        1.13072727    
+     24     9    3.37600000        1.00000000    
+     24     8    3.37600000       0.875000000    
+     24     7    3.37600000       0.750000000    
+     24     6    3.37600000       0.625000000    
+     24     5    3.37600000       0.500000000    
+     24     4    3.37600000       0.375000000    
+     24     3    3.37600000       0.250000000    
+     24     2    3.37600000       0.125000000    
+     24     1    3.37600000        0.00000000    
+     23     1    3.22921739        0.00000000    
+     22     1    3.08243478        0.00000000    
+     21     1    2.93565217        0.00000000    
+     20     1    2.78886957        0.00000000    
+     19     1    2.64208696        0.00000000    
+     18     1    2.49530435        0.00000000    
+     17     1    2.34852174        0.00000000    
+     16     1    2.20173913        0.00000000    
+     15     1    2.05495652        0.00000000    
+     14     1    1.90817391        0.00000000    
+     13     1    1.76139130        0.00000000    
+     12     1    1.61460870        0.00000000    
+     11     1    1.46782609        0.00000000    
+     10     1    1.32104348        0.00000000    
+      9     1    1.17426087        0.00000000    
+      8     1    1.02747826        0.00000000    
+      7     1   0.880695652        0.00000000    
+      6     1   0.733913043        0.00000000    
+      5     1   0.587130435        0.00000000    
+      4     1   0.440347826        0.00000000    
+      3     1   0.293565217        0.00000000    
+      2     1   0.146782609        0.00000000    
+      1     1    0.00000000        0.00000000    
+Region 1 done, 7 fixed points, 151 total boundary points.
+Logical boundary segment end points for region 1:
+Segment   Starting Point    Ending Point
+              K     L         K     L
+    1         1     1         1     9
+    2         1     9         1    53
+    3         1    53        24    53
+    4        24    53        24     9
+    5        24     9        24     1
+    6        24     1         1     1
+
+Logical path finding for region 2
+(includes extra boundary points at intersections of line
+regions plus points from other user-supplied segments)
+  Point NT    X           Y           R           A           B         Fwd   Bkw
+     2   1    0.000       1.000
+     3   1    3.376       1.000                                          24    24
+     4   1    3.376       0.000
+     5   1    0.000       0.000
+ 
+
+Region 2 mesh points
+      K     L        X                 Y
+      1     1    0.00000000        0.00000000    
+      1     2    0.00000000       0.125000000    
+      1     3    0.00000000       0.250000000    
+      1     4    0.00000000       0.375000000    
+      1     5    0.00000000       0.500000000    
+      1     6    0.00000000       0.625000000    
+      1     7    0.00000000       0.750000000    
+      1     8    0.00000000       0.875000000    
+      1     9    0.00000000        1.00000000    
+      2     9   0.146782609        1.00000000    
+      3     9   0.293565217        1.00000000    
+      4     9   0.440347826        1.00000000    
+      5     9   0.587130435        1.00000000    
+      6     9   0.733913043        1.00000000    
+      7     9   0.880695652        1.00000000    
+      8     9    1.02747826        1.00000000    
+      9     9    1.17426087        1.00000000    
+     10     9    1.32104348        1.00000000    
+     11     9    1.46782609        1.00000000    
+     12     9    1.61460870        1.00000000    
+     13     9    1.76139130        1.00000000    
+     14     9    1.90817391        1.00000000    
+     15     9    2.05495652        1.00000000    
+     16     9    2.20173913        1.00000000    
+     17     9    2.34852174        1.00000000    
+     18     9    2.49530435        1.00000000    
+     19     9    2.64208696        1.00000000    
+     20     9    2.78886957        1.00000000    
+     21     9    2.93565217        1.00000000    
+     22     9    3.08243478        1.00000000    
+     23     9    3.22921739        1.00000000    
+     24     9    3.37600000        1.00000000    
+     24     8    3.37600000       0.875000000    
+     24     7    3.37600000       0.750000000    
+     24     6    3.37600000       0.625000000    
+     24     5    3.37600000       0.500000000    
+     24     4    3.37600000       0.375000000    
+     24     3    3.37600000       0.250000000    
+     24     2    3.37600000       0.125000000    
+     24     1    3.37600000        0.00000000    
+     23     1    3.22921739        0.00000000    
+     22     1    3.08243478        0.00000000    
+     21     1    2.93565217        0.00000000    
+     20     1    2.78886957        0.00000000    
+     19     1    2.64208696        0.00000000    
+     18     1    2.49530435        0.00000000    
+     17     1    2.34852174        0.00000000    
+     16     1    2.20173913        0.00000000    
+     15     1    2.05495652        0.00000000    
+     14     1    1.90817391        0.00000000    
+     13     1    1.76139130        0.00000000    
+     12     1    1.61460870        0.00000000    
+     11     1    1.46782609        0.00000000    
+     10     1    1.32104348        0.00000000    
+      9     1    1.17426087        0.00000000    
+      8     1    1.02747826        0.00000000    
+      7     1   0.880695652        0.00000000    
+      6     1   0.733913043        0.00000000    
+      5     1   0.587130435        0.00000000    
+      4     1   0.440347826        0.00000000    
+      3     1   0.293565217        0.00000000    
+      2     1   0.146782609        0.00000000    
+      1     1    0.00000000        0.00000000    
+Region 2 done, 5 fixed points, 63 total boundary points.
+Logical boundary segment end points for region 2:
+Segment   Starting Point    Ending Point
+              K     L         K     L
+    7         1     1         1     9
+    8         1     9        24     9
+    9        24     9        24     1
+   10        24     1         1     1
+
+Logical path finding for region 3
+(includes extra boundary points at intersections of line
+regions plus points from other user-supplied segments)
+  Point NT    X           Y           R           A           B         Fwd   Bkw
+     2   1    3.376       6.752
+ 
+
+Region 3 mesh points
+      K     L        X                 Y
+      1    53    0.00000000        6.75200000    
+      2    53   0.146782609        6.75200000    
+      3    53   0.293565217        6.75200000    
+      4    53   0.440347826        6.75200000    
+      5    53   0.587130435        6.75200000    
+      6    53   0.733913043        6.75200000    
+      7    53   0.880695652        6.75200000    
+      8    53    1.02747826        6.75200000    
+      9    53    1.17426087        6.75200000    
+     10    53    1.32104348        6.75200000    
+     11    53    1.46782609        6.75200000    
+     12    53    1.61460870        6.75200000    
+     13    53    1.76139130        6.75200000    
+     14    53    1.90817391        6.75200000    
+     15    53    2.05495652        6.75200000    
+     16    53    2.20173913        6.75200000    
+     17    53    2.34852174        6.75200000    
+     18    53    2.49530435        6.75200000    
+     19    53    2.64208696        6.75200000    
+     20    53    2.78886957        6.75200000    
+     21    53    2.93565217        6.75200000    
+     22    53    3.08243478        6.75200000    
+     23    53    3.22921739        6.75200000    
+     24    53    3.37600000        6.75200000    
+Region 3 done, 2 fixed points, 24 total boundary points.
+Logical boundary segment end points for region 3:
+Segment   Starting Point    Ending Point
+              K     L         K     L
+   11         1    53        24    53
+
+Superfish material data:
+MAT       Re(Eps)       Im(Eps)           Re(Mu)        Im(Mu)
+  1       1.00000       0.00000           1.00000       0.00000    
+  2      0.600000      0.800000          0.600000      0.800000    
+
+Processing boundary data...
+Memory used for additional setup arrays:   45.432 K
+
+
+Region 1    Material = 1
+Region boundary indicator = 1
+Equal-weight triangles
+Region 1 is closed.
+
+
+Region 2    Material = 2
+Region boundary indicator = 1
+Equal-weight triangles
+Region 2 is closed.
+
+
+Region 3    Material = 1
+Region boundary indicator = -1
+Driving field = 1
+Equal-weight triangles
+Region 3 is not closed.
+
+Logical boundary segment end points for all regions:
+Segment    Starting Point        Ending Point
+          Index    K     L     Index    K     L
+    1        1     1     1        9     1     9
+    2        9     1     9       53     1    53
+    3       53     1    53       76    24    53
+    4       76    24    53      120    24     9
+    5      120    24     9      128    24     1
+    6      128    24     1      151     1     1
+    7      151     1     1      160     1     9
+    8      160     1     9      183    24     9
+    9      183    24     9      191    24     1
+   10      191    24     1      214     1     1
+   11      215     1    53      238    24    53
+
+Relaxation parameters, 1100 unknown points.
+Optimizing mesh by successive over relaxation...
+          -------X coordinate--------     -------Y coordinate--------
+Cycle      Residual     ETA      RHO       Residual     ETA      RHO
+
+     1    3.346E-02   1.0000   1.6000     6.744E-10   1.0000   1.6000
+     2    4.563E-02   0.6645   1.6000     9.499E-10   0.6891   1.6000
+     3    3.085E-02   0.6767   1.6000     6.399E-10   0.6736   1.6000
+     4    2.054E-02   0.6662   1.6000     4.417E-10   0.6903   1.6000
+     5    1.396E-02   0.6798   1.6000     3.075E-10   0.6962   1.6000
+     6    9.242E-03   0.6626   1.6000     2.133E-10   0.6935   1.6000
+     7    6.374E-03   0.6898   1.6000     1.425E-10   0.6682   1.6000
+     8    4.154E-03   0.6520   1.6000     9.950E-11   0.6982   1.6000
+     9    2.853E-03   0.6868   1.6000     7.096E-11   0.7131   1.6000
+    10    1.949E-03   0.6834   1.6000     4.799E-11   0.6764   1.6000
+    11    1.363E-03   0.6992   1.6000     3.324E-11   0.6927   1.6000
+    12    9.523E-04   0.6990   1.6000     2.391E-11   0.7192   1.6000
+    13    6.900E-04   0.7247   1.6000     1.650E-11   0.6903   1.6000
+    14    5.066E-04   0.7343   1.6000     1.160E-11   0.7032   1.6000
+    15    3.905E-04   0.7709   1.6000     8.239E-12   0.7099   1.6000
+    16    3.090E-04   0.7914   1.6000     5.974E-12   0.7251   1.6000
+    17    2.558E-04   0.8280   1.6000     4.272E-12   0.7151   1.6000
+    18    2.171E-04   0.8486   1.6000     3.091E-12   0.7236   1.6000
+    19    1.894E-04   0.8727   1.6000     2.221E-12   0.7185   1.6000
+    20    1.678E-04   0.8858   1.6000     1.616E-12   0.7276   1.6000
+    21    1.508E-04   0.8987   1.6000     1.176E-12   0.7276   1.6000
+    22    1.366E-04   0.9060   1.6000     8.773E-13   0.7462   1.6000
+    23    1.248E-04   0.9132   1.6000     6.738E-13   0.7681   1.6000
+    24    1.145E-04   0.9177   1.6000     4.932E-13   0.7319   1.6000
+    25    1.056E-04   0.9223   1.6000     3.744E-13   0.7590   1.6000
+    26    1.641E-04   1.5545   1.7615     3.019E-13   0.8065   1.6371
+    27    1.478E-04   0.9007   1.7615     2.457E-13   0.8138   1.6371
+    28    1.332E-04   0.9012   1.7615     1.967E-13   0.8005   1.6371
+    29    1.203E-04   0.9030   1.7615     1.591E-13   0.8087   1.6371
+    30    1.088E-04   0.9046   1.7615     1.310E-13   0.8236   1.6371
+    31    9.863E-05   0.9065   1.7615     1.096E-13   0.8367   1.6371
+    32    8.956E-05   0.9080   1.7615     9.260E-14   0.8447   1.6371
+    33    8.146E-05   0.9095   1.7615     7.855E-14   0.8483   1.6371
+    34    7.418E-05   0.9107   1.7615     6.759E-14   0.8605   1.6371
+    35    6.764E-05   0.9118   1.7615     5.828E-14   0.8623   1.6371
+    36    6.173E-05   0.9126   1.7615     5.021E-14   0.8616   1.6371
+    37    5.638E-05   0.9134   1.7615     4.343E-14   0.8650   1.6371
+    38    5.153E-05   0.9139   1.7615     3.765E-14   0.8670   1.6371
+    39    4.711E-05   0.9144   1.7615     3.264E-14   0.8667   1.6371
+    40    4.310E-05   0.9148   1.7615     2.825E-14   0.8658   1.6371
+    41    3.943E-05   0.9150   1.7615     2.454E-14   0.8684   1.6371
+    42    3.609E-05   0.9153   1.7615     2.119E-14   0.8636   1.6371
+    43    3.304E-05   0.9154   1.7615     1.855E-14   0.8755   1.6371
+    44    3.025E-05   0.9156   1.7615     1.648E-14   0.8883   1.6371
+    45    2.770E-05   0.9156   1.7615     1.487E-14   0.9026   1.6371
+    46    2.536E-05   0.9156   1.7615     1.343E-14   0.9029   1.6371
+    47    2.320E-05   0.9151   1.7615     1.237E-14   0.9208   1.6371
+    48    2.123E-05   0.9148   1.7615     1.141E-14   0.9224   1.6371
+    49    1.940E-05   0.9138   1.7615     1.078E-14   0.9448   1.6371
+    50    1.771E-05   0.9130   1.7615     9.984E-15   0.9264   1.6371
+    51    2.036E-05   1.1500   1.8172     1.540E-14   1.5425   1.7800
+    52    1.827E-05   0.8970   1.8172     1.396E-14   0.9068   1.7800
+    53    1.631E-05   0.8931   1.8172     1.286E-14   0.9209   1.7800
+    54    1.452E-05   0.8900   1.8172     1.189E-14   0.9246   1.7800
+    55    1.287E-05   0.8862   1.8172     1.069E-14   0.8993   1.7800
+    56    1.136E-05   0.8831   1.8172     9.945E-15   0.9301   1.7800
+    57    9.989E-06   0.8792   1.8172     8.943E-15   0.8992   1.7800
+Iteration converged.
+Generation completed.
+
+Problem description:
+CFISH Test:  Pillbox with a Lossy Dielectric Rod
+Uses line drive at Y = 6.752
+1 iteration, no resonance search
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Cfish\DIROD.AM  1-07-2021   8:51:14
+Problem file length:         738 bytes
+Originating program: Autofish    Problem type: Unknown RF Cavity
+
+Problem constants and variables.
+Letter A in the code column indicates a value supplied in the
+Automesh input file.
+
+Variable Code         Value     Description
+ALPHAT          3.930000000E-03 Temperature coefficient of resistance
+ASCALE           3767.30313     Scaling factor for H at drive point
+BETA                    0.0     Particle velocity
+BETA1           0.100000000     Starting BETA in transit-time table
+BETA2           0.950000000     Ending BETA in transit-time table
+CCLDELK          1.00000000     Increment for coupling for table in SFO
+CCLMAXK          6.00000000     Highest coupling for table in SFO
+CCLMINK          1.00000000     Lowest coupling for table in SFO
+CLENGTH                 0.0     Cavity length for normalization in SFO
+CLIGHT          2.997924580E+10 Exact speed of light in cm/sec
+CONV             1.00000000     Length conversion (number of units per cm)
+DBETA           5.000000000E-02 BETA increment in transit-time table
+DELFR                   0.0     Frequency step size for a resonance search
+DIAGDLL                   0     If 1, DLL writes diagnostics to DiagDLL.txt
+DPHI             180.000000     Phase length of the problem geometry
+DSLOPE           1.00000000     Slope of D(k^2) function
+DSTOLER         2.000000000E-02 Tolerance required on D(k^2)
+DX1             0.146782609     First X mesh interval (at XMIN)
+DXMIN           0.146782609     Minimum X mesh interval (found by Automesh)
+DYMIN           0.129846154     Minimum Y mesh interval (found by Automesh)
+ENORM            1000000.00     Field normalization for NORM=4 option
+EPS0            8.854187818E-12 Permittivity of free space
+EPSIK           1.000000000E-04 Frequency convergence parameter
+EPSO            1.000000000E-05 Convergence parameter in mesh optimization
+EZERO            1000000.00     E0 for normalization in SFO when NORM=0
+EZEROT           1000000.00     E0*T for normalization in SFO when NORM=1
+FMU0            1.256637061E-06 Permeability of free space
+FREQ       A     1700.00000     RF cavity resonant frequency
+FREQD                   0.0     Design frequency for a cavity (MHz)
+HPHI             5000.00000     Normalization magnetic field for NORM=2
+IBETA                     0     If >0, SFO writes transit-time vs BETA
+ICCC                      1     1 for real arrays, 2 for complex arrays
+ICCP                      1     If 1, compute material power loss
+ICORNER1                  0     First corner segment for computing average H
+ICORNER2                  0     Last corner segment for computing average H
+ICYLIN                    1     0 for X,Y problems, 1 for Z,R problems
+IMAX                     26     KMAX+2
+INFODATA                  0     Number of tuning-code parameters
+IOBSEG                   -1     First segment of the CCL outer boundary
+IPIVOT                    1     Pivoting in matrix inversion routines
+IRESID                    0     If 1, calculate potential residuals
+IRMAX                    25     Used in optimization of RHOXY
+IRTYPE                    0     Surface resistance option indicator
+ISLOT                     0     If 1, SFO computes coupling-slot power loss
+ITFILE                    0     If 1, SFO writes transit-time plot file
+ITOT                   1430     (KMAX+2)*(LMAX+2)
+KDRI                     24     K coordinate of the drive point
+KMAX                     24     Number of horizontal logical mesh points
+KMETHOD                   0     Wavenumber computation method (1= use beta)
+KPROB      A              1     Problem type indicator (Superfish)
+LAST35                    0     Code for last program to update T35 file
+LCYCLE                   57     Iteration number in mesh optimization
+LDRI                     53     L coordinate of the drive point
+LINT                      1     Logical-mesh coordinate for Ez integration
+LMAX                     53     Number of vertical logical mesh points
+MAXCY      A              1     Maximum number of cycles (-1: use default)
+MAXPPR                  152     Maximum points per region
+NAIR                   1032     Number of air points
+NBND                     24     Number of Dirichlet boundary points
+NBSLF                     1     Left-side boundary condition
+NBSLO                     0     Lower boundary condition
+NBSRT                     1     Right-side boundary condition
+NBSUP                     1     Upper boundary condition
+NDRI                   1403     Drive point index = IRLAX(NPINP)
+NEGAT                     0     Zero-area triangle indicator
+NFE                     168     Number of iron points
+NHSTEM                    1     Number of half stems
+NINTER                   24     Number of interface points
+NMATR                     1     Number of material records in T35 file
+NORM                      0     Normalization method in SFO
+NPBOUND                 238     Total number of boundary points in the mesh
+NPINP                  1272     Total points in problem
+NPONTS                 1100     Number of unknown relaxation points
+NREG                      3     Number of regions
+NRMSEG                    1     Normalization segment number for NORM=2
+NSEG                     11     Number of boundary segments
+NSPL                     24     Number of special-potential points
+NSTEP                     0     Number of steps for a resonance search
+OMEGAM          1.000000000E-03 Used in optimization of RHOXY
+PI               3.14159265     The number pi to machine precision
+PLCELL           360.000000     Phase length per cell for multicell problems
+RESIDR          1.000000000E-08 Residual resistance of a superconductor
+RFMU             1.00000000     Permeability for rf surface resistance
+RHO             1.724100000E-06 Material resistivity (Ohm-m)
+RHOR            1.724100000E-06 Reference resistivity (Ohm-cm) at TEMPR
+RHOXY            1.60000000     Over-relaxation factor in mesh optimization
+RMASS           -2.00000000     Rest mass energy of particle in SFO
+RS                      0.0     RF surface resistance (Ohms)
+RSTEM            1.00000000     Stem radius in cm
+SLOSS           3.000000000E-02 Coupling-slot power factor per % coupling
+TC               9.20000000     Critical temperature of a superconductor
+TEMPC            20.0000000     Normal conductor operating temperature
+TEMPK            2.00000000     Operating temperature of a superconductor
+TEMPR            20.0000000     Reference temperature for IRTYPE=3
+TRIAVG          9.529578595E-03 Average area of all triangles
+TRIMAX          1.264946528E-02 Area of the largest positive-area triangle
+TRIMIN          5.495958235E-03 Area of the smallest positive-area triangle
+VOLUME           483.523045     Cavity volume (cylindrical symmetry only)
+XDRI             3.37600000     X coordinate of the drive point
+XMAXG            3.37600000     Upper X bound of the problem geometry
+XMING                   0.0     Lower X bound of the problem geometry
+XNORM1                  0.0     Starting X for NORM=4 integration path
+XNORM2                  0.0     Ending X for NORM=4 integration path
+XYAREA           22.7947520     Total cross sectional area
+YDRI             6.75200000     Y coordinate of the drive point
+YMAXG            6.75200000     Upper Y bound of the problem geometry
+YMING                   0.0     Lower Y bound of the problem geometry
+YNORM1                  0.0     Starting Y for NORM=4 integration path
+YNORM2                  0.0     Ending Y for NORM=4 integration path
+ZCTR                    0.0     Reference Z in transit-time integrals

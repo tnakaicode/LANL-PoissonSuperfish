@@ -18,16 +18,16 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.T35.
-More input from file D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.SEG.
-Program file: D:\LANL\AUTOFISH.EXE
-SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\SF.INI  1-06-2021  18:59:46
+Solution file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.T35.
+More input from file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.SEG.
+Program file: E:\LANL\AUTOFISH.EXE
+SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\SF.INI  1-07-2021   8:51:14
 Memory used for MODE763.T35 arrays:     183.600 K
 
 Problem description:
 On-Axis Coupled Cavity, Resonance search for zero mode at 763 MHz
 [courtesy of R. Cooper]
-Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF  1-06-2021  18:59:46
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF  1-07-2021   8:51:14
 Problem file length:         710 bytes
 Originating program: Autofish    Problem type: CCL
 
@@ -791,7 +791,7 @@ ZLONG            9.40000000     Length in SFO used to define E0
 Superfish output summary for problem description:
 On-Axis Coupled Cavity, Resonance search for zero mode at 763 MHz
 [courtesy of R. Cooper]
-Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF  1-06-2021  18:59:46
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FrequencyScan\MODE763.AF  1-07-2021   8:51:14
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 0):     EZERO =      1.00000 MV/m

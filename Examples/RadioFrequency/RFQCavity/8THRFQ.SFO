@@ -18,10 +18,10 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program SFO  7.17  released 1-13-2006 
 
-Solution file C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\RFQCavity\8THRFQ.T35.
-More input from file C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\RFQCavity\8THRFQ.SEG.
-Program file: C:\LANL\AUTOFISH.EXE
-SF.INI file: C:\LANL\SF.INI  9-30-2019   0:22:04
+Solution file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\RFQCavity\8THRFQ.T35.
+More input from file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\RFQCavity\8THRFQ.SEG.
+Program file: E:\LANL\AUTOFISH.EXE
+SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 Memory used for 8THRFQ.T35 arrays:     491.904 K
 
 Problem description:
@@ -29,7 +29,7 @@ RFQ half quadrant
 Quadrupole mode resonant frequency = 425.3 MHz
 Bore radius at quadrupole symmetry point r0 = 0.297 cm
 Vane-tip radius of curvature rho = 0.24371 cm
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\RFQCavity\8THRFQ.AF  4-19-2020  10:38:20
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\RFQCavity\8THRFQ.AF  1-07-2021   8:51:14
 Problem file length:        1255 bytes
 Originating program: Autofish    Problem type: RFQ
 
@@ -1003,7 +1003,7 @@ RFQ half quadrant
 Quadrupole mode resonant frequency = 425.3 MHz
 Bore radius at quadrupole symmetry point r0 = 0.297 cm
 Vane-tip radius of curvature rho = 0.24371 cm
-Problem file: C:\Users\nakai\LANL-PoissonSuperfish\Examples\RadioFrequency\RFQCavity\8THRFQ.AF  4-19-2020  10:38:20
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\RFQCavity\8THRFQ.AF  1-07-2021   8:51:14
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 0):     EZERO =     11.20700 MV/m
