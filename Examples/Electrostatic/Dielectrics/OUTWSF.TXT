@@ -41,3 +41,43 @@ Contour 27, V  =  8.70968E+04 V
 Contour 28, V  =  9.03226E+04 V
 Contour 29, V  =  9.35484E+04 V
 Contour 30, V  =  9.67742E+04 V
+Reading file E:\NAKAI\DAILY\PYTHON-CODE\LANL\EXAMPLES\ELECTROSTATIC\DIELECTRICS\3EPSILON.T35.
+ 
+ Problem description:
+ Parallel Plate Capacitor with two dielectric regions
+ Voltage on lower plate = 0.0 V
+ Voltage on upper plate = 1000000 V
+ Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\3EPSILON.AM  1-07-2021   8:51:14
+ Problem file length:        1382 bytes
+ Originating program: Automesh    Problem type: Electrostatic
+Plotted potential values:
+Contour 1, V  =  3.22581E+03 V
+Contour 2, V  =  6.45161E+03 V
+Contour 3, V  =  9.67742E+03 V
+Contour 4, V  =  1.29032E+04 V
+Contour 5, V  =  1.61290E+04 V
+Contour 6, V  =  1.93548E+04 V
+Contour 7, V  =  2.25806E+04 V
+Contour 8, V  =  2.58065E+04 V
+Contour 9, V  =  2.90323E+04 V
+Contour 10, V  =  3.22581E+04 V
+Contour 11, V  =  3.54839E+04 V
+Contour 12, V  =  3.87097E+04 V
+Contour 13, V  =  4.19355E+04 V
+Contour 14, V  =  4.51613E+04 V
+Contour 15, V  =  4.83871E+04 V
+Contour 16, V  =  5.16129E+04 V
+Contour 17, V  =  5.48387E+04 V
+Contour 18, V  =  5.80645E+04 V
+Contour 19, V  =  6.12903E+04 V
+Contour 20, V  =  6.45161E+04 V
+Contour 21, V  =  6.77419E+04 V
+Contour 22, V  =  7.09677E+04 V
+Contour 23, V  =  7.41935E+04 V
+Contour 24, V  =  7.74194E+04 V
+Contour 25, V  =  8.06452E+04 V
+Contour 26, V  =  8.38710E+04 V
+Contour 27, V  =  8.70968E+04 V
+Contour 28, V  =  9.03226E+04 V
+Contour 29, V  =  9.35484E+04 V
+Contour 30, V  =  9.67742E+04 V
