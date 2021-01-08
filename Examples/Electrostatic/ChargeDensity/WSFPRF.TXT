@@ -1,9 +1,9 @@
 ; This file contains start-up settings for WSFplot
-MainWindowXPosition=  184
-MainWindowYPosition=   67
-MainWindowWidth= 1536
-MainWindowHeight=  839
-EditWindowXPosition= 1620
+MainWindowXPosition=  129
+MainWindowYPosition=   36
+MainWindowWidth= 1092
+MainWindowHeight=  614
+EditWindowXPosition= 1066
 EditWindowYPosition=  150
 HardcopyFileExtension=.PNG
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C4QTRI.AM
-ZoomLimits  1    -4.0040002       10.648674      -4.0034633       4.0034631       0.0000000    
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C1QC.AM
+ZoomLimits  1   -0.40000002E-02   5.1814727     -0.34782609E-02   4.0034778       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
