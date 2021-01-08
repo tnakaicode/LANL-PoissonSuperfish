@@ -3,7 +3,7 @@ MainWindowXPosition=  184
 MainWindowYPosition=   67
 MainWindowWidth= 1536
 MainWindowHeight=  839
-EditWindowXPosition= 1300
+EditWindowXPosition= 1620
 EditWindowYPosition=  150
 HardcopyFileExtension=.PNG
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C4QPNT.AM
-ZoomLimits  1    -4.0040002       6.3579047      -4.0034633       4.0034631       0.0000000    
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C4QTRI.AM
+ZoomLimits  1    -4.0040002       10.648674      -4.0034633       4.0034631       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
