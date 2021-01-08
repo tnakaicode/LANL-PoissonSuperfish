@@ -4,7 +4,6 @@ import sys
 import os
 import time
 import subprocess
-import pyautogui as pgui
 from optparse import OptionParser
 
 import logging
@@ -20,7 +19,7 @@ if __name__ == '__main__':
     print(opt, argc)
 
     name = "3EPSILON"
-    sfdir = "e:/LANL/"
+    sfdir = os.environ["SFDIR"]
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "AUTOMESH", name + ".am"))
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "POISSON", name + ".t35"))
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35 2"))
@@ -28,6 +27,6 @@ if __name__ == '__main__':
     
     data = np.loadtxt("./3EPSILON.txt", skiprows=2)    
     plt.figure()
-    plt.plot(data[2,:], data[4,:])
+    plt.plot(data[:, 2], data[:, 6])
     plt.savefig("./3EPSILON.png")
     
