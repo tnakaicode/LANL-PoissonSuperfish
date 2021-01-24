@@ -38,6 +38,10 @@ General information about the software installation, features in the codes, refe
 
 Information about the main programs Autofish, Automesh, Fish, CFish, Poisson, and Pandira.
 
+```bash
+AUTOFISH AM.file
+```
+
 ## SFCODES2
 
 The automated tuning programs CCLfish, CDTfish, DTLfish, MDTfish, ELLfish, and RFQfish.
