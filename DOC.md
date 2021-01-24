@@ -17,8 +17,14 @@ WSFplot time T35.file
 WriteFieldContours = Yes
 OUTWSF.TXT
 
+# Poisson Superfish Postprocessor
 SFO SEG.file T35.file
+SF7 IN7.file T35.file
+FORCE FORCE.file T35.file
 ```
+
+- SFO Peak magnetic and electric fields and the Kilpatrick factor
+- SF7 EGUN keyword to create input for program EGUN
 
 ## SFFILES
 

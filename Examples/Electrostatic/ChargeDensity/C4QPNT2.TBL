@@ -1,37 +1,44 @@
-Los Alamos National Laboratory Poisson Superfish
-Program SF7 written by James H. Billen and Lloyd M. Young
+Center
+Title
+Electric field data from file C4QPNT.AM
+SubTitle
+Problem title line 1: Electrostatic problem with charge on a point-region - 4 quadrants
 
-The original Poisson Superfish codes were developed
-by Ron F. Holsinger in collaboration with Klaus Halbach.
-These programs are provided as a service to the accelerator
-community by the Los Alamos Accelerator Code Group (LAACG).
-
-(c) Copyright 1985-2005, by the Regents of the University of California.        
-This software was produced under U. S. Government contract W-7405-ENG-36        
-by Los Alamos National Laboratory, which is operated by the University          
-of California for the U. S. Department of Energy.  Neither the Government       
-nor the University makes any warranty, express or implied, or assumes           
-any liability or responsibility for its use, or represents that use of          
-this software would not infringe privately owned rights.                        
-Unpublished - rights reserved under Copyright Laws of the United States.        
+MArkersize -0.3
+Abscissa 1
+Ordinate 3 4 5 6
 
 
-Program SF7  7.17  released 1-13-2006 
+Titles
+X
+Y
+Ex
+Ey
+|E|
+V 
+EndTitles
 
-Program file: D:\LANL\SF7.EXE
-SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\Electrostatic\ChargeDensity\SF.INI  1-25-2021   0:46:16
-Solution file D:\PC\DailyReport\python-code\LANL\Examples\Electrostatic\ChargeDensity\C4QPNT.T35.
-Memory used for C4QPNT.T35 arrays:       2.470 M
-Reading keyword commands and data from file:
-D:\PC\DAILYREPORT\PYTHON-CODE\LANL\EXAMPLES\ELECTROSTATIC\CHARGEDENSITY\IN7
+AxisLabels
+X (cm)
+Y (cm)
+Ex (V/cm)
+Ey (V/cm)
+E (V/cm)
+V  (V)
+EndLabels
 
-Electric fields along a straight line with end points at:
-(X1,Y1) = (1,0.666667)
-(X2,Y2) = (3,2)
-Number of increments:   101
+CurveLabels
+X
+Y
+Ex
+Ey
+E
+V 
+EndLabels
 
-      X             Y              Ex            Ey            |E|           V 
-    (cm)          (cm)           (V/cm)        (V/cm)        (V/cm)         (V)  
+Data
+;     X             Y              Ex            Ey            |E|           V 
+;   (cm)          (cm)           (V/cm)        (V/cm)        (V/cm)         (V)  
    1.00000      0.666667      3.908452E+03  2.601922E+03  4.695316E+03  6.790215E+03
    1.01980      0.679868      3.832660E+03  2.551297E+03  4.604172E+03  6.679445E+03
    1.03960      0.693070      3.759596E+03  2.503187E+03  4.516692E+03  6.570892E+03
@@ -134,4 +141,5 @@ Number of increments:   101
    2.96040       1.97360      1.320565E+03  8.802373E+02  1.587044E+03  6.613249E+02
    2.98020       1.98680      1.311789E+03  8.743862E+02  1.576497E+03  6.236769E+02
    3.00000       2.00000      1.303121E+03  8.686265E+02  1.566090E+03  5.862807E+02
-Interpolated fields have been written to Tablplot input file C4QPNT2.TBL.
+EndData
+EndFile
