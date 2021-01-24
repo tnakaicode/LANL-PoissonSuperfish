@@ -16,6 +16,8 @@ WSFplot time T35.file
 [WSFplot]
 WriteFieldContours = Yes
 OUTWSF.TXT
+
+SFO SEG.file T35.file
 ```
 
 ## SFFILES

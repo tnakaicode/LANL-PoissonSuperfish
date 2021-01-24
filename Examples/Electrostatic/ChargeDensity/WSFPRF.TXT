@@ -24,6 +24,6 @@ FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
 LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\ChargeDensity\C4QPNT.AM
-ZoomLimits  1    -4.0040002       6.3579047      -4.0034633       4.0034631       0.0000000    
+ZoomLimits  1    -4.0040002       10.168259      -4.0034633       4.0034631       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

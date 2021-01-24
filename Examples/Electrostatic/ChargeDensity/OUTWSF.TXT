@@ -1,6 +1,6 @@
 Program WSFPLOT  7.17  released 1-13-2006 
 
-SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\Electrostatic\ChargeDensity\SF.INI  1-25-2021   0:42:20
+SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\Electrostatic\ChargeDensity\SF.INI  1-25-2021   0:46:16
 Reading file D:\PC\DAILYREPORT\PYTHON-CODE\LANL\EXAMPLES\ELECTROSTATIC\CHARGEDENSITY\C4QPNT.T35.
  
  Problem description:
