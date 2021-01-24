@@ -10,6 +10,14 @@ This file, containing the table of contents and suggestions for viewing and prin
 
 Information about the postprocessor programs WSFplot, SFO, SF7, and Force.
 
+```bash
+WSFplot time T35.file
+
+[WSFplot]
+WriteFieldContours = Yes
+OUTWSF.TXT
+```
+
 ## SFFILES
 
 Brief descriptions of all the input and output files used in the Poisson Superfish codes.
