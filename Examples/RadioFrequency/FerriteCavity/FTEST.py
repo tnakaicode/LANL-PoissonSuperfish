@@ -21,7 +21,7 @@ if __name__ == '__main__':
     print(opt, argc)
 
     name = "FTEST"
-    sfdir = "e:/LANL/"
+    sfdir = os.environ["SFDIR"]
     shutil.copyfile("SF.INI", sfdir + "SF.INI")
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "AUTOMESH", name + ".am"))
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "FISH", name + ".t35"))

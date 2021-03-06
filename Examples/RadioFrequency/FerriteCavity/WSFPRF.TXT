@@ -1,9 +1,9 @@
 ; This file contains start-up settings for WSFplot
 MainWindowXPosition=  184
 MainWindowYPosition=   67
-MainWindowWidth= 1536
-MainWindowHeight=  839
-EditWindowXPosition= 1300
+MainWindowWidth= 1370
+MainWindowHeight=  707
+EditWindowXPosition= 1066
 EditWindowYPosition=  150
 HardcopyFileExtension=.PCX
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM
+LastProblemFile=D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM
 ZoomLimits  1   -0.31777777E-01   116.91179     -0.33333335E-01   90.332147       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

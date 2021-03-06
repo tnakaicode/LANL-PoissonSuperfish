@@ -19,9 +19,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Fish  7.17  released 1-13-2006 
 
-Starting from file E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.T35.
-Program file: E:\LANL\AUTOFISH.EXE
-SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\SF.INI  1-07-2021   8:51:14
+Starting from file D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.T35.
+Program file: D:\LANL\FISH.EXE
+SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FerriteCavity\SF.INI  1-06-2021  18:59:46
 Memory used for FTEST.T35 arrays:     424.440 K
 Memory used for other Fish arrays:     692.103 K
 
@@ -32,9 +32,9 @@ Five ceramic-spacers:  Material 4, Epsilon = 10.0, Mu = 1.0
 Ceramic vacuum window: Material 3, Epsilon =  9.0, Mu = 1.0
 Initialize one large ferrite block, then superimpose ceramic spacers
 [Originally appeared in 1987 Reference Manual C.12.2]
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-07-2021   8:51:14
+Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-06-2021  18:59:46
 Problem file length:        2702 bytes
-Originating program: Autofish    Problem type: Unknown RF Cavity
+Originating program: Automesh    Problem type: Unknown RF Cavity
 
 Coordinates and lengths have dimensions of centimeters.
 
@@ -171,7 +171,7 @@ Region Material    eps          mu
       ----------------------------------------------------------------
       Total number of mesh points = 11790              freq = 57.76775
                                                   D(k^2) = 4.82247E-09
-      Solution time =    0.515 sec.                       End cycle  0
+      Solution time =    0.428 sec.                       End cycle  0
       ----------------------------------------------------------------
                                                         Start cycle  1
 
@@ -184,7 +184,7 @@ Region Material    eps          mu
       ----------------------------------------------------------------
       Solution converged at the start of cycle 1.
       Initial frequency = 57.76775           Final frequency = 57.7687
-      Elapsed time  =    0.56 sec
+      Elapsed time  =    0.48 sec
 
 Problem variables computed by this code.
 

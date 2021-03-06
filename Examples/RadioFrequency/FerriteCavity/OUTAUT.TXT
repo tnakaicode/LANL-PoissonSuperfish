@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: E:\LANL\AUTOFISH.EXE
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-07-2021   8:51:14
-SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\SF.INI  1-07-2021   8:51:14
+Program file: D:\LANL\AUTOMESH.EXE
+Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-06-2021  18:59:46
+SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FerriteCavity\SF.INI  1-06-2021  18:59:46
 
 Problem description:
 Ferrite tuner example
@@ -2789,7 +2789,7 @@ MAT       Re(Eps)       Im(Eps)           Re(Mu)        Im(Mu)
   4       10.0000       0.00000           1.00000       0.00000    
 
 Processing boundary data...
-Memory used for additional setup arrays:  363.880 K
+Memory used for additional setup arrays:  458.200 K
 
 
 Region 1    Material = 1
@@ -3010,9 +3010,9 @@ Five ceramic-spacers:  Material 4, Epsilon = 10.0, Mu = 1.0
 Ceramic vacuum window: Material 3, Epsilon =  9.0, Mu = 1.0
 Initialize one large ferrite block, then superimpose ceramic spacers
 [Originally appeared in 1987 Reference Manual C.12.2]
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-07-2021   8:51:14
+Problem file: D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\FerriteCavity\FTEST.AM  1-06-2021  18:59:46
 Problem file length:        2702 bytes
-Originating program: Autofish    Problem type: Unknown RF Cavity
+Originating program: Automesh    Problem type: Unknown RF Cavity
 
 Problem constants and variables.
 Letter A in the code column indicates a value supplied in the

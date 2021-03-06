@@ -50,23 +50,23 @@ The automated tuning programs CCLfish, CDTfish, DTLfish, MDTfish, ELLfish, and R
 
 General purpose plotting programs Quikplot and Tablplot, and utility programs Beta, Kilpat, List35, ConvertF, SF8, FScale, SegField, and SFOtable.
 
-## SFEXMPL1
+## SFEXMPL1 - rf-field example
 
 Discussion of rf-field example files for Fish, CFish, and Autofish contained in the Examples\RadioFrequency subdirectories
 
-## SFEXMPL2
+## SFEXMPL2 - static-field example
 
 Discussion of the static-field example files for Poisson and Pandira contained in the Examples\Magnetostatic and Examples\Electrostatic subdirectories
 
-## SFEXMPL3
+## SFEXMPL3 - tuning-program
 
 Discussion of the tuning-program example files contained in the Examples\CavityTuning subdirectories.
 
-## SFPHYS1
+## SFPHYS1 - Theory of electrostatics and magnetostatics
 
 Theory of electrostatics and magnetostatics from John Warren’s treatment in the 1987 Reference Manual
 
-## SFPHYS2
+## SFPHYS2 - Properties of static magnetic and electric fields
 
 Properties of static magnetic and electric fields from John Warren’s treatment in the 1987 Reference Manual
 
@@ -78,6 +78,6 @@ Boundary conditions and symmetriesfrom John Warren’s treatment in the 1987 Ref
 
 Numerical methods in Poisson and Pandirafrom John Warren’s treatment in the 1987 Reference Manual
 
-## SFPHYS5
+## SFPHYS5 - RF cavity theoryfrom
 
 RF cavity theoryfrom John Warren’s treatment in the 1987 Reference Manual
