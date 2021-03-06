@@ -1,12 +1,12 @@
 ; This file contains start-up settings for WSFplot
-MainWindowXPosition=  184
-MainWindowYPosition=   67
-MainWindowWidth= 1536
-MainWindowHeight=  839
-EditWindowXPosition= 1300
+MainWindowXPosition=  129
+MainWindowYPosition=   36
+MainWindowWidth= 1092
+MainWindowHeight=  614
+EditWindowXPosition= 1066
 EditWindowYPosition=  150
 HardcopyFileExtension=.PNG
-NumberOfContours=   30
+NumberOfContours=   50
 ContourLineWidth=1
 AxisLineWidth=1
 ArrowLineWidth=1
@@ -20,10 +20,10 @@ TriangleStatus=1
 ContourStatus=1
 ArrowStatus=0
 CircleStatus=0
-FooterStatus=1
+FooterStatus=0
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\IonSource\SPSOURCE.AM
-ZoomLimits  1   -0.10000000E-02   3.8838694     -0.97222225E-03   3.0009722       0.0000000    
+LastProblemFile=D:\PC\DailyReport\python-code\LANL\Examples\Electrostatic\IonSource\.\SPSOURCE.AM
+ZoomLimits  1   -0.10000000E-02   5.3124416     -0.97222225E-03   3.0009722       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
