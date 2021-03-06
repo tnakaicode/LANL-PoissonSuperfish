@@ -1,9 +1,9 @@
 ; This file contains start-up settings for WSFplot
-MainWindowXPosition=  184
-MainWindowYPosition=   67
-MainWindowWidth= 1536
-MainWindowHeight=  839
-EditWindowXPosition= 1300
+MainWindowXPosition=  -97
+MainWindowYPosition=   82
+MainWindowWidth= 1370
+MainWindowHeight=  707
+EditWindowXPosition= 1066
 EditWindowYPosition=  150
 HardcopyFileExtension=    
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\RadioFrequency\Waveguides\WGHEX.AM
-ZoomLimits  1    -25.475821       31.627636      -22.062698       22.062699       0.0000000    
+LastProblemFile=D:\PC\DailyReport\python-code\LANL\Examples\RadioFrequency\Waveguides\WR2300.AM
+ZoomLimits  1   -0.50362069E-01   29.260361     -0.44257578E-01   21.195399       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

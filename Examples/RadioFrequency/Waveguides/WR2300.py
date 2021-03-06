@@ -16,7 +16,7 @@ if __name__ == '__main__':
     argvs = sys.argv
     parser = OptionParser()
     parser.add_option("--dir", dest="dir", default="./")
-    parser.add_option("--name", dest="name", default="NAME")
+    parser.add_option("--inp", dest="inp", default="./dealii-33/slide.inp")
     parser.add_option("--pxyz", dest="pxyz",
                       default=[0.0, 0.0, 0.0], type="float", nargs=3)
     opt, argc = parser.parse_args(argvs)
@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     print(os.environ["SFDIR"])
     
-    name = opt.name
+    name = "WR2300"
     sfdir = os.environ["SFDIR"]
     #shutil.copyfile("SF.INI", sfdir + "SF.INI")
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "AUTOMESH", name + ".am"))
