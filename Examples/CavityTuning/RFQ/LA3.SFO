@@ -51,7 +51,7 @@ Problem description:
 RFQ conceptual design at 201.25 MHz
 Los Alamos Neutron Science Center (LANSCE) accelerator
 r0,Vg,rho,Ws,Ls,Wb,H,W=0.422 .080 .359 5.60 0.00 5.60 17.03  0.00    Vary H
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA3.AM  1-07-2021  12:33:18
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA3.AM  6-21-2021  17:55:36
 Problem file length:        2611 bytes
 Originating program: RFQfish    Problem type: RFQ
 
@@ -1245,7 +1245,7 @@ Superfish output summary for problem description:
 RFQ conceptual design at 201.25 MHz
 Los Alamos Neutron Science Center (LANSCE) accelerator
 r0,Vg,rho,Ws,Ls,Wb,H,W=0.422 .080 .359 5.60 0.00 5.60 17.03  0.00    Vary H
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA3.AM  1-07-2021  12:33:18
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA3.AM  6-21-2021  17:55:36
 -------------------------------------------------------------------------------
 All calculated values below refer to the mesh geometry only.
 Field normalization (NORM = 0):     EZERO =      9.48092 MV/m

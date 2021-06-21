@@ -18,7 +18,7 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 Program Automesh  7.17  released 1-13-2006 
 Program file: E:\LANL\RFQFISH.EXE
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA4.AM  1-07-2021  12:33:22
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA4.AM  6-21-2021  17:55:40
 SF.INI file: E:\LANL\SF.INI  8-04-2020  14:52:06
 
 Problem description:
@@ -782,7 +782,7 @@ Problem description:
 RFQ conceptual design at 201.25 MHz
 Los Alamos Neutron Science Center (LANSCE) accelerator
 r0,Vg,rho,Ws,Ls,Wb,H,W=0.858 .155 .729 2.61 0.00 2.61 17.03  0.00    Vary Wb
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA4.AM  1-07-2021  12:33:22
+Problem file: E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA4.AM  6-21-2021  17:55:40
 Problem file length:        2634 bytes
 Originating program: RFQfish    Problem type: RFQ
 

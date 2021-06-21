@@ -5,7 +5,7 @@ MainWindowWidth= 1536
 MainWindowHeight=  864
 EditWindowXPosition= 1620
 EditWindowYPosition=  150
-HardcopyFileExtension=    
+HardcopyFileExtension=.PNG
 NumberOfContours=   30
 ContourLineWidth=1
 AxisLineWidth=1
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\CavityTuning\RFQ\LA4.AM
-ZoomLimits  1   -0.50126477E-02   22.042562     -0.35804627E-02   17.033182       0.0000000    
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\RFQ\LA1.AM
+ZoomLimits  1   -0.51660780E-02   23.113137     -0.35628125E-02   17.860580       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
