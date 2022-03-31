@@ -18,7 +18,7 @@ if __name__ == '__main__':
     parser.add_argument("--dir", dest="dir", default="./")
     parser.add_argument("--inp", dest="inp", default="./dealii-33/slide.inp")
     parser.add_argument("--pxyz", dest="pxyz",
-                      default=[0.0, 0.0, 0.0], type="float", nargs=3)
+                      default=[0.0, 0.0, 0.0], type=float, nargs=3)
     opt = parser.parse_args()
     print(opt, argvs)
 
