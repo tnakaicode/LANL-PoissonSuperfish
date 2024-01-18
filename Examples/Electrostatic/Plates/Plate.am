@@ -7,7 +7,7 @@ Plate voltage = 500 V
 
 &reg kprob=0,    ! Poisson or Pandira problem
 xjfact=0.0,      ! Electrostatic problem
-dx=0.05,         ! Mesh interval
+dx=0.05,dy=0.01         ! Mesh interval
 icylin=0,        ! Cartesian coordinates
 nbsup=0,         ! Dirichlet boundary condition at upper edge
 nbslo=0,         ! Dirichlet boundary condition at lower edge

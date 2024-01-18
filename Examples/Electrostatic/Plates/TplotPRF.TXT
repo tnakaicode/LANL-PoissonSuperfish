@@ -40,7 +40,7 @@ ConnectStatus=1
 MarkersStatus=1
 XlinLogStatus=LIN
 YLinLogStatus=LIN
-LastPlotFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Plates\plate1.tbl
+LastPlotFile=C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\Plates\PLATE2.TBL
 ZoomLimits  1     0.0000000       4.5000000      -797.62988       818.07971    
 ZoomLevel=1
 MaxZoomLevel=1

@@ -1,37 +1,44 @@
-Los Alamos National Laboratory Poisson Superfish
-Program SF7 written by James H. Billen and Lloyd M. Young
+Center
+Title
+Electric field data from file PLATE.AM
+SubTitle
+Problem title line 1: Electrostatic Problem, Parallel Plates in a Pipe
 
-The original Poisson Superfish codes were developed
-by Ron F. Holsinger in collaboration with Klaus Halbach.
-These programs are provided as a service to the accelerator
-community by the Los Alamos Accelerator Code Group (LAACG).
-
-(c) Copyright 1985-2005, by the Regents of the University of California.        
-This software was produced under U. S. Government contract W-7405-ENG-36        
-by Los Alamos National Laboratory, which is operated by the University          
-of California for the U. S. Department of Energy.  Neither the Government       
-nor the University makes any warranty, express or implied, or assumes           
-any liability or responsibility for its use, or represents that use of          
-this software would not infringe privately owned rights.                        
-Unpublished - rights reserved under Copyright Laws of the United States.        
+MArkersize -0.3
+Abscissa 1
+Ordinate 3 4
 
 
-Program SF7  7.17  released 1-13-2006 
+Titles
+X
+Y
+Ex
+Ey
+|E|
+V 
+EndTitles
 
-Program file: C:\LANL\SF7.EXE
-SF.INI file: C:\LANL\SF.INI  7-21-2022  13:51:10
-Solution file C:\USERS\NAKAI\DAILY\PYTHON-CODE\LANL\EXAMPLES\ELECTROSTATIC\PLATES\PLATE.T35.
-Memory used for PLATE.T35 arrays:       1.103 M
-Reading keyword commands and data from file:
-PLATE.IN7
+AxisLabels
+X (cm)
+Y (cm)
+Ex (V/cm)
+Ey (V/cm)
+E (V/cm)
+V  (V)
+EndLabels
 
-Electric fields along a straight line with end points at:
-(X1,Y1) = (0.0,1.4)
-(X2,Y2) = (4.5,1.4)
-Number of increments:    50
+CurveLabels
+X
+Y
+Ex
+Ey
+E
+V 
+EndLabels
 
-      X             Y              Ex            Ey            |E|           V 
-    (cm)          (cm)           (V/cm)        (V/cm)        (V/cm)         (V)  
+Data
+;     X             Y              Ex            Ey            |E|           V 
+;   (cm)          (cm)           (V/cm)        (V/cm)        (V/cm)         (V)  
    0.00000       1.40000     -2.590571E+02  0.000000E+00  2.590571E+02  0.000000E+00
   9.000000E-02   1.40000     -2.594801E+02 -1.516450E+00  2.594846E+02  2.335321E+01
   0.180000       1.40000     -2.704152E+02  8.174422E+00  2.705387E+02  4.698438E+01
@@ -83,4 +90,5 @@ Number of increments:    50
    4.32000       1.40000      2.708731E+02  8.177876E+00  2.709966E+02  4.706647E+01
    4.41000       1.40000      2.602992E+02  4.383194E+00  2.603361E+02  2.342693E+01
    4.50000       1.40000      2.588564E+02  1.218046E-13  2.588564E+02  6.897319E-13
-Interpolated fields have been written to Tablplot input file PLATE3.TBL.
+EndData
+EndFile

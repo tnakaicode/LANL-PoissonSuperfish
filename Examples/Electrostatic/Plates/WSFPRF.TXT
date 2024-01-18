@@ -3,7 +3,7 @@ MainWindowXPosition=  184
 MainWindowYPosition=   67
 MainWindowWidth= 1536
 MainWindowHeight=  839
-EditWindowXPosition= 1300
+EditWindowXPosition= 2772
 EditWindowYPosition=  150
 HardcopyFileExtension=    
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\Plates\PLATE.AM
-ZoomLimits  1   -0.49999999E-02   4.5050007     -0.43269233E-02   3.4806735       0.0000000    
+LastProblemFile=C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\Plates\PLATE.AM
+ZoomLimits  1   -0.49999999E-02   4.5050007     -0.10000000E-02   3.4840005       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
