@@ -5,7 +5,7 @@ import os
 import time
 import shutil
 import subprocess
-import pyautogui as pgui
+#import pyautogui as pgui
 import argparse
 
 import logging
@@ -21,8 +21,8 @@ if __name__ == '__main__':
     print(opt, argvs)
 
     name = "COAXTEST"
-    sfdir = "e:/LANL/"
-    shutil.copyfile("SF.INI", sfdir + "SF.INI")
+    sfdir = os.environ["SFDIR"]
+    #shutil.copyfile("SF.INI", sfdir + "SF.INI")
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "AUTOMESH", name + ".am"))
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "POISSON", name + ".t35"))
     subprocess.Popen("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35"))

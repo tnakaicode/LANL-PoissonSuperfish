@@ -1,14 +1,14 @@
 ; This file contains start-up settings for Tablplot
-MainWindowXPosition=  184
-MainWindowYPosition=   67
+MainWindowXPosition= 1525
+MainWindowYPosition=  445
 MainWindowWidth= 1536
 MainWindowHeight=  864
 EditWindowXPosition=   -1
 EditWindowYPosition=   -1
 EditWindowWidth=   -1
 EditWindowHeight=   -1
-IntegrateWindowXPosition=   -1
-IntegrateWindowYPosition=   -1
+IntegrateWindowXPosition= 3791
+IntegrateWindowYPosition= 2355
 YvsXWindowXPosition=   -1
 YvsXWindowYPosition=   -1
 ZoomWindowXPosition=   -1
@@ -21,10 +21,10 @@ SortDataWindowXPosition=   -1
 SortDataWindowYPosition=   -1
 PointLabelWindowXPosition=   -1
 PointLabelWindowYPosition=   -1
-EditDataWindowXPosition=   -1
-EditDataWindowYPosition=   -1
-SelectFitXPosition=   -1
-SelectFitYPosition=   -1
+EditDataWindowXPosition= 1351
+EditDataWindowYPosition=  626
+SelectFitXPosition= 1371
+SelectFitYPosition=  745
 BuildColumnXPosition=   -1
 BuildColumnYPosition=   -1
 YLabelXPosition=   -1
@@ -40,7 +40,7 @@ ConnectStatus=1
 MarkersStatus=1
 XlinLogStatus=LIN
 YLinLogStatus=LIN
-LastPlotFile=C:\Users\nakai\LANL-PoissonSuperfish\Examples\Electrostatic\Dielectrics\OUTPOI.TBL
-ZoomLimits  1     0.0000000       7.5000000      -202.18050       0.0000000    
+LastPlotFile=C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\OUTPOI.TBL
+ZoomLimits  1     0.0000000       10.000000      -59532.379       9507.2061    
 ZoomLevel=1
 MaxZoomLevel=1

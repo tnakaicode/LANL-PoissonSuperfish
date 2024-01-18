@@ -17,9 +17,9 @@ Unpublished - rights reserved under Copyright Laws of the United States.
 
 
 Program Automesh  7.17  released 1-13-2006 
-Program file: E:\LANL\AUTOMESH.EXE
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\COAXTEST.AM  1-07-2021   8:51:14
-SF.INI file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\SF.INI  1-07-2021   8:51:14
+Program file: C:\LANL\AUTOMESH.EXE
+Problem file: C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\COAXTEST.AM  1-18-2024  18:24:06
+SF.INI file: C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\SF.INI  1-18-2024  18:23:02
 
 Problem description:
 Electrostatic problem, coaxial cylinder
@@ -512,7 +512,7 @@ Problem description:
 Electrostatic problem, coaxial cylinder
 Voltage = 1 kV on the inner conductor
 [Originally appeared in 1987 Reference Manual B.12.2]
-Problem file: E:\nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\COAXTEST.AM  1-07-2021   8:51:14
+Problem file: C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\CoaxCylinder\COAXTEST.AM  1-18-2024  18:24:06
 Problem file length:        1087 bytes
 Originating program: Automesh    Problem type: Electrostatic
 

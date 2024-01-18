@@ -18,11 +18,11 @@ if __name__ == '__main__':
     opt = parser.parse_args()
     print(opt, argvs)
 
-    name = "1EPSILON"
+    name = "3EPSILON"
     sfdir = os.environ["SFDIR"]
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "AUTOMESH", name + ".am"))
     subprocess.call("{0:}{1:} {2:}".format(sfdir, "POISSON", name + ".t35"))
-    subprocess.call("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35 2"))
+    subprocess.call("{0:}{1:} {2:}".format(sfdir, "WSFPLOT", name + ".t35"))
     # pgui.press("c")
 
     #data = np.loadtxt("./3EPSILON.txt", skiprows=2)

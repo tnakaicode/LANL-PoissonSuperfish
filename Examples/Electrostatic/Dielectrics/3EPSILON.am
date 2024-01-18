@@ -10,7 +10,7 @@ Voltage on upper plate = 1000000 V
 &reg kprob=0,    ! Poisson or Pandira problem
 xjfact=0.0,      ! Electrostatic problem
 mode=-1,         ! Some material has fixed permittivity
-dx=0.2,          ! Mesh interval
+dx=0.2,dy=0.2    ! Mesh interval
 icylin=0,        ! Cartesian coordinates
 nbsup=0,         ! Dirichlet boundary condition at upper edge
 nbslo=0,         ! Dirichlet boundary condition at lower edge

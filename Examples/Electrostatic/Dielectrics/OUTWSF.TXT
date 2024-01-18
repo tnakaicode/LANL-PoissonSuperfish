@@ -1,13 +1,13 @@
 Program WSFPLOT  7.17  released 1-13-2006 
 
-SF.INI file: D:\PC\DailyReport\python-code\LANL\Examples\Electrostatic\Dielectrics\SF.INI  1-06-2021  18:59:46
-Reading file D:\PC\DAILYREPORT\PYTHON-CODE\LANL\EXAMPLES\ELECTROSTATIC\DIELECTRICS\3EPSILON.T35.
+SF.INI file: C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\SF.INI  8-02-2022   9:48:56
+Reading file C:\USERS\NAKAI\DAILY\PYTHON-CODE\LANL\EXAMPLES\ELECTROSTATIC\DIELECTRICS\3EPSILON.T35.
  
  Problem description:
  Parallel Plate Capacitor with two dielectric regions
  Voltage on lower plate = 0.0 V
  Voltage on upper plate = 1000000 V
- Problem file: D:\PC\DailyReport\python-code\LANL\Examples\Electrostatic\Dielectrics\3EPSILON.AM  1-06-2021  18:59:46
+ Problem file: C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\3EPSILON.AM  1-18-2024  18:42:38
  Problem file length:        1382 bytes
  Originating program: Automesh    Problem type: Electrostatic
 Plotted potential values:

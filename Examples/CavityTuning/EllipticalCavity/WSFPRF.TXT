@@ -3,7 +3,7 @@ MainWindowXPosition=  184
 MainWindowYPosition=   67
 MainWindowWidth= 1536
 MainWindowHeight=  864
-EditWindowXPosition= 1620
+EditWindowXPosition= 2772
 EditWindowYPosition=  150
 HardcopyFileExtension=.PNG
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=C:\Users\Nakai\LANL-tmp\Examples\CavityTuning\EllipticalCavity\8C82BE1.AF
-ZoomLimits  1   -0.20000000E-01   100.25708     -0.14023354E-01   56.639698       0.0000000    
+LastProblemFile=E:\nakai\Daily\python-code\LANL\Examples\CavityTuning\EllipticalCavity\8C82BE1.AF
+ZoomLimits  1   -0.20000000E-01   100.25709     -0.14023354E-01   77.472819       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1

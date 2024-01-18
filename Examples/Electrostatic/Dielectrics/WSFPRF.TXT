@@ -1,9 +1,9 @@
 ; This file contains start-up settings for WSFplot
-MainWindowXPosition=  129
-MainWindowYPosition=   36
+MainWindowXPosition= 1745
+MainWindowYPosition=  479
 MainWindowWidth= 1092
 MainWindowHeight=  614
-EditWindowXPosition= 1066
+EditWindowXPosition= 2772
 EditWindowYPosition=  150
 HardcopyFileExtension=.PNG
 NumberOfContours=   30
@@ -23,7 +23,7 @@ CircleStatus=0
 FooterStatus=1
 XYSwapStatus=0
 OriginStatus=0
-LastProblemFile=D:\PC\DailyReport\python-code\LANL\Examples\Electrostatic\Dielectrics\3EPSILON.AM
-ZoomLimits  1   -0.20000000E-01   10.020001     -0.17441861E-01   7.7407409       0.0000000    
+LastProblemFile=C:\Users\Nakai\Daily\python-code\LANL\Examples\Electrostatic\Dielectrics\3EPSILON.AM
+ZoomLimits  1   -0.20000000E-01   10.020001     -0.19736841E-01   7.7384459       0.0000000    
 ZoomLevel=1
 MaxZoomLevel=1
